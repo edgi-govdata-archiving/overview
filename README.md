@@ -72,28 +72,23 @@ On Dec. 17, 2016, volunteers at the University of Toronto came together for an a
   If possible, **clearly curate the tools that would be helpful** and recruit people who are familiar with them.  
 
 ## Review of Our Tools
-The remainder of this repository consists of tools developed during sprints.  So far this includes:
 
-Our organizing documents for the tech group at our archiv-a-thon (potential overlap with the current repo):
-https://github.com/guerrilla-archiving/eot-sprint-toolkit
+| Tool Name | Description | Status | Language |
+|-----------|-------------|--------|----------|
+| [**Sprint Toolkit**](https://github.com/edgi-govdata-archiving/eot-sprint-toolkit) | Our organizing documents for the tech group at our archiv-a-thon (potential overlap with the current repo) |  **Unknown**  | `--` |
+| [**Presidential Harvest Nomination Tool**](https://github.com/edgi-govdata-archiving/presidential-harvest-nomination-tool) | A Chrome extension to simplify the nomination process at archiv-a-thons | **Working** | HTML & Javascript |
+| [**EIS WARC Archiver**](https://github.com/edgi-govdata-archiving/eis-WARC-archiver) | Python scraper that feeds URL's to WGET and outputs a WARC archive and an accompanying CSV file associating URL's with scraped metadata | **Experimental** | `Python 2.7` |
+| [EIS Scraping](https://github.com/edgi-govdata-archiving/epa-eis) | Full workflow for identifying, scraping, and downloading WARCs of eis's (WARC Archiver above is part) | **Experimental** | Ruby, Node, Python 2.7 |
+| [**ECHO Scraping**](https://github.com/edgi-govdata-archiving/eotarchive-echo) | Scraper for the EPA Enforcement & Compliance History archives | **Experimental** | Ruby |
+| [Quantitative Databases](https://github.com/edgi-govdata-archiving/eotarchive-quantitative) | Undocumented scraper for a set of databases accessible but obfuscated through one of the EPA data websites |  **Unknown**  | Python |
+| [EPA Search Utilities](https://github.com/edgi-govdata-archiving/epa-search-utils) | A scraper for the EPA search engine, that systematically feeds in search queries and extracts resultant URLs |  **Unknown**  |  |
+| [EPA Geoportal Database Scraper](https://github.com/edgi-govdata-archiving/epa-geoportal-database-scraper) |  |  **Unknown**  |  |
+| [EPA Sitemap](https://github.com/edgi-govdata-archiving/epa-sitemap) | A sitemap tool to provide initial models of government domains--intended to facilitate volunteer organization at archivathons |  **Unknown**  |  |
+| [Sitemapper](https://github.com/edgi-govdata-archiving/sitemapper) |  |  **Unknown**  |  |
 
-A Chrome extension to simplify the nomination process at archiv-a-thons:
-https://github.com/guerrilla-archiving/presidential-harvest-nomination-tool
+Other tools that we're aware of:
 
-A sitemap tool to provide initial models of government domains -- intended to facilitate volunteer organization at archivathons:
-https://github.com/guerrilla-archiving/epa
-
-A PHP script to download all government Github repos:
-https://github.com/guerrilla-archiving/dolley-madison
-
-Scraper for the EPA Enforcement & Compliance History archives:
-https://github.com/guerrilla-archiving/eotarchive-echo
-
-Undocumented scraper for a set of databases accessible but obfuscated through one of the EPA data websites:
-https://github.com/guerrilla-archiving/eotarchive-quantitative
-
-Python scraper that feeds URL's to WGET and outputs a WARC archive and an accompanying CSV file associating URL's with scraped metadata:
-https://github.com/guerrilla-archiving/eis-WARC-archiver
-
-A scraper for the EPA search engine, that systematically feeds in search queries and extracts resultant URLs:
-https://github.com/guerrilla-archiving/epa_search_utils
+- [Dolley Madison](https://github.com/edgi-govdata-archiving/dolley-madison), a PHP script to download all government Github repos
+- [Grab-Site](https://github.com/edgi-govdata-archiving/grab-site), a crawler with cli that also outputs WARCs
+- [WARCprox](https://github.com/edgi-govdata-archiving/warcprox), a proxy with cli for generating WARCs
+- [Python-sitemap](https://github.com/edgi-govdata-archiving/python-sitemap), a mini-crawler that just makes a sitemap of the website
