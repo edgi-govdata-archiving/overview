@@ -63,6 +63,21 @@ On Dec. 17, 2016, volunteers at the University of Toronto came together for an a
 
   We tried hard to define our tasks before the event, but still had a fair amount of confusion and overlap during the event. Ideally, the team should have at least (say) **3 very specific tasks defined and prioritized** before the event starts. These tasks should be **specified** clearly.
 
+  ~~~
+  # Task Title
+  [Description of task, with links to relevant details of the issue it is addressing]
+
+  ## Goal
+  [Clear, one sentence goal for the task to complete]
+
+  ## Deliverables
+  [Detailed outcomes, include information on final formats, any constraints, and whether the deliverables will be used for other tasks]
+
+  ## Priority
+  [Low/Medium/High] [Not/Time Sensitive]
+  ~~~
+  _examples of tasks can be found in [Tech Group Goals for Dec. 17, 2016 Guerilla Archiving](https://github.com/edgi-govdata-archiving/eot-sprint-toolkit/blob/master/Tech-Group-Goals.org)_
+
   During the event, working groups should **appoint leads or liaisons** (maybe the same lieutenants above) to co-ordinate work across groups. This co-ordination work may take the form of check-ins, lightning meetings, and/or Post-It note boards.
 
 4. Figure out what **expertise** you need!
