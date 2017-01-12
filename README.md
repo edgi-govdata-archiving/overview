@@ -1,7 +1,23 @@
 
 Welcome to the Government Data Archiving Github Team. This repository is an overview for people who are just getting involved in the project!
 
-## Most Important Repositories
+## Get Involved
+
+### Running an Event
+
+If you are running your own event you've come to the right repo. The documentation here complements the [Environmental Data & Governance Initiative (EDGI) Event Toolkit](https://envirodatagov.org/event-toolkit/).
+
+You'll want to check out:
+
+- [Important Repositories](#important-repositories)
+- [Recommendations and Lessons Learned](#recommendations-and-lessons-learned)
+- [Review of Our Tools](#review-of-our-tools)
+
+### Development
+
+If you'd like to help with ongoing development of these tools, great! We are still working through the best way to bring new people onto our project. For now we have [Contributor Guidelines](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md).
+
+## Important Repositories
 
 We've pinned the three most important repositories to the front page -- [this overview](https://github.com/edgi-govdata-archiving/overview), our [technical toolkit from the event](https://github.com/edgi-govdata-archiving/eot-sprint-toolkit), and [the eis-WARC-archiver](https://github.com/edgi-govdata-archiving/eis-WARC-archiver).  The latter is, we think, the most reusable of our tools, because it actually implements a harvester that can read CSV files of URL's.  Some of the other tools are more sophisticated and produce more highly-structured metadata in JSON formats, but none of them has a working WARC harvester attached to it, so there is, potentially, less to learn.
 
@@ -51,7 +67,7 @@ On Dec. 17, 2016, volunteers at the University of Toronto came together for an a
 
   If possible, **clearly curate the tools that would be helpful** and recruit people who are familiar with them.  
 
-## What is in this GH Organization
+## Review of Our Tools
 The remainder of this repository consists of tools developed during sprints.  So far this includes:
 
 Our organizing documents for the tech group at our archiv-a-thon (potential overlap with the current repo):
