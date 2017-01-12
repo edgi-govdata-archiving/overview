@@ -13,9 +13,16 @@ On Dec. 17, 2016, volunteers at the University of Toronto came together for an a
   - specific formats of deliverables (esp. [WARC](https://en.wikipedia.org/wiki/Web_ARChive))
 
   Ideally, organizers will reach out to participants beforehand and ask them to be prepared (e.g., by signing up for Github and Slack, applying to join this Github organization, potentially looking at the [OpenZilla, Open Science Git collaboration Slidedeck](http://mozillascience.github.io/working-open-workshop/github_for_collaboration/)).   
+  
+  Organizing the Github organization is also very important.  @patcon gives some helpful background [in this issue](https://github.com/edgi-govdata-archiving/overview/issues/7), but basically, we wanted to create a structure that welcomed participants and their contributions, so that no one became frustrated and locked out.  We are using the "Lieutenants" organizational model, in which there are only a small number of owners, but a bigger team of lieutenants who have write access to all repos by default.In this model: 
+  - Each working group at a Hackfest should appoint at least one person as a lieutenant.  
+  - All participants should be added as team members, and encouraged to set their team memberhsip to "public". This makes it much easier to stay in touch later.  
+    - (people may need reminders during the event to join the team -- the hack-time is pretty hectic)
+  - finer-grained permisisons can be tweaked during and after the event.
+  
 
 2. Having infrastructure (VMs in advance)
-  We had nowhere to run our code on the day of the event.  Ideally, the organization would have a VM already set up in which code could be test-run.  
+  We had nowhere particular to run our code on the day of the event.  Ideally, the organization would have a VM already set up in which code could be test-run.  If there's no organizational infrastructure ofr this, it might be good to get participants to set up remote access to their (random) resources before the event -- many coders have access to pockets of ocmputing power and network bandwidth, but sometimes they have to arrange for it in advance.  
 
 3. Better definition of tasks and communication across teams
 
@@ -29,6 +36,10 @@ On Dec. 17, 2016, volunteers at the University of Toronto came together for an a
   Most projects will need coders familiar with **web scrapers** and **harvesters**. The Internet Archive uses the WARC format, and **very few people have experience working with WARCS**.  We have had some difficulty making well-formed WARC's. *[Link to a tool that shows a good example]*
 
  If possible, **clearly curate the tools that would be helpful** and recruit people who are familiar with them.  
+
+## Most Important Repositories
+
+We've pinned the three most important repositories to the front page -- [our technical toolkit docs from the event](https://github.com/edgi-govdata-archiving/eot-sprint-toolkit) and [the eis-WARC-archiver](https://github.com/edgi-govdata-archiving/eis-WARC-archiver).  The latter is, we think, the most reusable of our tools, because it actually implements a harvester that can read CSV files of URL's.  Some of the other tools are more sophisticated and produce more highly-structured metadata in JSON formats, but none of htem has a working WARC harvester attached to it, so there is, potentially, less to learn.  
 
 ## What Else is in this GH Organization
 The remainder of this repository consists of tools developed during sprints.  So far this includes:
