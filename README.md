@@ -15,7 +15,11 @@ You'll want to check out:
 
 ### Development
 
-If you'd like to help with ongoing development of these tools, great! We are still working through the best way to bring new people onto our project. For now we have [Contributor Guidelines](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md).
+If you'd like to help with ongoing development of these tools, great! We are still working through the best way to bring new people onto our project. For now we have:
+
+- [Contributor Guidelines](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md)
+- [Trello board](https://trello.com/b/owAePiFt/edgi-tools-for-government-data-archiving)
+- Github issues in each repository
 
 ## Important Repositories
 
