@@ -27,7 +27,7 @@ We've pinned the three most important repositories to the front page -- [this ov
 
 ## Recommendations and Lessons Learned
 
-On Dec. 17, 2016, volunteers at the University of Toronto came together for an archiv-a-thon where, among other things, we put together some code for scraping and harvesting government websites. What follows is a list of some of the lessons we learned.
+On Dec. 17, 2016, volunteers at the University of Toronto came together for an archiv-a-thon where, among other things, we put together some code for scraping and harvesting government websites. What follows is a list of some of the lessons we learned. You may also want to take a look at [our checklist](./Checklist.md), which contains similar information.
 
 1. Clearly **establish tools and processes before the event**
 
