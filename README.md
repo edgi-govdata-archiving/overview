@@ -97,7 +97,7 @@ On Dec. 17, 2016, volunteers at the University of Toronto came together for an [
 
 | Tool Name | Description | Status | Language |
 |-----------|-------------|--------|----------|
-| [**Sprint Toolkit**](https://github.com/edgi-govdata-archiving/eot-sprint-toolkit) | Our organizing documents for the tech group at our archiv-a-thon (potential overlap with the current repo) |  **Working**  | `--` |
+| [Data Rescue Workflow docs](https://github.com/datarefugephilly/workflow) | Detailed descriptions of the phases of event workflow | **Working** | -- |
 | [**Presidential Harvest Nomination Tool**](https://github.com/edgi-govdata-archiving/presidential-harvest-nomination-tool) | A Chrome extension to simplify the nomination process at archiv-a-thons | **Working** | HTML & Javascript |
 | [**EIS WARC Archiver**](https://github.com/edgi-govdata-archiving/eis-WARC-archiver) | Python scraper that feeds URL's to WGET and outputs a WARC archive and an accompanying CSV file associating URL's with scraped metadata | **Experimental** | `Python 2.7` |
 | [EIS Scraping](https://github.com/edgi-govdata-archiving/epa-eis) | Full workflow for identifying, scraping, and downloading WARCs of eis's (WARC Archiver above is part) | **Experimental** | Ruby, Node, Python 2.7 |
@@ -107,6 +107,8 @@ On Dec. 17, 2016, volunteers at the University of Toronto came together for an [
 | [EPA Geoportal Database Scraper](https://github.com/edgi-govdata-archiving/epa-geoportal-database-scraper) |  |  **Unknown**  |  |
 | [Sitemapper](https://github.com/edgi-govdata-archiving/sitemapper) |  |  **Unknown**  |  |
 | [EPA Sitemap](https://github.com/edgi-govdata-archiving/epa-sitemap) | A sitemap tool to provide initial models of government domains--intended to facilitate volunteer organization at archivathons |  **Archived**  | Python |
+| [Version Tracking UI](https://github.com/edgi-govdata-archiving/version-tracking-ui) | Tools to facilitate the tracking website changes | **In Progress** | JavaScript |
+| [~~**Sprint Toolkit**~~](https://github.com/edgi-govdata-archiving/eot-sprint-toolkit) | Our organizing documents for the tech group at our archiv-a-thon (potential overlap with the current repo) |  **DEPRECATED**  | `--` |
 
 
 Other tools that we're aware of:
