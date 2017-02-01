@@ -24,7 +24,10 @@ If you'd like to help with ongoing development of these tools, great! We are sti
 
 ## Important Repositories
 
-We've pinned the three most important repositories to the front page -- [this overview](https://github.com/edgi-govdata-archiving/overview), our [technical toolkit from the event](https://github.com/edgi-govdata-archiving/eot-sprint-toolkit), and [the eis-WARC-archiver](https://github.com/edgi-govdata-archiving/eis-WARC-archiver).  The latter is, we think, the most reusable of our tools, because it actually implements a harvester that can read CSV files of URL's.  Some of the other tools are more sophisticated and produce more highly-structured metadata in JSON formats, but none of them has a working WARC harvester attached to it, so there is, potentially, less to learn.
+We've pinned the most important repositories to the front page-- 
+- this [overview](https://github.com/edgi-govdata-archiving/overview) 
+- an [event workflow](https://github.com/edgi-govdata-archiving/workflow)
+- our [data harvesting tools](https://github.com/edgi-govdata-archiving/harvesting-tools)
 
 ## Recommendations and Lessons Learned
 
@@ -98,14 +101,14 @@ On Dec. 17, 2016, volunteers at the University of Toronto came together for an [
 | Tool Name | Description | Status | Language |
 |-----------|-------------|--------|----------|
 | [**Data Rescue Workflow docs**](https://github.com/datarefugephilly/workflow) | Detailed descriptions of the phases of event workflow | **Working** | -- |
-| [**Presidential Harvest Nomination Tool**](https://github.com/edgi-govdata-archiving/presidential-harvest-nomination-tool) | A Chrome extension to simplify the nomination process at archiv-a-thons | **Working** | HTML & JavaScript |
+| [**Nomination Tool**](https://github.com/edgi-govdata-archiving/presidential-harvest-nomination-tool) | A Chrome extension to simplify the nomination process at archiv-a-thons | **Working** | HTML & JavaScript |
 | [**EIS WARC Archiver**](https://github.com/edgi-govdata-archiving/eis-WARC-archiver) | Python scraper that feeds URL's to WGET and outputs a WARC archive and an accompanying CSV file associating URL's with scraped metadata | **Working** | Python 2 |
 | [**Version Tracking UI**](https://github.com/edgi-govdata-archiving/version-tracking-ui) | Tools to facilitate the tracking website changes | **In Progress** | JavaScript |
 | [EPA ECHO Scraping](https://github.com/edgi-govdata-archiving/epa-echo) | Scraper for the EPA Enforcement & Compliance History archives | **Working** | Ruby |
-| [EPA Quantitative Databases](https://github.com/edgi-govdata-archiving/epa-quantitative) | Undocumented scraper for a set of databases accessible but obfuscated through one of the EPA data websites |  **Unknown**  | Python |
 | [EPA Search Utilities](https://github.com/edgi-govdata-archiving/epa-search-utils) | A scraper for the EPA search engine, that systematically feeds in search queries and extracts resultant URLs |  **Experimental**  | Go, Binary |
 | [EPA Geoportal Database Scraper](https://github.com/edgi-govdata-archiving/epa-geoportal-database-scraper) |  | **Working** | Node |
 | [Sitemapper](https://github.com/edgi-govdata-archiving/sitemapper) |  | **Experimental** | Python 3 |
+| [EPA Quantitative Databases](https://github.com/edgi-govdata-archiving/epa-quantitative) | Undocumented scraper for a set of databases accessible but obfuscated through one of the EPA data websites |  **Unknown**  | Python |
 | [~~EPA Sitemap~~](https://github.com/edgi-govdata-archiving/epa-sitemap) | A sitemap tool to provide initial models of government domains--intended to facilitate volunteer organization at archivathons |  **Archived**  | Python |
 | [~~EIS Scraping~~](https://github.com/edgi-govdata-archiving/epa-eis) | Full workflow for identifying, scraping, and downloading WARCs of eis's (WARC Archiver above is part) | **Archived** | Ruby, Node, Python 2 |
 | [~~Sprint Toolkit~~](https://github.com/edgi-govdata-archiving/eot-sprint-toolkit) | Our organizing documents for the tech group at our archiv-a-thon (potential overlap with the current repo) |  **Archived**  | `--` |
