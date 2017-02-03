@@ -31,10 +31,15 @@ If you'd like to help with ongoing development of these tools, great! We are sti
 | Current Tools | Description | Status | Language |
 |---------------|-------------|--------|----------|
 | [**Data Rescue Workflow docs**](https://github.com/datarefugephilly/workflow) | Detailed descriptions of the phases of event workflow | **Working** | -- |
-| [**Nomination Tool**](https://github.com/edgi-govdata-archiving/presidential-harvest-nomination-tool) | A Chrome extension to simplify the nomination process at archiv-a-thons | **Working** | HTML & JavaScript |
+| [**Nomination Tool**](https://github.com/edgi-govdata-archiving/eot-nomination-tool) | Chrome extension to simplify the nomination process at archiv-a-thons | **Working** | HTML & JavaScript |
+| [**Harvesting Tool**](https://github.com/edgi-govdata-archiving/harvesting-tools) | A collection of code snippets designed to be dropped into the data harvesting process directly after generating the zip starter kit | **Working** | Various |
+| [**Zip Starter**](https://github.com/edgi-govdata-archiving/zip-starter) | Automate zip folder creation for Harvesting during pipeline | **Working** | Go |
+| **Pipeline App** |  | **Working** | Meteor, JavaScript |
+
+| [**s3 Upload Server**](https://github.com/edgi-govdata-archiving/s3-upload-server) | Heroku app for uploading Datasets to S3 from the browser  | **Working** | Go |
 | [**EIS WARC Archiver**](https://github.com/edgi-govdata-archiving/eis-WARC-archiver) | Python scraper that feeds URL's to WGET and outputs a WARC archive and an accompanying CSV file associating URL's with scraped metadata | **Working** | Python 2 |
 
-
+Tools that have already been used are archived for reference:
 
 | Archived Tools | Description | Status | Language |
 |----------------|-------------|--------|----------|
@@ -54,9 +59,23 @@ Other tools that we're aware of:
 - [WARCprox](https://github.com/edgi-govdata-archiving/warcprox), a proxy with cli for generating WARCs
 - [Python-sitemap](https://github.com/edgi-govdata-archiving/python-sitemap), a mini-crawler that just makes a sitemap of the website
 
-
 ## Projects
 
-| Tool Name | Description | Status | Language |
-|-----------|-------------|--------|----------|
-| [**Version Tracking UI**](https://github.com/edgi-govdata-archiving/version-tracking-ui) | Tools to facilitate the tracking website changes | **In Progress** | JavaScript |
+### Monitoring Websites
+
+| Tool Name | Description | Status |
+|-----------|-------------|--------|
+| [**Page Freezer Tools**](https://github.com/edgi-govdata-archiving/pagefreezer-tools) | Initial Repo for a Page Freezer filtering toolkit  | **In Progress** |
+| [**Page Freezer CLI**](https://github.com/edgi-govdata-archiving/pagefreezer-cli) | CLI tools & data management protocols for interacting with Page Freezer | **In Progress** |
+
+### Filtering Changes
+
+| Tool Name | Description | Status |
+|-----------|-------------|--------|
+| [**Version Tracking UI**](https://github.com/edgi-govdata-archiving/version-tracking-ui) | Tools to facilitate the tracking website changes | **In Progress** |
+| [**Versionista Outputter**](https://github.com/edgi-govdata-archiving/versionista-outputter) | A Ruby script that scrapes Versionista's web interface to generate a csv summarizing which websites and pages have had recent changes | **In Progress** |
+
+### Others...
+
+- Improving toolkit/remote contribution process
+- Exploring redundant, distributed storage (IPFS)
