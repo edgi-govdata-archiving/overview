@@ -10,43 +10,42 @@ If you are running your own event you've come to the right repo. The documentati
 
 You'll want to check out:
 
-- [Important Repositories](#important-repositories)
+- Important Repositories, pinned to the top of our organization page:
+  - this [overview](https://github.com/edgi-govdata-archiving/overview)
+  - an [event workflow](https://github.com/edgi-govdata-archiving/workflow)
+  - our [data harvesting tools](https://github.com/edgi-govdata-archiving/harvesting-tools)
 - [Recommendations and Lessons Learned](./RECOMMENDATIONS.md) and an [Event Checklist](./CHECKLIST.md)]
-- [Review of Our Tools](#review-of-our-tools)
+- [Event Tools](#event-tools)
 
 ### Development
 
 If you'd like to help with ongoing development of these tools, great! We are still working through the best way to bring new people onto our project. For now we have:
 
+- [Projects](#important-repositories)
 - [Contributor Guidelines](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md)
-- [Project tracking board](https://github.com/edgi-govdata-archiving/overview/projects/2)
+- [Project Tracking Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
 - Github issues in each repository
 
-## Important Repositories
+## Event Tools
 
-We've pinned the most important repositories to the front page--
-- this [overview](https://github.com/edgi-govdata-archiving/overview)
-- an [event workflow](https://github.com/edgi-govdata-archiving/workflow)
-- our [data harvesting tools](https://github.com/edgi-govdata-archiving/harvesting-tools)
-
-
-## Review of Our Tools
-
-| Tool Name | Description | Status | Language |
-|-----------|-------------|--------|----------|
+| Current Tools | Description | Status | Language |
+|---------------|-------------|--------|----------|
 | [**Data Rescue Workflow docs**](https://github.com/datarefugephilly/workflow) | Detailed descriptions of the phases of event workflow | **Working** | -- |
 | [**Nomination Tool**](https://github.com/edgi-govdata-archiving/presidential-harvest-nomination-tool) | A Chrome extension to simplify the nomination process at archiv-a-thons | **Working** | HTML & JavaScript |
 | [**EIS WARC Archiver**](https://github.com/edgi-govdata-archiving/eis-WARC-archiver) | Python scraper that feeds URL's to WGET and outputs a WARC archive and an accompanying CSV file associating URL's with scraped metadata | **Working** | Python 2 |
-| [**Version Tracking UI**](https://github.com/edgi-govdata-archiving/version-tracking-ui) | Tools to facilitate the tracking website changes | **In Progress** | JavaScript |
-| [EPA ECHO Scraping](https://github.com/edgi-govdata-archiving/epa-echo) | Scraper for the EPA Enforcement & Compliance History archives | **Working** | Ruby |
+
+
+
+| Archived Tools | Description | Status | Language |
+|----------------|-------------|--------|----------|
 | [EPA Search Utilities](https://github.com/edgi-govdata-archiving/epa-search-utils) | A scraper for the EPA search engine, that systematically feeds in search queries and extracts resultant URLs |  **Experimental**  | Go, Binary |
-| [EPA Geoportal Database Scraper](https://github.com/edgi-govdata-archiving/epa-geoportal-database-scraper) |  | **Working** | Node |
-| [Sitemapper](https://github.com/edgi-govdata-archiving/sitemapper) |  | **Experimental** | Python 3 |
 | [EPA Quantitative Databases](https://github.com/edgi-govdata-archiving/epa-quantitative) | Undocumented scraper for a set of databases accessible but obfuscated through one of the EPA data websites |  **Unknown**  | Python |
+| [Sitemapper](https://github.com/edgi-govdata-archiving/sitemapper) | Tools and services to create xml, csv and json sitemaps of websites  | **Experimental** | Python 3 |
+| [~~EPA ECHO Scraping~~](https://github.com/edgi-govdata-archiving/epa-echo) | Scraper for the EPA Enforcement & Compliance History archives | **Archived** | Ruby |
+| [~~EPA Geoportal Database Scraper~~](https://github.com/edgi-govdata-archiving/epa-geoportal-database-scraper) | Scraper to archives all GIS data ZIP files on EPA's Geoportal | **Archived** | Node |
 | [~~EPA Sitemap~~](https://github.com/edgi-govdata-archiving/epa-sitemap) | A sitemap tool to provide initial models of government domains--intended to facilitate volunteer organization at archivathons |  **Archived**  | Python |
 | [~~EIS Scraping~~](https://github.com/edgi-govdata-archiving/epa-eis) | Full workflow for identifying, scraping, and downloading WARCs of eis's (WARC Archiver above is part) | **Archived** | Ruby, Node, Python 2 |
 | [~~Sprint Toolkit~~](https://github.com/edgi-govdata-archiving/eot-sprint-toolkit) | Our organizing documents for the tech group at our archiv-a-thon (potential overlap with the current repo) |  **Archived**  | `--` |
-
 
 Other tools that we're aware of:
 
@@ -54,3 +53,10 @@ Other tools that we're aware of:
 - [Grab-Site](https://github.com/edgi-govdata-archiving/grab-site), a crawler with cli that also outputs WARCs
 - [WARCprox](https://github.com/edgi-govdata-archiving/warcprox), a proxy with cli for generating WARCs
 - [Python-sitemap](https://github.com/edgi-govdata-archiving/python-sitemap), a mini-crawler that just makes a sitemap of the website
+
+
+## Projects
+
+| Tool Name | Description | Status | Language |
+|-----------|-------------|--------|----------|
+| [**Version Tracking UI**](https://github.com/edgi-govdata-archiving/version-tracking-ui) | Tools to facilitate the tracking website changes | **In Progress** | JavaScript |
