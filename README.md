@@ -34,7 +34,7 @@ If you'd like to help with ongoing development of these tools, great! We are sti
 | [**Nomination Tool**](https://github.com/edgi-govdata-archiving/eot-nomination-tool) | Chrome extension to simplify the nomination process at archiv-a-thons | **Working** | HTML & JavaScript |
 | [**Harvesting Tools**](https://github.com/edgi-govdata-archiving/harvesting-tools) | A collection of code snippets designed to be dropped into the data harvesting process directly after generating the zip starter kit | **Working** | Various |
 | [**Zip Starter**](https://github.com/edgi-govdata-archiving/zip-starter) | Automate zip folder creation for Harvesting during pipeline | **Working** | Go |
-| **Pipeline App** |  | **Working** | Meteor, JavaScript |
+| **Pipeline App** | [Heroku app](https://harvest-pipeline.herokuapp.com/) for research and harvesting, request repo access from @b5 | **Working** | Meteor, JavaScript |
 | [**s3 Upload Server**](https://github.com/edgi-govdata-archiving/s3-upload-server) | Heroku app for uploading Datasets to S3 from the browser  | **Working** | Go |
 | [**EIS WARC Archiver**](https://github.com/edgi-govdata-archiving/eis-WARC-archiver) | Python scraper that feeds URL's to WGET and outputs a WARC archive and an accompanying CSV file associating URL's with scraped metadata | **Working** | Python 2 |
 
