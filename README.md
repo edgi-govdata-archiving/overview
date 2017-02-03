@@ -14,14 +14,14 @@ You'll want to check out:
   - this [overview](https://github.com/edgi-govdata-archiving/overview)
   - an [event workflow](https://github.com/edgi-govdata-archiving/workflow)
   - our [data harvesting tools](https://github.com/edgi-govdata-archiving/harvesting-tools)
-- [Recommendations and Lessons Learned](./RECOMMENDATIONS.md) and an [Event Checklist](./CHECKLIST.md)]
+- [Recommendations and Lessons Learned](./RECOMMENDATIONS.md) and an [Event Checklist](./CHECKLIST.md)
 - [Event Tools](#event-tools)
 
 ### Development
 
 If you'd like to help with ongoing development of these tools, great! We are still working through the best way to bring new people onto our project. For now we have:
 
-- [Projects](#important-repositories)
+- [Projects](#projects)
 - [Contributor Guidelines](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md)
 - [Project Tracking Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
 - Github issues in each repository
@@ -35,7 +35,6 @@ If you'd like to help with ongoing development of these tools, great! We are sti
 | [**Harvesting Tool**](https://github.com/edgi-govdata-archiving/harvesting-tools) | A collection of code snippets designed to be dropped into the data harvesting process directly after generating the zip starter kit | **Working** | Various |
 | [**Zip Starter**](https://github.com/edgi-govdata-archiving/zip-starter) | Automate zip folder creation for Harvesting during pipeline | **Working** | Go |
 | **Pipeline App** |  | **Working** | Meteor, JavaScript |
-
 | [**s3 Upload Server**](https://github.com/edgi-govdata-archiving/s3-upload-server) | Heroku app for uploading Datasets to S3 from the browser  | **Working** | Go |
 | [**EIS WARC Archiver**](https://github.com/edgi-govdata-archiving/eis-WARC-archiver) | Python scraper that feeds URL's to WGET and outputs a WARC archive and an accompanying CSV file associating URL's with scraped metadata | **Working** | Python 2 |
 
@@ -60,6 +59,8 @@ Other tools that we're aware of:
 - [Python-sitemap](https://github.com/edgi-govdata-archiving/python-sitemap), a mini-crawler that just makes a sitemap of the website
 
 ## Projects
+
+Projects are tracked via issues in their own repos and managed through our [Project Tracking Board](https://github.com/edgi-govdata-archiving/overview/projects/2).
 
 ### Monitoring Websites
 
