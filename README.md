@@ -32,7 +32,7 @@ If you'd like to help with ongoing development of these tools, great! We are sti
 |---------------|-------------|--------|----------|
 | [**Data Rescue Workflow docs**](https://github.com/datarefugephilly/workflow) | Detailed descriptions of the phases of event workflow | **Working** | -- |
 | [**Nomination Tool**](https://github.com/edgi-govdata-archiving/eot-nomination-tool) | Chrome extension to simplify the nomination process at archiv-a-thons | **Working** | HTML & JavaScript |
-| [**Harvesting Tool**](https://github.com/edgi-govdata-archiving/harvesting-tools) | A collection of code snippets designed to be dropped into the data harvesting process directly after generating the zip starter kit | **Working** | Various |
+| [**Harvesting Tools**](https://github.com/edgi-govdata-archiving/harvesting-tools) | A collection of code snippets designed to be dropped into the data harvesting process directly after generating the zip starter kit | **Working** | Various |
 | [**Zip Starter**](https://github.com/edgi-govdata-archiving/zip-starter) | Automate zip folder creation for Harvesting during pipeline | **Working** | Go |
 | **Pipeline App** |  | **Working** | Meteor, JavaScript |
 | [**s3 Upload Server**](https://github.com/edgi-govdata-archiving/s3-upload-server) | Heroku app for uploading Datasets to S3 from the browser  | **Working** | Go |
@@ -66,7 +66,6 @@ Projects are tracked via issues in their own repos and managed through our [Proj
 
 | Tool Name | Description | Status |
 |-----------|-------------|--------|
-| [**Page Freezer Tools**](https://github.com/edgi-govdata-archiving/pagefreezer-tools) | Initial Repo for a Page Freezer filtering toolkit  | **In Progress** |
 | [**Page Freezer CLI**](https://github.com/edgi-govdata-archiving/pagefreezer-cli) | CLI tools & data management protocols for interacting with Page Freezer | **In Progress** |
 
 ### Filtering Changes
