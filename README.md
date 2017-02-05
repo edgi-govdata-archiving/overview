@@ -36,7 +36,7 @@ If you'd like to help with ongoing development of these tools, great! We are sti
 | [**Zip Starter**](https://github.com/edgi-govdata-archiving/zip-starter) | Automate zip folder creation for Harvesting during pipeline | **Working** | Go |
 | **Pipeline App** | [Heroku app](https://harvest-pipeline.herokuapp.com/) for research and harvesting, request repo access from @b5 | **Working** | Meteor, JavaScript |
 | [**s3 Upload Server**](https://github.com/edgi-govdata-archiving/s3-upload-server) | Heroku app for uploading Datasets to S3 from the browser  | **Working** | Go |
-| [**EIS WARC Archiver**](https://github.com/edgi-govdata-archiving/eis-WARC-archiver) | Docker app that ingests a list of URLs and outputs WARCs | **Working** | Python2.7, shell |
+| [**EIS WARC Archiver**](https://github.com/edgi-govdata-archiving/eis-WARC-archiver) | Docker app that ingests a list of URLs then crawls and generates WARCs | **Working** | Python2.7, shell |
 
 Tools that have already been used are archived for reference:
 
