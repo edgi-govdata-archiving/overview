@@ -6,12 +6,11 @@ Welcome to the Government Data Archiving Github Team. This repository is an over
 
 ### Development
 
-If you'd like to help with ongoing development of these tools, great! We are still working through the best way to bring new people onto our project. For now we have:
+If you'd like to help with ongoing development of these tools, great!
 
-- [Projects](#projects)
-- [Contributor Guidelines](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md)
-- [Project Tracking Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
-- Github issues in each repository
+1. Review our [Contributor Guidelines](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md)
+1. Take a look at our [Current Projects](#projects) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
+1. Join us at our [**weekly standup**](https://github.com/edgi-govdata-archiving/overview/issues/43), Tuesdays at 7:30 ET (Eastern Time).
 
 ### Running an Event
 
