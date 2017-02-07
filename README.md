@@ -4,6 +4,15 @@ Welcome to the Government Data Archiving Github Team. This repository is an over
 
 ## Get Involved
 
+### Development
+
+If you'd like to help with ongoing development of these tools, great! We are still working through the best way to bring new people onto our project. For now we have:
+
+- [Projects](#projects)
+- [Contributor Guidelines](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md)
+- [Project Tracking Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
+- Github issues in each repository
+
 ### Running an Event
 
 If you are running your own event you've come to the right repo. The documentation here complements the [Environmental Data & Governance Initiative (EDGI) Event Toolkit](https://envirodatagov.org/event-toolkit/).
@@ -16,15 +25,6 @@ You'll want to check out:
   - our [data harvesting tools](https://github.com/edgi-govdata-archiving/harvesting-tools)
 - [Recommendations and Lessons Learned](./RECOMMENDATIONS.md) and an [Event Checklist](./CHECKLIST.md)
 - [Event Tools](#event-tools)
-
-### Development
-
-If you'd like to help with ongoing development of these tools, great! We are still working through the best way to bring new people onto our project. For now we have:
-
-- [Projects](#projects)
-- [Contributor Guidelines](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md)
-- [Project Tracking Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
-- Github issues in each repository
 
 ## Event Tools
 
