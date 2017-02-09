@@ -29,7 +29,7 @@ You'll want to check out:
 
 | Current Tools | Description | Status | Language |
 |---------------|-------------|--------|----------|
-| [**Data Rescue Workflow docs**](https://github.com/datarefugephilly/workflow) | Detailed descriptions of the phases of event workflow | **Working** | -- |
+| [**Data Rescue Workflow docs**](https://github.com/edgi-govdata-archiving/workflow) ([More polished/Complete legacy spreadsheet-based version](https://github.com/datarefugephilly/workflow)) | Detailed descriptions of the phases of event workflow | **Working** | -- |
 | [**Nomination Tool**](https://github.com/edgi-govdata-archiving/eot-nomination-tool) | Chrome extension to simplify the nomination process at archiv-a-thons | **Working** | HTML & JavaScript |
 | [**Harvesting Tools**](https://github.com/edgi-govdata-archiving/harvesting-tools) | A collection of code snippets designed to be dropped into the data harvesting process directly after generating the zip starter kit | **Working** | Various |
 | [**Zip Starter**](https://github.com/edgi-govdata-archiving/zip-starter) | Automate zip folder creation for Harvesting during pipeline | **Working** | Go |
