@@ -1,6 +1,7 @@
 # Overview of EDGI Tools
 
 Welcome to the Government Data Archiving Github Team. This repository is an overview for people who are getting involved in the project!
+This Github organization, our chat, and in-person events have a [Code of Conduct](./CONDUCT.md).
 
 ## Get Involved
 
@@ -8,7 +9,7 @@ Welcome to the Government Data Archiving Github Team. This repository is an over
 
 If you'd like to help with ongoing development of these tools, great!
 
-1. Review our [Contributor Guidelines](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md)
+1. Review our [Contributor Guidelines](./CONTRIBUTING.md) and [Code of Conduct](./CONDUCT.md)
 1. Take a look at our [Current Projects](#projects) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
 1. Join us at our [**weekly standup**](https://github.com/edgi-govdata-archiving/overview/issues/43), Tuesdays at 7:30 ET (Eastern Time).
 
