@@ -26,7 +26,7 @@ If you are interested in being a [GSoC student](https://summerofcode.withgoogle.
 
 It's also great to hear if you've forked one of our codebases and set up a development environment. Done with that? How about running tests? Tell us how far you've gotten!
 
-Once your idea is more developed, please [fork this repo](https://github.com/edgi-govdata-archiving/overview/compare#fork-destination-box) and submit a PR to [`overview/gsoc`](https://github.com/edgi-govdata-archiving/overview/gsoc) with the name `proposal-lastname.md` describing your proposal in detail based off of the [template](https://github.com/edgi-govdata-archiving/overview/gsoc/gsoc-template.md) for proposals.
+Once your idea is more developed, please fork this repo and submit a PR to [`overview/gsoc`](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc) with the name `proposal-lastname.md` describing your proposal in detail based off of the [template](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc/gsoc-template.md) for proposals.
 
 # Potential Ideas
 
@@ -46,7 +46,7 @@ The pagefreezer-cli has had 4 months of development and interacs with the API fr
 - **Description:** We have a backlog of feature requests and a growing application to handle event-based preservation and data downloading. Features we're keen for include improving our leaderboard so we can see how volunteers are doing at events, making our interface cleaner and easier to understand, and more.   
 - **Contact:** `#dev` on [archivers.slack.com](https://archivers.slack.com/)   
 - **Keywords:** new features, optimization, security, web application, visualization
-- **Ideal Experience and Interest:** JavaScript ([Meteor](https://www.meteor.com/),[Node.js](https://nodejs.org/en/)), Heroku, AWS, [MongoDB](https://www.mongodb.com/)
+- **Ideal Experience and Interest:** JavaScript ([Meteor](https://www.meteor.com/), [Node.js](https://nodejs.org/en/)), Heroku, AWS, [MongoDB](https://www.mongodb.com/)
 
 Our pipeline app and harvesting-tools are the most mature of our projects, but have a fair bit of refining before they are really stable. Also-- we've got ongoing research and questions around best practises in web security. We have short cycles of development, use, feedback, and refinement so if you are interested in learning more about web application security and developlment in an agile-inspired development process this might be for you!
 
