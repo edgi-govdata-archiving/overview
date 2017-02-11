@@ -23,7 +23,7 @@ You'll want to check out:
   - this [overview](https://github.com/edgi-govdata-archiving/overview)
   - an [event workflow](https://github.com/edgi-govdata-archiving/workflow)
   - our [data harvesting tools](https://github.com/edgi-govdata-archiving/harvesting-tools)
-- [Recommendations and Lessons Learned](./RECOMMENDATIONS.md) and an [Event Checklist](./CHECKLIST.md)
+- [Recommendations and Lessons Learned](./event-planning/recommendations.md) and an [Event Checklist](./event-planning/checklist.md)
 - [Event Tools](#event-tools)
 
 ## Event Tools
