@@ -10,8 +10,11 @@ This Github organization, our chat, and in-person events have a [Code of Conduct
 If you'd like to help with ongoing development of these tools, great!
 
 1. Review our [Contributor Guidelines](./CONTRIBUTING.md) and [Code of Conduct](./CONDUCT.md)
+1. Jump on our chat [archivers.slack.com](https://archivers.slack.com/), anyone can request an invite from [archivers-slack.herokuapp.com slackin](https://archivers-slack.herokuapp.com/)
+  - Contributor and development conversations happen on `#dev`
+  - Ping one of the EDGI coordinators (@mattprice or @dcwalk) with your github name to be added to the organization
 1. Take a look at our [Current Projects](#projects) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
-1. Join us at our [**weekly standup**](https://github.com/edgi-govdata-archiving/overview/issues/43), Tuesdays at 7:30 ET (Eastern Time).
+1. Join us at our [**weekly standup**](./protocol/standups.md), Tuesdays at 7:45 ET (Eastern Time), call link posted in `#dev`
 
 ### Running an Event
 
@@ -23,7 +26,7 @@ You'll want to check out:
   - this [overview](https://github.com/edgi-govdata-archiving/overview)
   - an [event workflow](https://github.com/edgi-govdata-archiving/workflow)
   - our [data harvesting tools](https://github.com/edgi-govdata-archiving/harvesting-tools)
-- [Recommendations and Lessons Learned](./RECOMMENDATIONS.md) and an [Event Checklist](./CHECKLIST.md)
+- [Recommendations and Lessons Learned](./event-planning/recommendations.md) and an [Event Checklist](./event-planning/checklist.md)
 - [Event Tools](#event-tools)
 
 ## Event Tools
