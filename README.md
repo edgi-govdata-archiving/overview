@@ -14,7 +14,7 @@ If you'd like to help with ongoing development of these tools, great!
   - Contributor and development conversations happen on `#dev`
   - Ping one of the EDGI coordinators (@mattprice or @dcwalk) with your github name to be added to the organization
 1. Take a look at our [Current Projects](#projects) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
-1. Join us at our [**weekly standup**](./protocol/standup.md), Tuesdays at 7:45 ET (Eastern Time), call link posted in `#dev`
+1. Join us at our [**weekly standup**](./protocol/standups.md), Tuesdays at 7:45 ET (Eastern Time), call link posted in `#dev`
 
 ### Running an Event
 
