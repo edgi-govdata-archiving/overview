@@ -1,7 +1,8 @@
 # Overview of EDGI Tools
 
-Welcome to the Government Data Archiving Github Team. This repository is an overview for people who are getting involved in the project!
-This Github organization, our chat, and in-person events have a [Code of Conduct](./CONDUCT.md).
+Welcome to the [Environmental Data and Governance Initiative (EDGI)](https://envirodatagov.org/) Government Data Archiving technical team. We are building online tools, events, and research networks to proactively preserve, archive and track public environmental data and ensure its continued publicly availability. We are indexing millions of government web pages on a weekly basis, tracking changes to them, and producing regular reports. Our focus has turned to using machine learning to sift through millions of government web pages to find the most important changes as well as working with the protocols for resilient, sustainable, distributed data storage networks.
+
+This repository is an overview for people who are getting involved in the project, our GitHub organization, chat, and in-person events have a [Code of Conduct](./CONDUCT.md).
 
 ## Get Involved
 
@@ -27,27 +28,53 @@ You'll want to check out:
   - an [event workflow](https://github.com/edgi-govdata-archiving/workflow)
   - our [data harvesting tools](https://github.com/edgi-govdata-archiving/harvesting-tools)
 - [Recommendations and Lessons Learned](./event-planning/recommendations.md) and an [Event Checklist](./event-planning/checklist.md)
-- [Event Tools](#event-tools)
 
-## Event Tools
+## Projects
 
-| Current Tools | Description | Status | Language |
-|---------------|-------------|--------|----------|
-| [**Data Rescue Workflow docs**](https://github.com/edgi-govdata-archiving/workflow) (See also: [More comprehensive legacy spreadsheet-based version](https://github.com/datarefugephilly/workflow)) | Detailed descriptions of the phases of event workflow | **Working** | -- |
-| [**Nomination Tool**](https://github.com/edgi-govdata-archiving/eot-nomination-tool) | Chrome extension to simplify the nomination process at archiv-a-thons | **Working** | HTML & JavaScript |
-| [**Harvesting Tools**](https://github.com/edgi-govdata-archiving/harvesting-tools) | A collection of code snippets designed to be dropped into the data harvesting process directly after generating the zip starter kit | **Working** | Various |
-| [**Zip Starter**](https://github.com/edgi-govdata-archiving/zip-starter) | Automate zip folder creation for Harvesting during pipeline | **Working** | Go |
-| **Pipeline App** | [Heroku app](https://harvest-pipeline.herokuapp.com/) for research and harvesting, request repo access from @b5 | **Working** | Meteor, JavaScript |
-| [**s3 Upload Server**](https://github.com/edgi-govdata-archiving/s3-upload-server) | Heroku app for uploading Datasets to S3 from the browser  | **Working** | Go |
-| [**EIS WARC Archiver**](https://github.com/edgi-govdata-archiving/eis-WARC-archiver) | Docker app that ingests a list of URLs then crawls and generates WARCs | **Working** | Python2.7, shell |
+The EDGI technical team is currently supporting development of the following projects.
+Overall progress is tracked via our [Project Tracking Board](https://github.com/edgi-govdata-archiving/overview/projects/2), however specific tasks, issues and milestones are handled in individual repos.
 
-Tools that have already been used are archived for reference:
+### Event-driven Preservation
+
+| Tool Name | Description | Status |
+|-----------|-------------|--------|
+| **Pipeline App** | [Heroku app](https://harvest-pipeline.herokuapp.com/) for research and harvesting, request repo access from @b5 | **Working** |
+| [**Harvesting Tools**](https://github.com/edgi-govdata-archiving/harvesting-tools) | A collection of code snippets designed to be dropped into the data harvesting process directly after generating the zip starter kit | **Working** |
+| [**Nomination Tool**](https://github.com/edgi-govdata-archiving/eot-nomination-tool) | Chrome extension to simplify the nomination process at archiv-a-thons | **Working** |
+| [**Data Rescue Workflow docs**](https://github.com/edgi-govdata-archiving/workflow) (See also: [More comprehensive legacy spreadsheet-based version](https://github.com/datarefugephilly/workflow)) | Detailed descriptions of the phases of event workflow | **Working** |
+| [**Zip Starter**](https://github.com/edgi-govdata-archiving/zip-starter) | Automate zip folder creation for Harvesting during pipeline | **Working** |
+| [**s3 Upload Server**](https://github.com/edgi-govdata-archiving/s3-upload-server) | Heroku app for uploading Datasets to S3 from the browser  | **Working** |
+| [**EIS WARC Archiver**](https://github.com/edgi-govdata-archiving/eis-WARC-archiver) | Docker app that ingests a list of URLs then crawls and generates WARCs | **Working** |
+
+### Monitoring Websites
+
+| Tool Name | Description | Status |
+|-----------|-------------|--------|
+| [**Page Freezer CLI**](https://github.com/edgi-govdata-archiving/pagefreezer-cli) | CLI tools & data management protocols for interacting with Page Freezer | **In Progress** |
+
+#### Filtering Changes
+
+| Tool Name | Description | Status |
+|-----------|-------------|--------|
+| [**Version Tracking UI**](https://github.com/edgi-govdata-archiving/version-tracking-ui) | Tools to facilitate the tracking website changes | **In Progress** |
+| [**Versionista Outputter**](https://github.com/edgi-govdata-archiving/versionista-outputter) | A Ruby script that scrapes Versionista's web interface to generate a csv summarizing which websites and pages have had recent changes | **In Progress** |
+
+#### Machine Learning
+
+### Other Projects...
+
+- Improving toolkit/remote contribution process
+- Exploring redundant, distributed storage (IPFS)
+
+## Archived Tools
+
+Tools that have archived for reference:
 
 | Archived Tools | Description | Status | Language |
 |----------------|-------------|--------|----------|
-| [EPA Search Utilities](https://github.com/edgi-govdata-archiving/epa-search-utils) | A scraper for the EPA search engine, that systematically feeds in search queries and extracts resultant URLs |  **Experimental**  | Go, Binary |
-| [EPA Quantitative Databases](https://github.com/edgi-govdata-archiving/epa-quantitative) | Undocumented scraper for a set of databases accessible but obfuscated through one of the EPA data websites |  **Unknown**  | Python |
-| [Sitemapper](https://github.com/edgi-govdata-archiving/sitemapper) | Tools and services to create xml, csv and json sitemaps of websites  | **Experimental** | Python 3 |
+| [~~EPA Search Utilities~~](https://github.com/edgi-govdata-archiving/epa-search-utils) | A scraper for the EPA search engine, that systematically feeds in search queries and extracts resultant URLs |  **Archived**  | Go, Binary |
+| [~~EPA Quantitative Databases~~](https://github.com/edgi-govdata-archiving/epa-quantitative) | Undocumented scraper for a set of databases accessible but obfuscated through one of the EPA data websites |  **Archived**  | Python |
+| [~~Sitemapper~~](https://github.com/edgi-govdata-archiving/sitemapper) | Tools and services to create xml, csv and json sitemaps of websites  | **Experimental** | Python 3 |
 | [~~EPA ECHO Scraping~~](https://github.com/edgi-govdata-archiving/epa-echo) | Scraper for the EPA Enforcement & Compliance History archives | **Archived** | Ruby |
 | [~~EPA Geoportal Database Scraper~~](https://github.com/edgi-govdata-archiving/epa-geoportal-database-scraper) | Scraper to archives all GIS data ZIP files on EPA's Geoportal | **Archived** | Node |
 | [~~EPA Sitemap~~](https://github.com/edgi-govdata-archiving/epa-sitemap) | A sitemap tool to provide initial models of government domains--intended to facilitate volunteer organization at archivathons |  **Archived**  | Python |
@@ -60,25 +87,3 @@ Other tools that we're aware of:
 - [Grab-Site](https://github.com/edgi-govdata-archiving/grab-site), a crawler with cli that also outputs WARCs
 - [WARCprox](https://github.com/edgi-govdata-archiving/warcprox), a proxy with cli for generating WARCs
 - [Python-sitemap](https://github.com/edgi-govdata-archiving/python-sitemap), a mini-crawler that just makes a sitemap of the website
-
-## Projects
-
-Projects are tracked via issues in their own repos and managed through our [Project Tracking Board](https://github.com/edgi-govdata-archiving/overview/projects/2).
-
-### Monitoring Websites
-
-| Tool Name | Description | Status |
-|-----------|-------------|--------|
-| [**Page Freezer CLI**](https://github.com/edgi-govdata-archiving/pagefreezer-cli) | CLI tools & data management protocols for interacting with Page Freezer | **In Progress** |
-
-### Filtering Changes
-
-| Tool Name | Description | Status |
-|-----------|-------------|--------|
-| [**Version Tracking UI**](https://github.com/edgi-govdata-archiving/version-tracking-ui) | Tools to facilitate the tracking website changes | **In Progress** |
-| [**Versionista Outputter**](https://github.com/edgi-govdata-archiving/versionista-outputter) | A Ruby script that scrapes Versionista's web interface to generate a csv summarizing which websites and pages have had recent changes | **In Progress** |
-
-### Others...
-
-- Improving toolkit/remote contribution process
-- Exploring redundant, distributed storage (IPFS)
