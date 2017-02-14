@@ -2,7 +2,7 @@
 
 Welcome to the [Environmental Data and Governance Initiative (EDGI)](https://envirodatagov.org/) Government Data Archiving technical team. We are building online tools, events, and research networks to proactively preserve, archive and track public environmental data and ensure its continued publicly availability. We are indexing millions of government web pages on a weekly basis, tracking changes to them, and producing regular reports. Our focus has turned to using machine learning to sift through millions of government web pages to find the most important changes as well as working with the protocols for resilient, sustainable, distributed data storage networks.
 
-This repository is an overview for people who are getting involved in the project, our GitHub organization, chat, and in-person events have a [Code of Conduct](./CONDUCT.md).
+This repository is an overview for people who are getting involved in the project. Our GitHub organization, chat, and in-person events have a [Code of Conduct](./CONDUCT.md).
 
 ## Get Involved
 
@@ -13,21 +13,18 @@ If you'd like to help with ongoing development of these tools, great!
 1. Review our [Contributor Guidelines](./CONTRIBUTING.md) and [Code of Conduct](./CONDUCT.md)
 1. Jump on our chat [archivers.slack.com](https://archivers.slack.com/), anyone can request an invite from [archivers-slack.herokuapp.com slackin](https://archivers-slack.herokuapp.com/)
   - Contributor and development conversations happen on `#dev`
-  - Ping one of the EDGI coordinators (@mattprice or @dcwalk) with your github name to be added to the organization
+  - Ping one of the EDGI coordinators (@mattprice or @dcwalk) with your GitHub name to be added to the organization
 1. Take a look at our [Current Projects](#projects) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
 1. Join us at our [**weekly standup**](./protocol/standups.md), Tuesdays at 7:45 ET (Eastern Time), call link posted in `#dev`
 
 ### Running an Event
 
-If you are running your own event you've come to the right repo. The documentation here complements the [Environmental Data & Governance Initiative (EDGI) Event Toolkit](https://envirodatagov.org/event-toolkit/).
+If you are interested in running your own event please head to the [Environmental Data & Governance Initiative (EDGI) Event Toolkit](https://envirodatagov.org/event-toolkit/).
 
-You'll want to check out:
-
-- Important Repositories, pinned to the top of our organization page:
-  - this [overview](https://github.com/edgi-govdata-archiving/overview)
+We have some supporting repositories, pinned to the top of our organization page:
+  - an [event template repo](https://github.com/edgi-govdata-archiving/DataRescueNYC)
   - an [event workflow](https://github.com/edgi-govdata-archiving/workflow)
   - our [data harvesting tools](https://github.com/edgi-govdata-archiving/harvesting-tools)
-- [Recommendations and Lessons Learned](./event-planning/recommendations.md) and an [Event Checklist](./event-planning/checklist.md)
 
 ## Projects
 
