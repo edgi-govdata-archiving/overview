@@ -8,7 +8,7 @@ To discuss what will help development projects reach their goal and identify are
 
 ## Format
 
-Meetings last no longer than 30 mins, with a soft cap of 2 minutes per speaker.
+Meetings last **no longer than 30 mins**, with a soft cap of 2 minutes per speaker.
 
 Each participant is asked:
 
@@ -17,7 +17,7 @@ Each participant is asked:
 
 Conversations should stay relatively focused, with longer conversations moving off-stream.
 
-Meetings are held over Google Hangouts, streamed to our [Youtube Channel](https://www.youtube.com/channel/UCSfzkT_Zp5N8C_QmE7CNGig), and made available as a recording after the fact for those who could not attend.
+Meetings scheduled in advance by @mattprice or @dcwalk and a [zoom.us](https://zoom.us/) call link is posted in our chat. The standup is recorded and posted to our [Youtube Channel](https://www.youtube.com/channel/UCSfzkT_Zp5N8C_QmE7CNGig), and notes taken and made available in our chat for those who could not attend.
 
 ## Additional resources
 
