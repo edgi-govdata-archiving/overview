@@ -8,7 +8,7 @@ We love improvements to our tools! Our process for accepting changes has a few s
 
   Organization members should clone the upsteam repo, instead of working from a personal fork:
 
-        $ git clone git@github.com:edgi-govdata-archiving/<repository-name>.git
+      $ git clone git@github.com:edgi-govdata-archiving/<repository-name>.git
 
 2. Create a **new branch** for the changes you want to work on. Choose a topic for your branch name that reflects the change:
 
