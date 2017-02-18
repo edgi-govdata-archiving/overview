@@ -19,7 +19,7 @@ If you'd like to help with ongoing development of these tools, great!
 
 ### Running an Event
 
-If you are interested in running your own event please head to the [Environmental Data & Governance Initiative (EDGI) Event Toolkit](https://envirodatagov.org/event-toolkit/) and [DataRefuge's Get Involved](http://www.ppehlab.org/datarefugegetinvolved).
+If you are interested in running your own event please head to the [EDGI's Event Toolkit](https://envirodatagov.org/event-toolkit/) and [DataRefuge's Get Involved](http://www.ppehlab.org/datarefugegetinvolved).
 
 Supporting repositories include:
   - DataRefuge's [event workflow](https://github.com/datarefuge/workflow)
