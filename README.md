@@ -19,11 +19,11 @@ If you'd like to help with ongoing development of these tools, great!
 
 ### Running an Event
 
-If you are interested in running your own event please head to the [Environmental Data & Governance Initiative (EDGI) Event Toolkit](https://envirodatagov.org/event-toolkit/).
+If you are interested in running your own event please head to the [Environmental Data & Governance Initiative (EDGI) Event Toolkit](https://envirodatagov.org/event-toolkit/) and [DataRefuge's Get Involved](http://www.ppehlab.org/datarefugegetinvolved).
 
 Supporting repositories include:
-  - DataRefuge's [event workflow](https://github.com/datarefugephilly/workflow)
-  - an [event template repo](https://github.com/edgi-govdata-archiving/DataRescueNYC)
+  - DataRefuge's [event workflow](https://github.com/datarefuge/workflow)
+  - an [event template repo](https://github.com/edgi-govdata-archiving/DataRescueTEMPLATE)
   - a set of [data harvesting tools](https://github.com/edgi-govdata-archiving/harvesting-tools)
 
 ## Projects
@@ -39,6 +39,7 @@ Overall progress is tracked via our [Project Tracking Board](https://github.com/
 | [**Harvesting Tools**](https://github.com/edgi-govdata-archiving/harvesting-tools) | A collection of code snippets designed to be dropped into the data harvesting process directly after generating the zip starter kit | **Working** |
 | [**Nomination Tool**](https://github.com/edgi-govdata-archiving/eot-nomination-tool) | Chrome extension to simplify the nomination process at archiv-a-thons | **Working** |
 | [**DataRefuge's Event Workflow**](https://github.com/datarefugephilly/workflow) | Detailed descriptions of the phases of event workflow | **Working** |
+| [**DataRescueTEMPLATE**](https://github.com/edgi-govdata-archiving/DataRescueTEMPLATE) | DataRescue Event Template with `gh-pages` branch for event website | **Working** |
 | [**Zip Starter**](https://github.com/edgi-govdata-archiving/zip-starter) | Automate zip folder creation for Harvesting during pipeline | **Working** |
 | [**s3 Upload Server**](https://github.com/edgi-govdata-archiving/s3-upload-server) | Heroku app for uploading Datasets to S3 from the browser  | **Working** |
 | [**EIS WARC Archiver**](https://github.com/edgi-govdata-archiving/eis-WARC-archiver) | Docker app that ingests a list of URLs then crawls and generates WARCs | **Working** |
