@@ -1,6 +1,6 @@
-# Overview of EDGI Tools
+# Overview of Technical Projects
 
-Welcome to the [Environmental Data and Governance Initiative (EDGI)](https://envirodatagov.org/) Government Data Archiving technical team. We are building online tools, events, and research networks to proactively preserve, archive and track public environmental data and ensure its continued publicly availability. We are indexing millions of government web pages on a weekly basis, tracking changes to them, and producing regular reports. Our focus has turned to using machine learning to sift through millions of government web pages to find the most important changes as well as working with the protocols for resilient, sustainable, distributed data storage networks.
+Welcome to the [Environmental Data and Governance Initiative (EDGI)](https://envirodatagov.org/) Government Data Archiving technical team. We are building online tools, helping events, and creating research networks to proactively preserve, archive and track public environmental data and ensure its continued publicly availability. We are indexing millions of government web pages on a weekly basis, tracking changes to them, and producing regular reports. Our focus has turned to using machine learning to sift through millions of government web pages to find the most important changes as well as working with the protocols for resilient, sustainable, distributed data storage networks.
 
 This repository is an overview for people who are getting involved in the project. Our GitHub organization, chat, and in-person events have a [Code of Conduct](./CONDUCT.md).
 
@@ -19,26 +19,27 @@ If you'd like to help with ongoing development of these tools, great!
 
 ### Running an Event
 
-If you are interested in running your own event please head to the [Environmental Data & Governance Initiative (EDGI) Event Toolkit](https://envirodatagov.org/event-toolkit/).
+If you are interested in running your own event please head to the [EDGI's Event Toolkit](https://envirodatagov.org/event-toolkit/) and [DataRefuge's Get Involved](http://www.ppehlab.org/datarefugegetinvolved).
 
-We have some supporting repositories, pinned to the top of our organization page:
-  - an [event template repo](https://github.com/edgi-govdata-archiving/DataRescueNYC)
-  - an [event workflow](https://github.com/edgi-govdata-archiving/workflow)
-  - our [data harvesting tools](https://github.com/edgi-govdata-archiving/harvesting-tools)
+Supporting repositories include:
+  - DataRefuge's [event workflow](https://github.com/datarefuge/workflow)
+  - an [event template repo](https://github.com/edgi-govdata-archiving/DataRescueTEMPLATE)
+  - a set of [data harvesting tools](https://github.com/edgi-govdata-archiving/harvesting-tools)
 
 ## Projects
 
 The EDGI technical team is currently supporting development of the following projects.
 Overall progress is tracked via our [Project Tracking Board](https://github.com/edgi-govdata-archiving/overview/projects/2), however specific tasks, issues and milestones are handled in individual repos.
 
-### Event-driven Preservation
+### Event Preservation
 
 | Tool Name | Description | Status |
 |-----------|-------------|--------|
 | **Pipeline App** | [Heroku app](https://harvest-pipeline.herokuapp.com/) for research and harvesting, request repo access from @b5 | **Working** |
 | [**Harvesting Tools**](https://github.com/edgi-govdata-archiving/harvesting-tools) | A collection of code snippets designed to be dropped into the data harvesting process directly after generating the zip starter kit | **Working** |
 | [**Nomination Tool**](https://github.com/edgi-govdata-archiving/eot-nomination-tool) | Chrome extension to simplify the nomination process at archiv-a-thons | **Working** |
-| [**Data Rescue Workflow docs**](https://github.com/edgi-govdata-archiving/workflow) (See also: [More comprehensive legacy spreadsheet-based version](https://github.com/datarefugephilly/workflow)) | Detailed descriptions of the phases of event workflow | **Working** |
+| [**DataRefuge's Event Workflow**](https://github.com/datarefugephilly/workflow) | Detailed descriptions of the phases of event workflow | **Working** |
+| [**DataRescueTEMPLATE**](https://github.com/edgi-govdata-archiving/DataRescueTEMPLATE) | DataRescue Event Template with `gh-pages` branch for event website | **Working** |
 | [**Zip Starter**](https://github.com/edgi-govdata-archiving/zip-starter) | Automate zip folder creation for Harvesting during pipeline | **Working** |
 | [**s3 Upload Server**](https://github.com/edgi-govdata-archiving/s3-upload-server) | Heroku app for uploading Datasets to S3 from the browser  | **Working** |
 | [**EIS WARC Archiver**](https://github.com/edgi-govdata-archiving/eis-WARC-archiver) | Docker app that ingests a list of URLs then crawls and generates WARCs | **Working** |
@@ -71,7 +72,7 @@ Tools that have archived for reference:
 |----------------|-------------|--------|----------|
 | [~~EPA Search Utilities~~](https://github.com/edgi-govdata-archiving/epa-search-utils) | A scraper for the EPA search engine, that systematically feeds in search queries and extracts resultant URLs |  **Archived**  | Go, Binary |
 | [~~EPA Quantitative Databases~~](https://github.com/edgi-govdata-archiving/epa-quantitative) | Undocumented scraper for a set of databases accessible but obfuscated through one of the EPA data websites |  **Archived**  | Python |
-| [~~Sitemapper~~](https://github.com/edgi-govdata-archiving/sitemapper) | Tools and services to create xml, csv and json sitemaps of websites  | **Experimental** | Python 3 |
+| [~~Sitemapper~~](https://github.com/edgi-govdata-archiving/sitemapper) | Tools and services to create xml, csv and json sitemaps of websites  | **Archived** | Python 3 |
 | [~~EPA ECHO Scraping~~](https://github.com/edgi-govdata-archiving/epa-echo) | Scraper for the EPA Enforcement & Compliance History archives | **Archived** | Ruby |
 | [~~EPA Geoportal Database Scraper~~](https://github.com/edgi-govdata-archiving/epa-geoportal-database-scraper) | Scraper to archives all GIS data ZIP files on EPA's Geoportal | **Archived** | Node |
 | [~~EPA Sitemap~~](https://github.com/edgi-govdata-archiving/epa-sitemap) | A sitemap tool to provide initial models of government domains--intended to facilitate volunteer organization at archivathons |  **Archived**  | Python |
