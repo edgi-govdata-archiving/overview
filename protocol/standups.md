@@ -8,12 +8,17 @@ To discuss what will help development projects reach their goal and identify are
 
 ## Format
 
-Meetings last **no longer than 30 mins**, with a soft cap of 2 minutes per speaker.
+Meetings last **no longer than 30 mins**, with the following agenda
 
-Each participant is asked:
+| Time        | Agenda Item    |
+|-------------|----------------|
+| **5 mins**  | Overall updates, given on a rotating basis by project leads or EDGI Steering Committee representatives. |
+| **25 mins** | Attendee updates (soft time cap of 2 minutes per speaker) |
 
-1. Do you need any help?
-1. Do you have anything EDGI-related to talk about?
+We go around to each participant and ask: 
+
+1. Do you need any help on a task?
+1. Do you have anything else to talk about?
 
 Conversations should stay relatively focused, with longer conversations moving off-stream.
 
