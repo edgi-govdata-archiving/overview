@@ -4,7 +4,8 @@ Recent standup summaries are provided below along with a notes template. Older n
 
 ## Recent Standups
 
-- [Contributor Standup 2017-02-14](https://hackmd.io/GYFgrAxghmAcsFoCmIDsEEgGzCg2AnKgIwIBGqSUSqUATKqmAUA=#)
+- [Contributor Standup 2017-02-21](https://hackmd.io/GwUwHCBmBGCssFpYBYCGkHNgBgOwNXjE1VABNhkBmKtARiA=#)
+- [Contributor Standup 2017-02-14](https://hackmd.io/EYDgpg7ArAnDIFoAMUDGBmBAWd7gIEMCBGAEwVJHVQCYIQAzSiMIA===#)
 - [Contributor Standup 2017-02-07](https://hackmd.io/GYFgrAxghmAcsFoCmIDsEEgGzCg2AnKgIwIBGqSUSqUATKqmAUA=#)
 
 ## Notes Template
