@@ -31,7 +31,7 @@ Once your idea is more developed, please fork this repo and submit a PR to [`ove
 # Potential Ideas
 
 ## Apply Machine Learning to Monitoring Website Changes
-- **Part of:** [pagefreezer-cli](https://github.com/edgi-govdata-archiving/pagefreezer-cli/)   
+- **Part of:** [**web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring)   
 - **Description:** Help us improve our government agency website monitoring through the use of machine learning in order to develop an interface where analysts can computer-assisted identification of important changes.   
 - **Contact:** `#dev` on [archivers.slack.com](https://archivers.slack.com/)   
 - **Keywords:** new features, machine learning, data analysis, visualization
@@ -42,7 +42,7 @@ The pagefreezer-cli has had 4 months of development and interacs with the API fr
 
 ## Refine Event-based Preservation Application
 
-- **Part of:** [pipeline and harvesting-tools](https://github.com/edgi-govdata-archiving/harvesting-tools)   
+- **Part of:** [archivers.space app](https://github.com/edgi-govdata-archiving/archivers.space) and [harvesting-tools](https://github.com/edgi-govdata-archiving/harvesting-tools)   
 - **Description:** We have a backlog of feature requests and a growing application to handle event-based preservation and data downloading. Features we're keen for include improving our leaderboard so we can see how volunteers are doing at events, making our interface cleaner and easier to understand, and more.   
 - **Contact:** `#dev` on [archivers.slack.com](https://archivers.slack.com/)   
 - **Keywords:** new features, optimization, security, web application, visualization
