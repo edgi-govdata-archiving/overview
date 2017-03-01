@@ -62,7 +62,7 @@ The timing of the change-over depends on some external factors but is roughly pl
 | Tool Name | Description | Status | Language |
 |-----------|-------------|--------|----------|
 | [**web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring) | Queries data sources, performs prioritization/filtering, populates databases for web app| **In Progress** | Python |
-| [**webpage-versions-db**](https://github.com/edgi-govdata-archiving/webpage-versions-db) | The web app that human volunteers will use to evaluate diffs | **In Progress** | Ruby on Rails |
+| [**web-monitoring-db**](https://github.com/edgi-govdata-archiving/web-monitoring-db) | The web app that human volunteers will use to evaluate diffs | **In Progress** | Ruby on Rails |
 
 ### Other Projects...
 
