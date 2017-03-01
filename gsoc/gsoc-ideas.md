@@ -18,7 +18,7 @@ For GSoC application inquiries, use the `#gsoc` channel.
 
 We have [preferred guidelines](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md) for submitting changes. Please read them over!
 
-We also love it when students show that they are excited to work with us by looking at some of our `first-timer` issues in our [pagefreezer-cli](https://github.com/edgi-govdata-archiving/pagefreezer-cli/labels/first-timer) or [guides](https://github.com/edgi-govdata-archiving/guides/labels/first-timer) repos and even submitting a pull request! This gives us confidence that you've read our contribution guidelines and would be ready to jump into a project.
+We also love it when students show that they are excited to work with us by looking at some of our `first-timer` issues in our [**web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring) or [guides](https://github.com/edgi-govdata-archiving/guides/labels/first-timer) repos and even submitting a pull request! This gives us confidence that you've read our contribution guidelines and would be ready to jump into a project.
 
 ## Submit a Proposal!
 
