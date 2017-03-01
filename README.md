@@ -28,8 +28,7 @@ Supporting repositories include:
 
 ## Projects
 
-The EDGI technical team is currently supporting development of the following projects.
-Overall progress is tracked via our [Project Tracking Board](https://github.com/edgi-govdata-archiving/overview/projects/2), however specific tasks, issues and milestones are handled in individual repos.
+The EDGI technical team is currently supporting development of the following projects. Overall progress is tracked via our [Project Tracking Board](https://github.com/edgi-govdata-archiving/overview/projects/2), however specific tasks, issues and milestones are handled in individual repos.
 
 ### Event Preservation
 
@@ -46,25 +45,19 @@ Overall progress is tracked via our [Project Tracking Board](https://github.com/
 
 ### Monitoring Websites
 
-These repositories support the current workflow, based on Google spreadsheets
-automatically generated from scraping the Verionista web interface. They will be
-deprecated when a web app-based workflow is ready to use.
+These repositories support the current workflow, based on Google spreadsheets automatically generated from scraping the Verionista web interface. They will be deprecated when a web app-based workflow is ready to use:
 
 | Tool Name | Description | Status |
 |-----------|-------------|--------|
-| [**Version Tracking UI**](https://github.com/edgi-govdata-archiving/version-tracking-ui) | Tools to facilitate the tracking website changes | **In Progress** |
 | [**Versionista Outputter**](https://github.com/edgi-govdata-archiving/versionista-outputter) | A Ruby script that scrapes Versionista's web interface to generate a csv summarizing which websites and pages have had recent changes | **In Progress** |
+| [**Version Tracking UI**](https://github.com/edgi-govdata-archiving/version-tracking-ui) | Tools to facilitate the tracking website changes | **Working** |
 
-These repositories will support a future workflow that improves upon the current
-one by:
+These repositories will support a future workflow that improves upon the current one by:
 * replacing the Google spreadsheets with a custom web app
-* drawing on data from multiple sources including Versionista, PageFreezer, and
-  others in the future
-* applying text processing techniques to prioritize and filter diffs before
-  presenting them to human volunteers
+* drawing on data from multiple sources including Versionista, PageFreezer, and others in the future
+* applying text processing techniques to prioritize and filter diffs before presenting them to human volunteers
 
-The timing of the change-over depends on some external factors but is roughly
-planned for late March.
+The timing of the change-over depends on some external factors but is roughly planned for late March.
 
 | Tool Name | Description | Status | Language |
 |-----------|-------------|--------|----------|
