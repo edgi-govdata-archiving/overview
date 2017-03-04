@@ -1,11 +1,13 @@
 # GSoC Administration
 
-Planning for administration of Google Summer of Code for EDGI. Critical first steps:
+Planning for administration of Google Summer of Code for EDGI. We have our profile [description](gsoc-description.md), a list of [project ideas](gsoc-ideas.md), and a [template](gsoc-template.md) for submitting proposals.
+
+In terms of critical steps:
 - Identify 3-5 mentors
 - Chip off first-timer issues // smaller issues in web-monitoring, guides, archivers.app
     - PR and contributing
     - Getting dev environment set up
-- Expand project descriptions (maybe based on questions that people ask?)
+- Expand project descriptions with more concrete details
 - Don't emphasize projects that rely on a single mentor-student relationship
 
 ## Timeline
@@ -29,6 +31,12 @@ See [Google's timeline](https://developers.google.com/open-source/gsoc/timeline)
 | Jul 28 | Phase II evaluations deadline |
 | Aug 29 | Final evaluations deadline |
 | Sep 06 | Outcomes of GSoC 2017 announced! |
+
+### Process
+
+1. Students join us on our chat, get a sense of project possibilities, technology, and project leads
+2. @dcwalk helps answer questions from students to shape proposals
+3. Students submit PRs to `overview/gsoc`
 
 ## Mentors
 

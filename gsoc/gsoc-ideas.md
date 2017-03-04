@@ -22,11 +22,11 @@ We also love it when students show that they are excited to work with us by look
 
 ## Submit a Proposal!
 
-If you are interested in being a [GSoC student](https://summerofcode.withgoogle.com/get-started/) with us, first read through our oganization profile, join the `#gsoc` channel in our slack, and tell us what you're interested in working on and a bit about your experience.  
+If you are interested in being a [GSoC student](https://summerofcode.withgoogle.com/get-started/) with us, first read through our organization profile, join the `#gsoc` channel in our slack, and tell us what you're interested in working on and a bit about your experience.
 
 It's also great to hear if you've forked one of our codebases and set up a development environment. Done with that? How about running tests? Tell us how far you've gotten!
 
-Once your idea is more developed, please submit a PR to [`overview/gsoc`](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc) with the name `proposal-lastname.md` describing your proposal in detail based off of the [template](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc/gsoc-template.md) for proposals. Any questions on the process can go in `#gsoc`!
+Once your idea is more developed, please submit a PR to [`overview/gsoc`](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc) with the name `proposal-familyname-firstinitial.md` describing your proposal in detail based off of the [template](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc/gsoc-template.md) for proposals. Any questions on the process can go in `#gsoc`!
 
 # Potential Ideas
 
