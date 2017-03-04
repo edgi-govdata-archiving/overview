@@ -20,9 +20,9 @@ See [Google's timeline](https://developers.google.com/open-source/gsoc/timeline)
 | Feb 27 - Mar 20 | Students discuss, work on first-timer issues, form proposals |
 | **Mar 04** | EDGI mentor callout |
 | **Mar 06** | EDGI expanded project descriptions, first-timer issues |
-| **Mar 09** | GSoC Student Call (with Mentors?) |
+| **Mar 08**, 8-10am ET | GSoC Student Call (with @mattprice) |
 | **Mar 15** | EDGI mentor deadline |
-| **Mar 23** | GSoC Student Call 2 (with Mentors?) |
+| **Mar 24**, 8-10pm ET | GSoC Student Call 2 (with @dcwalk) |
 | Apr 03 | Student application deadline |
 | May 04 | Students accepted |
 | May 04 - 30 | Community Bonding |
