@@ -1,6 +1,6 @@
 # Contributing Guidelines
 
-We love improvements to our tools! There are a few key ways people can help us improve our projects:
+We love improvements to our tools! There are a few key ways you can help us improve our projects:
 
 ### Submitting Feedback, Requests, and Bugs
 
@@ -24,7 +24,7 @@ Our process for accepting changes operates by [Pull Request (PR)](https://help.g
 
     Organization members should clone the upsteam repo, instead of working from a personal fork:
 
-      $ git clone git@github.com:edgi-govdata-archiving/<repository-name>.git
+        $ git clone git@github.com:edgi-govdata-archiving/<repository-name>.git
 
 1.  Create a **new branch** for the changes you want to work on. Choose a topic for your branch name that reflects the change:
 
