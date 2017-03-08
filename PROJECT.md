@@ -1,18 +1,18 @@
 # Project Guidelines
 
-Each project repository **require**, at a minimum:
+Each project repository **requires**, at a minimum:
 
 1.  **Contributing Guidelines**  
 We use a [minimal template](#minimal-contributing-guidelines) that points to our main Contributing Guidelines and can be extended as needed to cover project-specific requirements.
 
-1.  **License**
+1.  A **License**
 [GPLv3](http://gplv3.fsf.org/) is our _preferred_ license for code and [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) for creative works and documentation.
 
-  We use a [License and Copyright block](#license-and-copyright-README-block) added to our READMEs, add a [LICENSE](https://github.com/edgi-govdata-archiving/overview/blob/master/LICENSE) to the repo, and occasionally include a [Code Header License block](#code-header-license-block).
+  We use a [License and Copyright block](#license-and-copyright-readme-block) added to our READMEs, add a [LICENSE](https://github.com/edgi-govdata-archiving/overview/blob/master/LICENSE) to the repo, and occasionally include a [Code Header License block](#code-header-license-block).
   
-Further, all projects that constitute an application codebase (rather than a set of documents or stand-alone scripts), should adopt:
+Further, all projects that constitute an application codebase (rather than a set of documents or stand-alone scripts) **should adopt**:
 
-1. A **Linting Tool** and a **Linting Standard** appropriate for the language or framework. See our [proposed linting standard](./protocol/linting.md) for further details.
+1. A **Linting Tool** and **Linting Standard** appropriate for the language or framework. See our [proposed linting standard](./protocol/linting.md) for further details.
 
 ## Templates
 
