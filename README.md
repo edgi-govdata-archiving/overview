@@ -15,7 +15,7 @@ If you'd like to help with ongoing development of these tools, great!
   - Contributor and development conversations happen on `#dev`
   - Ping one of the EDGI coordinators (@mattprice or @dcwalk) with your GitHub name to be added to the organization
 1. Take a look at our [Current Projects](#projects) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
-1. Join us at our [**weekly standup**](./protocol/standups.md), Tuesdays at 7:45 ET (Eastern Time), call link posted in `#dev`
+1. Join us at our [**weekly standup**](./protocol/standups.md), Saturdays at 6:30 ET (Eastern Time), call link posted in `#dev` as well as notes and recorded meetings
 
 ### Running an Event
 
@@ -34,10 +34,10 @@ The EDGI technical team is currently supporting development of the following pro
 
 | Tool Name | Description | Status |
 |-----------|-------------|--------|
-| **Pipeline App** | [Heroku app](https://harvest-pipeline.herokuapp.com/) for research and harvesting, request repo access from @b5 | **Working** |
+| **Archivers.space App** | [Heroku app](https://www.archivers.space/) for research and harvesting, [public issue queue](https://github.com/edgi-govdata-archiving/archivers.space) and private repo for now, request access from @b5 | **Working** |
 | [**Harvesting Tools**](https://github.com/edgi-govdata-archiving/harvesting-tools) | A collection of code snippets designed to be dropped into the data harvesting process directly after generating the zip starter kit | **Working** |
 | [**Nomination Tool**](https://github.com/edgi-govdata-archiving/eot-nomination-tool) | Chrome extension to simplify the nomination process at archiv-a-thons | **Working** |
-| [**DataRefuge's Event Workflow**](https://github.com/datarefugephilly/workflow) | Detailed descriptions of the phases of event workflow | **Working** |
+| [**DataRefuge's Event Workflow**](https://github.com/datarefuge/workflow) | Detailed descriptions of the phases of event workflow | **Working** |
 | [**DataRescueTEMPLATE**](https://github.com/edgi-govdata-archiving/DataRescueTEMPLATE) | DataRescue Event Template with `gh-pages` branch for event website | **Working** |
 | [**Zip Starter**](https://github.com/edgi-govdata-archiving/zip-starter) | Automate zip folder creation for Harvesting during pipeline | **Working** |
 | [**s3 Upload Server**](https://github.com/edgi-govdata-archiving/s3-upload-server) | Heroku app for uploading Datasets to S3 from the browser  | **Working** |
@@ -49,8 +49,8 @@ These repositories support the current workflow, based on Google spreadsheets au
 
 | Tool Name | Description | Status |
 |-----------|-------------|--------|
-| [**Versionista Outputter**](https://github.com/edgi-govdata-archiving/versionista-outputter) | A Ruby script that scrapes Versionista's web interface to generate a csv summarizing which websites and pages have had recent changes | **In Progress** |
-| [**Version Tracking UI**](https://github.com/edgi-govdata-archiving/version-tracking-ui) | Tools to facilitate the tracking website changes | **Working** |
+| [**Versionista Outputter**](https://github.com/edgi-govdata-archiving/versionista-outputter) | A Ruby script that scrapes Versionista's web interface to generate a csv summarizing which websites and pages have had recent changes | **Working** |
+| [**Version Tracking UI**](https://github.com/edgi-govdata-archiving/version-tracking-ui) | Tools to facilitate the tracking website changes | **Archived** |
 
 These repositories will support a future workflow that improves upon the current one by:
 * replacing the Google spreadsheets with a custom web app
@@ -61,6 +61,7 @@ The timing of the change-over depends on some external factors but is roughly pl
 
 | Tool Name | Description | Status | Language |
 |-----------|-------------|--------|----------|
+| [**web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring) | Documentation and project management repo for Website Monitoring project | **Working** | `--` |
 | [**web-monitoring-processing**](https://github.com/edgi-govdata-archiving/web-monitoring-processing) | Queries data sources, performs prioritization/filtering, populates databases for web app| **In Progress** | Python |
 | [**web-monitoring-db**](https://github.com/edgi-govdata-archiving/web-monitoring-db) | The Rails backend of the web app that human volunteers will use to evaluate diffs | **In Progress** | Ruby on Rails |
 | [**web-monitoring-ui**](https://github.com/edgi-govdata-archiving/web-monitoring-ui) | The JS front-end that human volunteers will use to evaluate diffs | **In Progress** | TypeScript |
@@ -72,7 +73,7 @@ The timing of the change-over depends on some external factors but is roughly pl
 
 ## Archived Tools
 
-Tools that have archived for reference:
+Tools that have been archived for reference:
 
 | Archived Tools | Description | Status | Language |
 |----------------|-------------|--------|----------|
@@ -85,7 +86,7 @@ Tools that have archived for reference:
 | [~~EIS Scraping~~](https://github.com/edgi-govdata-archiving/epa-eis) | Full workflow for identifying, scraping, and downloading WARCs of eis's (WARC Archiver above is part) | **Archived** | Ruby, Node, Python 2 |
 | [~~Sprint Toolkit~~](https://github.com/edgi-govdata-archiving/eot-sprint-toolkit) | Our organizing documents for the tech group at our archiv-a-thon (potential overlap with the current repo) |  **Archived**  | `--` |
 
-Other tools that we're aware of:
+Other tools for scraping and data preservation that we've experimented with:
 
 - [Dolley Madison](https://github.com/edgi-govdata-archiving/dolley-madison), a PHP script to download all government Github repos
 - [Grab-Site](https://github.com/edgi-govdata-archiving/grab-site), a crawler with cli that also outputs WARCs
