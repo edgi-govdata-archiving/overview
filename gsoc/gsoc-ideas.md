@@ -14,7 +14,7 @@ For project-related topics, reach out on Slack — either in `#gsoc` or in the a
 
 For GSoC application inquiries, use the `#gsoc` channel.
 
-Please note that our project has a weekly rhythm. The first half of the working week (Monday-Wednesday) is usually the best time for our core volunteers to think about new feature development and onboard new participants. Thursdays and Fridays we are often busy preparing for [weekem events](https://envirodatagov.org/events/), and on weekends we are either supporting events or recovering from them. Please be patient and/or self-directed during our busy periods!
+Please note that our project has a weekly rhythm. The first half of the working week (Monday-Wednesday) is usually the best time for our core volunteers to think about new feature development and onboard new participants. Thursdays and Fridays we are often busy preparing for [weekly events](https://envirodatagov.org/events/), and on weekends we are either supporting events or recovering from them. Please be patient and/or self-directed during our busy periods!
 
 ## Contribute Improvements
 
