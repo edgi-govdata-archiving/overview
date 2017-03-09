@@ -30,16 +30,16 @@
 **Describe how your project meets this need:**  
 [How does your project address that goal? How will you know you have met it?]
 
-**Milestones/Timeline:**
+**Milestones/Timeline:**  
 [Sketch out preliminary milestones and a timeline for the summer]
 
-**Deliverables:**
+**Deliverables:**  
 [Identify what EDGI will have at the end of your project]
 
-**Resources:** 
+**Resources:**  
 [List any people, documentation, literature, sample data, or hardware you will need, if applicable]
 
-**Setup**:  
+**Setup:**  
 [What have you done, or will you do, to get set up for this project]
 
 **Ongoing involvement:**  
