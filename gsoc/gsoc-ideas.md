@@ -2,7 +2,7 @@
 
 This is the ideas page for EDGI's Google Summer of Code (GSoC) program!
 
-All newcomers to the project should review our [project introduction](https://github.com/edgi-govdata-archiving/overview/) to learn more about where and how we work. Our repositories can be found on our [Github organization page](https://github.com/edgi-govdata-archiving/).
+All newcomers to the project should review our [GitHub project introduction](https://github.com/edgi-govdata-archiving/overview/) to learn more about where and how we work. Our repositories can be found on our [GitHub organization page](https://github.com/edgi-govdata-archiving/).
 
 **Important Note**--to learn how to contribute to EDGI software, see our [Contributing Guidelines](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md).
 
@@ -14,7 +14,9 @@ For project-related topics, reach out on Slack — either in `#gsoc` or in the a
 
 For GSoC application inquiries, use the `#gsoc` channel.
 
-## Contribute Improvements
+Please note that our project has a weekly rhythm.The first half of the working week (Monday-Wednesday) is usually the best time for our core volunteers to think about new feature development and onboaridng of new participants. On Thursdays and Fridays we are often busy preparing for [weekly events](https://envirodatagov.org/events/), and on weekends we aare either supporting events or recovering from them. So please be patient and/or self-directed during our busy periods!
+
+### Contribute Improvements
 
 We have [preferred guidelines](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md) for submitting changes. Please read them over!
 
@@ -22,22 +24,36 @@ We also love it when students show that they are excited to work with us by look
 
 ## Submit a Proposal!
 
-If you are interested in being a [GSoC student](https://summerofcode.withgoogle.com/get-started/) with us, first read through our organization profile, join the `#gsoc` channel in our slack, and tell us what you're interested in working on and a bit about your experience.
+If you are interested in being a [GSoC student](https://summerofcode.withgoogle.com/get-started/) with us, first read through our [GSoC organization profile](https://summerofcode.withgoogle.com/organizations/6574993514168320/), join the `#gsoc` channel in our slack, and tell us what you're interested in working on and a bit about your experience.
 
 It's also great to hear if you've forked one of our codebases and set up a development environment. Done with that? How about running tests? Tell us how far you've gotten!
 
-Once your idea is more developed, please submit a PR to [`overview/gsoc`](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc) with the name `proposal-familyname-firstinitial.md` describing your proposal in detail based off of the [template](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc/gsoc-template.md) for proposals. Any questions on the process can go in `#gsoc`!
+The Student Application period opens **March 20, 2017** and runs until **April 3, 2017 12:00 (EDT)**. We have an [application template](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc/gsoc-template.md) which asks for details about you and your experience as well as a description of your proposed project.
+
+A good project description :
+- has a clear summary of the goals your project is seeking to accomplish
+- indicates what _need_ your project fills
+- describes _how_ your project will do so
+- identifies milestones and a timeline to get there
+
+Initial ideas can be discussed in `#gsoc`. Once your idea is more developed, please make a fork of our [overview GitHub repo]() and [submit a pull request or PR]() to add your proposal to [`overview/gsoc`](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc). Please used the naming format `proposal-<proposal-name>.md` and use our [application template](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc/gsoc-template.md) for proposals. 
+
+We will provide feedback and comments on the proposal Pull Request, you can make changes up until the **April 3, 2017 12:00 (EDT)** deadline. We suggest you submit your ideas early! Any questions on the process will be answered in `#gsoc`.
 
 # Potential Ideas
 
 ## Apply Machine Learning to Monitoring Website Changes
-- **Part of:** [**web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring)   
-- **Description:** Help us improve our government agency website monitoring through the use of machine learning in order to develop an interface where analysts can computer-assisted identification of important changes.   
-- **Contact:** `#dev-webmonitoring` on [archivers.slack.com](https://archivers.slack.com/)   
+- **Part of:** [**web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring) 
+- **Description:** Help us improve our government agency website monitoring through the use of machine learning in order to develop an interface where analysts can computer-assisted identification of important changes. 
+- **Contact:** `#dev-webmonitoring` on [archivers.slack.com](https://archivers.slack.com/) 
 - **Keywords:** new features, machine learning, data analysis, visualization
-- **Ideal Experience and Interest:** Python, Ruby on Rails, [Node.js](https://nodejs.org/en/), Machine Learning (tools like [scikit-learn](http://scikit-learn.org/stable/index.html) or MATLAB's machine learning).   
+- **Ideal Experience and Interest:** Python, Ruby on Rails, [Node.js](https://nodejs.org/en/), Machine Learning (tools like [scikit-learn](http://scikit-learn.org/stable/index.html) or MATLAB's machine learning). 
 
-The web-monitoring has had 4 months of development and interacts with the API from our partner organization to pull down and compare changes in versions of webpages on the domains we monitor. We are looking to move into supporting the analyst's task of comparing and determining important changes through the application of machine learning models.
+The web-monitoring has had 4 months of development and interacts with the API from our partner organization to pull down and compare changes in versions of webpages on the domains we monitor. We are looking to move into supporting the analyst's task of comparing and determining important changes through the application of machine learning models. This is a very new project which will evolve rapidly in March and April. Right now, the best way to begin engaging is by: 
+  - familiarizing yourself with the code base of the [Web Monitoring Project](https://envirodatagov.org/events/), especially the [web-monitoring-processing component](https://github.com/edgi-govdata-archiving/web-monitoring-processing). 
+  - examining and contributing to some of issues related to ML:
+      - [Main ML Issue](https://github.com/edgi-govdata-archiving/web-monitoring-processing/issues/21)
+      - [Create Sample Dataset for Machine Learning](https://github.com/edgi-govdata-archiving/web-monitoring/issues/6)
 
 ## Refine Event-based Preservation Application
 
