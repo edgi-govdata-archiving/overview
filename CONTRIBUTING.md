@@ -4,7 +4,7 @@ We love improvements to our tools! There are a few key ways you can help us impr
 
 ### Submitting Feedback, Requests, and Bugs
 
-Our process for submitting feedback, feature requests, and reporting bugs usually begins by discussion on [our chat](https://github.com/edgi-govdata-archiving/overview#development) and once clarified through [GitHub issues](https://help.github.com/articles/about-issues/). Each project repository generally maintains its own set of issues:
+Our process for submitting feedback, feature requests, and reporting bugs usually begins by discussion on [our chat](https://github.com/edgi-govdata-archiving/overview#development) and, after initial clarification, through [GitHub issues](https://help.github.com/articles/about-issues/). Each project repository generally maintains its own set of issues:
 
         https://github.com/edgi-govdata-archiving/<repository-name>/issues
 
@@ -14,7 +14,7 @@ Issues that span multiple projects or are about coordinating how we work overall
 
 ### Submitting Code and Documentation Changes
 
-We have [project guidelines](./PROJECT.md) for all of the projects hosted in our [GitHub Organization](https://github.com/edgi-govdata-archiving) which new repositories should follow during their creation.
+We have [project guidelines](./PROJECT.md) for all of the projects hosted in our [GitHub Organization](https://github.com/edgi-govdata-archiving), which new repositories should follow during their creation.
 
 Our process for accepting changes operates by [Pull Request (PR)](https://help.github.com/articles/about-pull-requests/) and has a few steps:
 
