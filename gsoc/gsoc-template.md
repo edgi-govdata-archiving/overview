@@ -48,7 +48,6 @@
 ### Student Experience
 
 **Previous Experience:**
-[Briefly state your coding and development experience]
 
 **Open Source Project(s) you are working on or would like to:**
 
