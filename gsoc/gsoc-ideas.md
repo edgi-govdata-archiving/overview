@@ -34,7 +34,7 @@ A good project description :
 - describes _how_ your project will do so
 - identifies milestones and a timeline to get there
 
-Initial ideas can be discussed in `#gsoc`. Once your idea is more developed, please make a fork of our [overview GitHub repo]() and [submit a pull request or PR]() to add your proposal to [`overview/gsoc`](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc). Please used the naming format `proposal-<proposal-name>.md` and use our [application template](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc/gsoc-template.md) for proposals.
+Initial ideas can be discussed in `#gsoc`. Once your idea is more developed, please [fork](https://help.github.com/articles/fork-a-repo/) our overview GitHub repo and [submit a pull request or PR](https://help.github.com/articles/creating-a-pull-request/) to add your proposal to [`overview/gsoc`](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc). Please used the naming format `proposal-<proposal-name>.md` and use our [application template](https://github.com/edgi-govdata-archiving/overview/blob/master/gsoc/gsoc-template.md) for proposals.
 
 We will provide feedback and comments on the proposal Pull Request, you can make changes up until the **April 3, 2017 12:00 (EDT)** deadline. We suggest you submit your ideas early! Any questions on the process will be answered in `#gsoc`.
 
