@@ -1,40 +1,58 @@
-## Template
+## Google Summer of Code - Application Template
 
-**Name:**
+### Student
 
-**Affiliation (school/degree)**
+**Name:** [Given Name and Family Name, indicate preferred name]
 
-**Location:**
+**Affiliation:** [School, Program and Degree]
 
-**Email:**
+**Location:** [City, Country and Timezone]
 
-**Phone:**
+**GitHub handle:** [@usename]
 
-**Project(s) you're working on or want to**
+**Slack handle:** [@usename]
 
-**Project title** -- the title of YOUR proposed project:
+**Email:** [We require an email, however you can provide this via direct message on Slack, please indicate if doing so]
 
-## Project description
+**Other Contact:**  
+[Website, Twitter, etc.. whatever you want to share!]
 
-* Abstract/summary (<20 words):
-* Describe the need your project fulfills:
-* How will your project meet this need:
-* Timeline/milestones:
-* What broader goal is your project working towards?
-* What resources will you need: people, documentation, literature, sample data, hardware if applicable:
+### Project Details
 
-### Setup
+**Project Title:**  
+[Title of YOUR proposed project]
 
-### Experience
+**Project Abstract/Summary (<20 words):**  
 
-### Teamwork
+**Describe the need your project fills:**  
+[What broader goal is your project working towards?]
 
-### Expertise
+**Describe how your project meets this need:**  
+[How does your project address that goal? How will you know you have met it?]
 
-### Interest
+**Milestones/Timeline:**  
+[Sketch out preliminary milestones and a timeline for the summer]
 
-### Context
+**Deliverables:**  
+[Identify what EDGI will have at the end of your project]
 
-### Ongoing involvement
+**Resources:**  
+[List any people, documentation, literature, sample data, or hardware you will need, if applicable]
 
-### Commitment
+**Setup:**  
+[What have you done, or will you do, to get set up for this project]
+
+**Ongoing involvement:**  
+[How do you see your involvment in the project continuing]
+
+### Student Experience
+
+**Previous Experience:**
+
+**Open Source Project(s) you are working on or would like to:**
+
+**Teamwork:**
+
+**Interests:**
+
+**Commitment:**
