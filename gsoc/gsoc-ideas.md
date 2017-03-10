@@ -14,6 +14,8 @@ For project-related topics, reach out on Slack — either in `#gsoc` or in the a
 
 For GSoC application inquiries, use the `#gsoc` channel.
 
+Please note that our project has a weekly rhythm. The first half of the working week (Monday-Wednesday) is usually the best time for our core volunteers to think about new feature development and onboard new participants. Thursdays and Fridays we are often busy preparing for [weekly events](https://envirodatagov.org/events/), and on weekends we are either supporting events or recovering from them. Please be patient and/or self-directed during our busy periods!
+
 ## Contribute Improvements
 
 We have [preferred guidelines](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md) for submitting changes. Please read them over!
@@ -42,13 +44,17 @@ We will provide feedback and comments on the proposal Pull Request, you can make
 
 ## Apply Machine Learning to Monitoring Website Changes
 
-- **Part of:** [**web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring)   
-- **Description:** Help us improve our government agency website monitoring through the use of machine learning in order to develop an interface where analysts can computer-assisted identification of important changes.   
-- **Contact:** `#dev-webmonitoring` on [archivers.slack.com](https://archivers.slack.com/)   
+- **Part of:** [**web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring) 
+- **Description:** Help us improve our government agency website monitoring through the use of machine learning in order to reduce the amount of unnecessary review our analysts perform during computer-assisted identification of important changes. 
+- **Contact:** `#dev-webmonitoring` on [archivers.slack.com](https://archivers.slack.com/) 
 - **Keywords:** new features, machine learning, data analysis, visualization
-- **Ideal Experience and Interest:** Python, Ruby on Rails, [Node.js](https://nodejs.org/en/), Machine Learning (tools like [scikit-learn](http://scikit-learn.org/stable/index.html) or MATLAB's machine learning).   
+- **Ideal Experience and Interest:** Python, Ruby on Rails, [Node.js](https://nodejs.org/en/), Machine Learning (in particular [scikit-learn](http://scikit-learn.org/stable/index.html)). 
 
-The web-monitoring has had 4 months of development and interacts with the API from our partner organization to pull down and compare changes in versions of webpages on the domains we monitor. We are looking to move into supporting the analyst's task of comparing and determining important changes through the application of machine learning models.
+The web-monitoring project has had 4 months of development and interacts with the API from our partner organization to pull down and compare changes in versions of webpages on the domains we monitor. We are looking to move into supporting the analyst's task of comparing and determining important changes through the application of machine learning (ML) models. This is a very new project which will evolve rapidly in March and April. Right now, the best way to begin is by: 
+  - reviewing the documentation from the [Web Monitoring project](https://github.com/edgi-govdata-archiving/web-monitoring), as well as the [web-monitoring-processing codebase](https://github.com/edgi-govdata-archiving/web-monitoring-processing). 
+  - examining and contributing to some of the issues related to ML:
+      - [Machine Learning Requirements Issue](https://github.com/edgi-govdata-archiving/web-monitoring-processing/issues/21)
+      - [Create Sample Dataset for Machine Learning](https://github.com/edgi-govdata-archiving/web-monitoring/issues/6)
 
 ## Refine Event-based Preservation Application
 
