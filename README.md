@@ -34,7 +34,7 @@ The EDGI technical team is currently supporting development of the following pro
 
 | Tool Name | Description | Status |
 |-----------|-------------|--------|
-| **Archivers.space App** | [Heroku app](https://www.archivers.space/) for research and harvesting, [public issue queue](https://github.com/edgi-govdata-archiving/archivers.space) and private repo for now, request access from @b5 | **Working** |
+| [**Archivers.space App**](https://github.com/edgi-govdata-archiving/archivers.space) | [Heroku app](https://www.archivers.space/) for research and harvesting | **Working** |
 | [**Harvesting Tools**](https://github.com/edgi-govdata-archiving/harvesting-tools) | A collection of code snippets designed to be dropped into the data harvesting process directly after generating the zip starter kit | **Working** |
 | [**Nomination Tool**](https://github.com/edgi-govdata-archiving/eot-nomination-tool) | Chrome extension to simplify the nomination process at archiv-a-thons | **Working** |
 | [**DataRefuge's Event Workflow**](https://github.com/datarefuge/workflow) | Detailed descriptions of the phases of event workflow | **Working** |
