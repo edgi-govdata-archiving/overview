@@ -26,43 +26,43 @@
 
 Efficient Data Storage using Geo-temporal Clustering
 
-**Project Abstract/Summary (<20 words):**  
+**Project Abstract/Summary:**  
 
 Clustering the web pages (data) based on Geographical location and time in order to facilitate Machine Learning analysis.
 
 **Describe the need your project fills:**  
 
-Broader Goal :- Better data management and a step towards creating Environment Data Warehouse
+**Broader Goal** :- Better data management and a step towards creating Environment Data Warehouse
 
 The project will full the following needs - 
 
-Speed, Accuracy, Objectivity(Contextualize), Performance, Scalability
+**Speed, Accuracy, Objectivity(Contextualize), Performance, Scalability**
 
 **Describe how your project meets this need:**  
-1. Speed - Due to clustering of data, query execution time reduces dramatically, helping increase processing speed.
-2. Accuracy - By partitioning the data into seperate containers, possiblity of accessing anomalous, incorrect data will be greatly reduced.
-3. Objectivity - Performing division based on Time and location brings objectivity into the picture. By objectivity I mean, the change belongs to which region and during which time span. By quantifying these 2 major components, analysis is enriched and more contextualized.
-4. Performance - Due to re-organization and revamp, overall performance of the system would be improved.
-5. Scalability - Being a ML based Clustering approach, given any volume/quantum of data, clustering would not be impacted.
+1. **Speed** - Due to clustering of data, query execution time reduces dramatically, helping increase processing speed.
+2. **Accuracy** - By partitioning the data into seperate containers, possiblity of accessing anomalous, incorrect data will be greatly reduced.
+3. **Objectivity** - Performing division based on Time and location brings objectivity into the picture. By objectivity I mean, the change belongs to which region and during which time span. By quantifying these 2 major components, analysis is enriched and more contextualized.
+4. **Performance** - Due to re-organization and revamp, overall performance of the system would be improved.
+5. **Scalability** - Being a ML based Clustering approach, given any volume/quantum of data, clustering would not be impacted.
 
 
 **Milestones/Timeline:**  
 
-Milestone 1 - Retrieving time, location data from pages
+**Milestone 1** - Retrieving time, location data from pages
 
-Milestone 2 - Clustering based on location
+**Milestone 2** - Clustering based on location
 
-Milestone 3 - Clustering based on time
+**Milestone 3** - Clustering based on time
 
-Milestone 4 - Building combined model for clustering based on both the parameters
+**Milestone 4** - Building combined model for clustering based on both the parameters
 
 **Deliverables:**  
 + Prototype for storing data in such a way that processing it would be quicker + efficient.
 + Framework which accepts new data and stores it according to its date, location + updates existing data.
 
 **Resources:**  
-+ Data - Data from heterogeneous sources from PageFreeze, 
-+ Hardware - If possible, cloud support (Google Cloud Engine instances for running algorithm on cluster)
++ **Data** - Data from heterogeneous sources from PageFreeze, 
++ **Hardware** - If possible, cloud support (Google Cloud Engine instances for running algorithm on cluster)
 
 **Setup:**  
 _Done_
@@ -82,6 +82,7 @@ As a Python programmer and ML/DS enthusiast, I would continue going through the 
 **Previous Experience:**
 
 **_Data Science Intern at Nexchanges Technology Private Limited_**
+
 Worked on 
 + Distributed Data Processing using Apache Spark
 + Data Extraction using Python libraries Scrapy, Beautiful Soup
@@ -105,4 +106,5 @@ Worked on
 - Besides computer and technology, I love playing and watching sports - especially football, cricket and swimming. I play violin and enjoy singing.
 
 **Commitment:**
+
 I would commit to 4 hours of work every day on Weekdays and 8 hours on week-ends towards the project.
