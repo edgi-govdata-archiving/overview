@@ -8,7 +8,7 @@
 
 **Location:** Mumbai, India and India Time Zone UTC+05:30
 
-**GitHub handle:** [https://github.com/ChaiBapchya](@ChaiBapchya)
+**GitHub handle:** [@ChaiBapchya](https://github.com/ChaiBapchya)
 
 **Slack handle:** @chaitanyabapat
 
@@ -16,9 +16,9 @@
 
 **Other Contact:**  
 
-**Twitter** : [https://twitter.com/ChaiBapchya](@ChaiBapchya)
+**Twitter** : [@ChaiBapchya](https://twitter.com/ChaiBapchya)
 
-**LinkedIn** : [https://www.linkedin.com/in/chaitanyaprakashbapat](/in/chaitanyaprakashbapat)
+**LinkedIn** : [/in/chaitanyaprakashbapat](https://www.linkedin.com/in/chaitanyaprakashbapat)
 
 ### Project Details
 
