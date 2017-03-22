@@ -32,11 +32,11 @@ Clustering the web pages (data) based on Geographical location and time in order
 
 **Describe the need your project fills:**  
 
-**Broader Goal** :- Better data management and a step towards creating Environment Data Warehouse
+_Broader Goal_ :- Better data management and a step towards creating Environment Data Warehouse
 
-The project will full the following needs - 
+The project will fulfill the following needs - 
 
-**Speed, Accuracy, Objectivity(Contextualize), Performance, Scalability**
+_Speed, Accuracy, Objectivity(Contextualize), Performance, Scalability_
 
 **Describe how your project meets this need:**  
 1. **Speed** - Due to clustering of data, query execution time reduces dramatically, helping increase processing speed.
