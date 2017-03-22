@@ -8,7 +8,7 @@
 
 **Location:** Mumbai, India and India Time Zone UTC+05:30
 
-**GitHub handle:** @ChaiBapchya
+**GitHub handle:** @ChaiBapchya[https://github.com/ChaiBapchya]
 
 **Slack handle:** @chaitanyabapat
 
@@ -16,9 +16,9 @@
 
 **Other Contact:**  
 
-**Twitter** : @ChaiBapchya
+**Twitter** : @ChaiBapchya[https://twitter.com/ChaiBapchya]
 
-**LinkedIn** : https://www.linkedin.com/in/chaitanyaprakashbapat
+**LinkedIn** : /in/chaitanyaprakashbapat[https://www.linkedin.com/in/chaitanyaprakashbapat]
 
 ### Project Details
 
@@ -48,13 +48,10 @@ _Speed, Accuracy, Objectivity(Contextualize), Performance, Scalability_
 
 **Milestones/Timeline:**  
 
-**Milestone 1** - Retrieving time, location data from pages
-
-**Milestone 2** - Clustering based on location
-
-**Milestone 3** - Clustering based on time
-
-**Milestone 4** - Building combined model for clustering based on both the parameters
+1. Retrieving time, location data from pages
+2. Clustering based on location
+3. Clustering based on time
+4. Building combined model for clustering based on both the parameters
 
 **Deliverables:**  
 + Prototype for storing data in such a way that processing it would be quicker + efficient.
