@@ -24,7 +24,7 @@
 
 **Project Title:**  
 
-Efficient Data Storage using Geo-temporal Clustering
+Efficient Data Storage using Geo-temporal Clustering and Diff-based Storage
 
 **Project Abstract/Summary:**  
 
@@ -52,10 +52,12 @@ _Speed, Accuracy, Objectivity(Contextualize), Performance, Scalability_
 2. Clustering based on location
 3. Clustering based on time
 4. Building combined model for clustering based on both the parameters
+5. Storing the diffs in Git-based Version control for Data inspired from Pachyderm.io
 
 **Deliverables:**  
 + Prototype for storing data in such a way that processing it would be quicker + efficient.
 + Framework which accepts new data and stores it according to its date, location + updates existing data.
++ Implementation of diffs in Pachyderm.io inspired Git-based Version control for Data
 
 **Resources:**  
 + **Data** - Data from heterogeneous sources from PageFreeze, 
@@ -66,9 +68,12 @@ _Done_
 
 + Have handy knowledge of Clustering techniques in Python.
 + Have implemented Spark (PySPark)
++ Worked on Pachyderm.io which provides efficient way of storing Differential layer of data
 
 _To be Done_
 + Implementing Multi-node ML clustering on Spark
++ Applying knowleddge of geo-temporal clustering to Environment Data
++ Executing differential layer storage in Git-based fashion
 
 **Ongoing involvement:**  
 
