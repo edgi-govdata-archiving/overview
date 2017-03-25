@@ -32,6 +32,10 @@ See [Google's timeline](https://developers.google.com/open-source/gsoc/timeline)
 | Aug 29 | Final evaluations deadline |
 | Sep 06 | Outcomes of GSoC 2017 announced! |
 
+Additional resources: 
+
+- [NRNB GSoC resources](http://www.nrnb.org/gsoc.html)
+
 ### Process
 
 1. Students join us on our chat, get a sense of project possibilities, technology, and project leads
