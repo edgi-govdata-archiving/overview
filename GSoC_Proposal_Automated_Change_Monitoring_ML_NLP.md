@@ -71,28 +71,28 @@ It would be a self-learning, ever-evolving process of curation.
 2. Defining, Reading about meaningful change 
 3. Identify characteristics of changes
 4. Reviewing the existing system Architecture - 
+- Groundwork 
+  -  [edgi-govdata-archiving/web-monitoring#22](https://github.com/edgi-govdata-archiving/web-monitoring/issues/22)
+  -  [edgi-govdata-archiving/overview#102](https://github.com/edgi-govdata-archiving/overview/pull/102)
+  -  [Proposed Services](https://github.com/edgi-govdata-archiving/proposed-services)
 
-edgi-govdata-archiving/web-monitoring#22
-edgi-govdata-archiving/overview#102
-https://github.com/edgi-govdata-archiving/proposed-services
 
 ## Phase 1 - Pre-processing
 
 1. Study PageFreezer API (Webmonitoring processing)
 2. Create corpus of environment data - 
-  + Groundwork - 
-    edgi-govdata-archiving/web-monitoring#28
+  + Groundwork - [edgi-govdata-archiving/web-monitoring#28]()
 3. Extracting the content of diff (i.e. Remove html part NLTK - clean_html())
 4. Further cleaning of data if need be
 5. Research similar projects 
-  + Groundwork - edgi-govdata-archiving/web-monitoring#18
+  + Groundwork - [edgi-govdata-archiving/web-monitoring#18]()
 6. Studying Content Moderation
-  + Groundwork - edgi-govdata-archiving/overview#106
+  + Groundwork - [edgi-govdata-archiving/overview#106]()
 
 ## Phase 2 - Classification
 
 1. Understanding the ML requirements
-  + Groundwork - edgi-govdata-archiving/web-monitoring-processing#21
+  + Groundwork - [edgi-govdata-archiving/web-monitoring-processing#21]()
 2. Identifying the categories of change
 3. Classification of a change - irrelevant, relevant, important, etc.
 4. Create Primary dataset of changes for ML training
@@ -118,7 +118,7 @@ https://github.com/edgi-govdata-archiving/proposed-services
 1. Identifying the needs of prioritization
 2. Finding the various parameters on the basis of which to carry out prioritization 
 3. Designing the algorithm 
-  + Groundwork - edgi-govdata-archiving/web-monitoring-processing#28
+  + Groundwork - [edgi-govdata-archiving/web-monitoring-processing#28]()
 
 ## Timeline - 
 Monthly
