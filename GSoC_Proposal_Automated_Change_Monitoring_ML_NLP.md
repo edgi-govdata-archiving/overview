@@ -36,87 +36,100 @@ _Broader Goal_ :- Categorizing and Prioritizing Changes / Diffs
 
 The project will fulfill the following needs - 
 
-_Curated Dataset, Classifier and Priority algorithm_
+1. _Curated Dataset_
+2. _Classifier_
+3. _Priority algorithm_
 
 **Describe how your project meets this need:**  
 
 Major setbacks
 1. Trump Budget announced - Savings of 31% EPA (reduction in fund allocation)
-2. Not a single corporsa / dataset on environment can be found online
+2. Not a single corpus / dataset on environment can be found online
 3. Absence of an algorithm to track and prioritize changes
 
-Dataset - 
+Following needs will be met in my project :-
+1. Dataset - 
+
 After intense deliberation with analysts, subject matter experts (domain experts), we would stitch together a corpus of highly influential and important keywords in the domain of environment.
 
-Classifier - 
+2. Classifier - 
+
 Using ML techniques (classification algorithms), the diff (from PageFreezer,Versionista) will be categorized as to important, relevant or irrelevant ones by making use of the curated dataset.
 
 Output of Classifier will be cross-checked with the outcomes from NLP techniques (LDA and Summarizer)
 
-Priority Algorithm - 
+3. Priority Algorithm - 
+
 As currently, there is no standard way of prioritizing which change is to be given precendence over the others, which change is critical and more important than others - an algorithm would be needed for the same. Such an algorithm would be on the basis of "Confidence / Trust factor" and "Rating". Taking these 2 parameters into consideration, every change will be evaluated according to the algorithm and then prioritized.
 It would be a self-learning, ever-evolving process of curation.
 
 **Milestones/Timeline:**  
 
-Phase 0 - Groundzero
+## Phase 0 - Groundzero
 
-Understanding the problem at hand - Gathering domain specific knowledge (Environment)
-Defining, Reading about meaningful change 
-Identify characteristics of changes
-Reviewing the existing system Architecture - https://github.com/edgi-govdata-archiving/web-monitoring/issues/22,https://github.com/edgi-govdata-archiving/overview/pull/102,https://github.com/edgi-govdata-archiving/proposed-services
+1. Understanding the problem at hand - Gathering domain specific knowledge (Environment)
+2. Defining, Reading about meaningful change 
+3. Identify characteristics of changes
+4. Reviewing the existing system Architecture - 
 
-Phase 1 - Pre-processing
+edgi-govdata-archiving/web-monitoring#22
+edgi-govdata-archiving/overview#102
+https://github.com/edgi-govdata-archiving/proposed-services
 
-Study PageFreezer API (Webmonitoring processing)
+## Phase 1 - Pre-processing
 
-Create corpus of environment data - https://github.com/edgi-govdata-archiving/web-monitoring/pull/28
-Extracting the content of diff (i.e. Remove html part NLTK - clean_html())
-Further cleaning of data if need be
-Research similar projects (https://github.com/edgi-govdata-archiving/web-monitoring/issues/18)
-Studying [Content Moderation ](https://github.com/edgi-govdata-archiving/overview/issues/106)
+1. Study PageFreezer API (Webmonitoring processing)
+2. Create corpus of environment data - 
+  + Groundwork - 
+    edgi-govdata-archiving/web-monitoring#28
+3. Extracting the content of diff (i.e. Remove html part NLTK - clean_html())
+4. Further cleaning of data if need be
+5. Research similar projects 
+  + Groundwork - edgi-govdata-archiving/web-monitoring#18
+6. Studying Content Moderation
+  + Groundwork - edgi-govdata-archiving/overview#106
 
-Phase 2 - Classification
+## Phase 2 - Classification
 
-Understanding the ML requirements (https://github.com/edgi-govdata-archiving/web-monitoring-processing/issues/21)
-Identifying the categories of change
-Classification of a change - irrelevant, relevant, important, etc.
-Create Primary dataset of changes for ML training
-Understanding and Implementing Latent Dirichlet Allocation LDA for identifying Relevant keywords from text
-Performing sentiment analysis +ve / -ve on Diffs
-Using summarizer to identify key sentences
-Cross-checking outputs of Summarizer, LDA with Classifier
-Fine-tuning the classifier
-Designing Classification algorithm to identify the Change type
-Studying the existing solutions - 
-Amazon 
-[AI Amazon Lex ](https://aws.amazon.com/amazon-ai/)
-[Amazon ML](https://aws.amazon.com/machine-learning/)
-[Amazon Cloudformation](https://aws.amazon.com/blogs/compute/distributed-deep-learning-made-easy/) / [AMI for DL](https://aws.amazon.com/marketplace/search/results?x=12&y=20&searchTerms=Deep+Learning+AMI&page=1&ref_=nav_search_box)
-[NLP - Retina API cortical.io - English Language Processing](http://www.cortical.io/)
-[Sentiment Analysis API Twinword Inc](https://aws.amazon.com/marketplace/pp/B019QWO1FW?qid=1490644739619&sr=0-9&ref_=srh_res_product_title)
+1. Understanding the ML requirements
+  + Groundwork - edgi-govdata-archiving/web-monitoring-processing#21
+2. Identifying the categories of change
+3. Classification of a change - irrelevant, relevant, important, etc.
+4. Create Primary dataset of changes for ML training
+5. Understanding and Implementing Latent Dirichlet Allocation LDA for identifying Relevant keywords from text
+6. Performing sentiment analysis +ve / -ve on Diffs
+7. Using summarizer to identify key sentences
+8. Cross-checking outputs of Summarizer, LDA with Classifier
+9. Fine-tuning the classifier
+10. Designing Classification algorithm to identify the Change type
+11. Studying the existing solutions - 
+  + Amazon 
+    - [AI Amazon Lex ](https://aws.amazon.com/amazon-ai/)
+    - [Amazon ML](https://aws.amazon.com/machine-learning/)
+    - [Amazon Cloudformation](https://aws.amazon.com/blogs/compute/distributed-deep-learning-made-easy/) / [AMI for DL](https://aws.amazon.com/marketplace/search/results?x=12&y=20&searchTerms=Deep+Learning+AMI&page=1&ref_=nav_search_box)
+    - [NLP - Retina API cortical.io - English Language Processing](http://www.cortical.io/)
+    - [Sentiment Analysis API Twinword Inc](https://aws.amazon.com/marketplace/pp/B019QWO1FW?qid=1490644739619&sr=0-9&ref_=srh_res_product_title)
 
-Google
-[Cloud NL API](https://cloud.google.com/natural-language/)
-[Cloud ML Engine](https://cloud.google.com/ml-engine/)
+  + Google
+    - [Cloud NL API](https://cloud.google.com/natural-language/)
+    - [Cloud ML Engine](https://cloud.google.com/ml-engine/)
 
-Phase 3 - Prioritization
-Identifying the needs of prioritization
-Finding the various parameters on the basis of which to carry out prioritization 
-Designing the algorithm 
-
-Groundwork - https://github.com/edgi-govdata-archiving/web-monitoring-processing/issues/28
+## Phase 3 - Prioritization
+1. Identifying the needs of prioritization
+2. Finding the various parameters on the basis of which to carry out prioritization 
+3. Designing the algorithm 
+  + Groundwork - edgi-govdata-archiving/web-monitoring-processing#28
 
 ## Timeline - 
 Monthly
 Month  | Phase | Status
 --- | --- | --- 
-March | Phase 0 Groundzero | start
+March | <ul><li>Phase 0 Groundzero</li></ul> | <ul><li>start</li></ul>
 April | <ul><li>Phase 0 Groundzero </li><li>Phase 1 Pre-processing</li></ul> | <ul><li>ongoing</li><li>start</li></ul>
 May | <ul><li>Phase 0 Groundzero </li><li>Phase 1 Pre-processing</li></ul> | <ul><li>finish </li><li>ongoing </li></ul>
 June | <ul><li>Phase 1 Pre-processing </li><li>Phase 2 Classification </li></ul> | <ul><li>finish</li><li>start</li></ul>
 July | <ul><li>Phase 2 Classification </li><li>Phase 3 Prioritization </li></ul> | <ul><li>finish</li><li></li>start</ul>
-August | Phase 3 Prioritization | complete
+August | <ul><li>Phase 3 Prioritization</li></ul> | <ul><li>complete</li></ul>
 
 
 Daily - https://realtimeboard.com/app/board/o9J_k05a66g=/
@@ -131,7 +144,6 @@ Daily - https://realtimeboard.com/app/board/o9J_k05a66g=/
 + **Hardware** - If possible, cloud support (Google Cloud Engine instances for running algorithm on cluster)
 
 **Setup:**  
-_Done_
 
 + Handy knowledge of Machine Learning algorithms including Classifiers and Clustering.
 + PageFreezer setup ready
