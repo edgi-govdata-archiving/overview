@@ -1,6 +1,6 @@
 ### **Student**
 
-Name: Janak Raj Chadha, Janak
+Name: Janak Raj Chadha,  Janak
 
 Affiliation: Visvesvaraya National Institute of Technology, Nagpur, India
 
@@ -38,73 +38,80 @@ The ignorant and disparaging stand of the new U.S administration on environmenta
 
 The changes worth reviewing will tend to have some characteristic features which can be classified with the help of various classification algorithms. A considerable amount of time will be devoted to the preparation of the training dataset which is an essential task while working on Machine Learning problems.
 
-A variety of Machine Learning models will be trained on the thoroughly labeled dataset. They will also be tested to evaluate the performance by using some part of the data for validation.
+A variety of Machine Learning models will be trained on the thoroughly labelled dataset. They will also be tested to evaluate the performance by using some part of the data for validation.
 
-The project will follow the following order of tasks to fill the needs:
+The project will follow the following order of tasks to fill the aforementioned needs:
 
-1. Step zero will be converting data from different sources (PageFreezer, Versionista) into a common form and storing them in one place.
+1. Step zero will be to convert data from different sources (PageFreezer, Versionista) into a common form and storing them in one place. If it is already handled, step zero will be to understand the database schema and the data stored in it.
 2. The first step will be improving the method of computing differences. This will consist of two sub-tasks:
-  1. The changes can be categorized based on the type of object that has changed (text, image, hyperlinks etc.). The first sub-task will be to separate the changes into categories.
+  1. The changes can be categorized based on the type of object that has changed(text, image, hyperlinks etc.). The first sub-task will be to separate the changes into categories.
   2. The second sub-task will be to extract meaningful features from the data of each type. This will include extracting information like type and length of the changed matter in a given text. If required, complex techniques can be used to extract features (NLP, Image Processing).
 3. The second task will be writing scripts for different Machine Learning Classification Algorithms which will learn to prioritize the changes. Each script will consist of four basic parts:
   1. Data loading and pre-processing (if required) to convert data to input format of algorithm. Also, division of data into training and validation sets.
-  2. Machine Learning model creation using libraries like numpy, scikit-learn, [Tensorflow](https://www.tensorflow.org/) etc..
+  2. Machine Learning model creation using libraries like numpy, scikit-learn, [Tensorflow](https://www.tensorflow.org/) etc. .
   3. Evaluation of model performance (using evaluation metrics) and creation of visualizations from the results of the validation set.
   4. Storing the trained model by serializing the model with the help of modules like pickle, joblib.
 4. The final task will include the following:
-  1. Retrieving the trained models by de-serializing the stored files and using them to prioritize new changes.
-  2. Providing a list of prioritized changes to analysts for reviewing and adding annotations. An important step here will be to add correctly predicted cases to the training dataset. The model will be re-trained only after a sufficient correctly predicted data is added.
+  1. Retrieving the trained models by deserializing the stored files and using them to prioritize new changes.
+  2. Providing a list of prioritized changes to analysts for reviewing and adding annotations. An important step here will be to add correctly predicted cases to the training dataset. The model will be re-trained only after a sufficient amount of correctly predicted data is added.
 
 **Milestones/Timeline** :
 
-My summer vacation is from May 5 to July 23. I plan to complete the major tasks by the end of July. I will finish the remaining tasks in August and try to solve issues raised (if any) by other members. I consider the completion of each of the main tasks mentioned above as a milestone.
+My summer vacation is from May 5 to July 23. I plan to complete the major tasks by the end of July. I will finish the remaining tasks in August and try to solve issues raised(if any) by other members. I consider the completion of each of the main tasks mentioned above as a milestone.
 
-I plan to follow the following tentative timeline:
+I tentatively plan to follow the following timeline:
 
-- Community bonding period / Before May 30:
+- Community bonding period / Before May 30 :
   - Understand the differences in the data format of the different sources (PageFreezer, Versionista).
   - Understand and contribute to the development of the ETL pipeline, as steps 0 and 1 are closely related to ETL pipeline design steps.
-- May 30 - June 12:
-  - Depending on the development status of the ETL pipeline, complete the creation of an initial training dataset in no more than two weeks.
-- June 13 - June 23:
-  - Work on the scripts of different Machine Learning models. Create a common script for loading data. Build the basic structure for different models.
-- June 24 - June 30:
+- May 30 - June 20 :
+  - Depending on the development status of the ETL pipeline, work on the creation of an initial training dataset.
+  - Check in with analysts and get the dataset reviewed by them.
+  - Simultaneous start exploring different algorithms and models that can be used for this problem.
+- June 21 - June 26 :
+  - Start working on the scripts of different Machine Learning models.
+  - Create a common script for loading data.
+- June 27 - June 30 :
   - Summarize work, document it, add pull requests, and prepare for Phase 1 evaluations.
-- July 1 - July 14:
-  - Complete code for different models and train the models on the data.
-  - Based on the performance metrics, try to improve the performance and experiment with ensemble models.
+- July 1 - July 17 :
+  - Complete the basic structure for different models and an initial training of the dataset as well.
+  - Analyse the results and determine if training dataset can be modified to get better results by extracting more information from raw data. Also, experiment with ensemble models.
+  - Check in with analysts and get the results reviewed by them.
+
+- July 18 - July 24
   - Start with the creation of visualizations and other reports based on the results of the trained models.
-- July 15 - July 22:
-  - Complete the reports and visualizations.
-  - Work on the serialization methods to store trained models for future use.
-- July 23 - July 28:
+  - Work on serialization methods to store trained models for future use.
+- July 25 - July 28
   - Summarize work, document it, add pull requests, and prepare for Phase 2 evaluations.
-- July 29 - Aug 6:
+- July 29 - Aug 6 :
   - Retrieve the stored models using deserialization and test on new data.
   - If required, simulate some test cases&#39; data and check the performance of models.
-- Aug 7 - Aug 10:
-  - Send the list of important changes to analysts for review.
+  - Send a list of important changes to analysts for review.
+- Aug 7 - Aug 10 :
   - Create a mechanism to automatically add correctly prioritized changes to the training dataset once a minimum number of correct results is collected.
-- Aug 11 - Aug 21:
-  - My semester will start in the last week of July. I may have some time constraints in August. If the tasks planned for August take longer than expected, they will be completed in this period.
+
+My semester will begin in the last week of July. I may have some time constraints in August. Thus, my focus will be on the first two tasks during the first two months (June - July).
+
+- Aug 11 - Aug 21 :
+  - The first two tasks may require more time than currently planned. This time will act as a backup period to push back        stretch goals.
   - Any issues raised on work completed before this will be tackled and if time permits, solved within this period.
-- Aug 22 - Aug 29:
+- Aug 22 - Aug 29 :
   - Summarize work, add pull requests for any remaining work, finish the documentation and get ready for final evaluations.
 
-I will like to continue working with EDGI after GSoC and be a part of the #DataRescue movement.
+I would like to continue working with EDGI after GSoC and be a part of the #DataRescue movement.
 
 **Deliverables** :
 
 EDGI will have a robust solution to the problem faced by analysts. The solution will reduce the effort it takes to find an important change (a needle) in a vast amount of changes (haystack).
 
-There will be 2 main deliverables:
+There will be 2 main deliverables :
 
 1. A solution to filter out the insignificant changes and avoid spending time on reviewing them.
-2. A base structure to get important changes in one place and use this for future tasks or projects.
+2. A base structure(a table or a set of tables) to get important changes in one place and use this for future tasks or projects.
 
 **Resources** :
 
-I may need some help from a Machine Learning expert when working on ensemble models (if required). Depending on the size of the data and the complexity of the algorithm, I may require cloud compute engine instances to train and test models.
+I may need some help from a Machine Learning expert when working on ensemble models(if required). Depending on the size of the data and the complexity of the algorithm, I may require cloud compute engine instances to train and test models.
 
 **Setup** :
 
@@ -122,10 +129,10 @@ I support the clean energy movement and believe that we need to tackle environme
 
 Undergraduate Researcher, Visvesvaraya National Institute of Technology
 
-- Relation Extraction from Scientific Text using Recurrent Neural Networks:
+- Relation Extraction from Scientific Text using Recurrent Neural Networks :
   - Currently working with a team to make a relation extractor for scientific text using deep recurrent neural networks.
   - Working with Tensorflow and exploring its features.
-- Transient Instability Prediction using Decision Trees:
+- Transient Instability Prediction using Decision Trees :
   - Currently working on a decision tree classifier which will determine the stability of a system based on its electrical and mechanical properties.
   - Plan to use this model on the data from a certain region of the Indian National Grid.
 
@@ -145,11 +152,13 @@ I have recently started working on scikit-learn issues and will come up with sol
 
 After I have gained sufficient expertise in Machine and Deep Learning, I would like to contribute to Tensorflow.
 
-**Teamwork** :
+**Teamwork** : I have some experience working with teams in an industrial as well as an academic environment. I was a part of the data science team during my internship last summer. I have worked with some of my batchmates(under the guidance of our professors) as a team for projects and competitions.
+
+Apart from this, I have also led and managed a team of students while working for Uddeshya as a chapter head.
 
 **Interests:**
 
-I am fascinated by the advancements in Artificial Intelligence, Space Exploration, Electric Vehicles, and Renewable Energy Science. I admire Elon Musk&#39;s work and passion. I&#39;m an avid follower of Google DeepMind and would like to work with them in the future. I enjoy playing basketball, cooking desserts, and travelling to snowy mountains.
+I am fascinated by the advancements in Artificial Intelligence, Space Exploration, Electric Vehicles, and Renewable Energy Science. I admire Elon Musk&#39;s work and passion. I&#39;m an avid follower of Google DeepMind and would like to work with them in the future. I enjoy playing basketball, cooking desserts, and traveling to snowy mountains.
 
 **Commitment** :
 
