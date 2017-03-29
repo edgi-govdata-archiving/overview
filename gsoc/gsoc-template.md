@@ -2,30 +2,33 @@
 
 ### Student
 
-**Name:** [Given Name and Family Name, indicate preferred name]
+**Name:** Ido Shoshani
 
-**Affiliation:** [School, Program and Degree]
+**Affiliation:** Portland State University, Computer Science Masters
 
-**Location:** [City, Country and Timezone]
+**Location:** Portland, OR, US, but moving to Berkeley, CA, US in the summer
 
-**GitHub handle:** [@usename]
+**GitHub handle:** @ishoshani
 
-**Slack handle:** [@usename]
+**Slack handle:** @isho
 
-**Email:** [We require an email, however you can provide this via direct message on Slack, please indicate if doing so]
+**Email:** idoshoshani@gmail.com
 
 **Other Contact:**  
-[Website, Twitter, etc.. whatever you want to share!]
+
+**Website:** www.idothoughts.com
 
 ### Project Details
 
 **Project Title:**  
-[Title of YOUR proposed project]
+
+ML Category Class Testing Tool
 
 **Project Abstract/Summary (<20 words):**  
 
 **Describe the need your project fills:**  
-[What broader goal is your project working towards?]
+
+A big issue with working towards the prioritization Algorithm in the website monitor is that ML generally does not take text input. Some process must take the string diffs and assign some number to them so we can use them as part of a data point. One suggestion was to sort them into (class categories)[https://github.com/edgi-govdata-archiving/web-monitoring-processing/issues/28].
 
 **Describe how your project meets this need:**  
 [How does your project address that goal? How will you know you have met it?]
