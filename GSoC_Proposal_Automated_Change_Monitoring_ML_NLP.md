@@ -140,17 +140,22 @@ Daily - https://realtimeboard.com/app/board/o9J_k05a66g=/
 + Prioritizer that assigns priority to changes
 
 **Resources:**  
-+ **Data** - Data from heterogeneous sources from PageFreeze, 
++ **Data** - Data from heterogeneous sources from PageFreeze, etc 
 + **Hardware** - If possible, cloud support (Google Cloud Engine instances for running algorithm on cluster)
 
 **Setup:**  
 
-+ Handy knowledge of Machine Learning algorithms including Classifiers and Clustering.
+I have setup the following on my machine to meet the needs of the project - 
 + PageFreezer setup ready
 + Linting  setup ready
 + Python ML libraries - Scikit-learn, Numpy, Scipy, Pandas
 + Python NLP libraries with Anaconda - NLTK, Stanford CoreNLP, SpaCY, Gensim, TextBlob
 + Python Extraction libraries (for generating Corpus of Environment words) - Scrapy, BeautifulSoup
+
+Moreover, from knowledge / experience point of view - 
++ Handy knowledge of Machine Learning algorithms including Classifiers and Clustering.
++ Aware of open-source contributions, licensing
++ Worked on Agile methodology
 
 
 **Ongoing involvement:**  
@@ -184,4 +189,4 @@ Company Name(Tenure) | Designation | Work Description
 
 **Commitment:**
 
-I would commit to 4 hours of work every day on Weekdays and 8 hours on week-ends towards the project.
+I would commit to 4 hours of work every day on Weekdays(4*5) and 10 hours on week-ends towards the project. Moreover, being a goal-driven individual, I would obviously strive to complete the goals set for the project. Hence, I understand that at times I would have to push the no. of hours / day so as to meet the needs and timeline. 
