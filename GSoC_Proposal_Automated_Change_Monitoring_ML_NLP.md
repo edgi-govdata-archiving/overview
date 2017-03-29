@@ -128,7 +128,7 @@ March | <ul><li>Phase 0 Groundzero</li></ul> | <ul><li>start</li></ul>
 April | <ul><li>Phase 0 Groundzero </li><li>Phase 1 Pre-processing</li></ul> | <ul><li>ongoing</li><li>start</li></ul>
 May | <ul><li>Phase 0 Groundzero </li><li>Phase 1 Pre-processing</li></ul> | <ul><li>finish </li><li>ongoing </li></ul>
 June | <ul><li>Phase 1 Pre-processing </li><li>Phase 2 Classification </li></ul> | <ul><li>finish</li><li>start</li></ul>
-July | <ul><li>Phase 2 Classification </li><li>Phase 3 Prioritization </li></ul> | <ul><li>finish</li><li></li>start</ul>
+July | <ul><li>Phase 2 Classification </li><li>Phase 3 Prioritization </li></ul> | <ul><li>finish</li><li>start</li></ul>
 August | <ul><li>Phase 3 Prioritization</li></ul> | <ul><li>complete</li></ul>
 
 
