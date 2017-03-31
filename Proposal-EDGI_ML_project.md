@@ -44,16 +44,16 @@ The project will follow the following order of tasks to fill the aforementioned 
 
 1. Step zero will be to convert data from different sources (PageFreezer, Versionista) into a common form and storing them in one place. If it is already handled, step zero will be to understand the database schema and the data stored in it.
 2. The first step will be improving the method of computing differences. This will consist of two sub-tasks:
-  1. The changes can be categorized based on the type of object that has changed(text, image, hyperlinks etc.). The first sub-task will be to separate the changes into categories.
-  2. The second sub-task will be to extract meaningful features from the data of each type. This will include extracting information like type and length of the changed matter in a given text. If required, complex techniques can be used to extract features (NLP, Image Processing).
+    1. The changes can be categorized based on the type of object that has changed(text, image, hyperlinks etc.). The first sub-task will be to separate the changes into categories.
+    2. The second sub-task will be to extract meaningful features from the data of each type. This will include extracting information like type and length of the changed matter in a given text. If required, complex techniques can be used to extract features (NLP, Image Processing).
 3. The second task will be writing scripts for different Machine Learning Classification Algorithms which will learn to prioritize the changes. Each script will consist of four basic parts:
-  1. Data loading and pre-processing (if required) to convert data to input format of algorithm. Also, division of data into training and validation sets.
-  2. Machine Learning model creation using libraries like numpy, scikit-learn, [Tensorflow](https://www.tensorflow.org/) etc. .
-  3. Evaluation of model performance (using evaluation metrics) and creation of visualizations from the results of the validation set.
-  4. Storing the trained model by serializing the model with the help of modules like pickle, joblib.
+    1. Data loading and pre-processing (if required) to convert data to input format of algorithm. Also, division of data into training and validation sets.
+    2. Machine Learning model creation using libraries like numpy, scikit-learn, [Tensorflow](https://www.tensorflow.org/) etc. .
+    3. Evaluation of model performance (using evaluation metrics) and creation of visualizations from the results of the validation set.
+    4. Storing the trained model by serializing the model with the help of modules like pickle, joblib.
 4. The final task will include the following:
-  1. Retrieving the trained models by deserializing the stored files and using them to prioritize new changes.
-  2. Providing a list of prioritized changes to analysts for reviewing and adding annotations. An important step here will be to add correctly predicted cases to the training dataset. The model will be re-trained only after a sufficient amount of correctly predicted data is added.
+    1. Retrieving the trained models by deserializing the stored files and using them to prioritize new changes.
+    2. Providing a list of prioritized changes to analysts for reviewing and adding annotations. An important step here will be to add correctly predicted cases to the training dataset. The model will be re-trained only after a sufficient amount of correctly predicted data is added.
 
 **Milestones/Timeline** :
 
@@ -62,41 +62,41 @@ My summer vacation is from May 5 to July 23. I plan to complete the major tasks 
 I tentatively plan to follow the following timeline:
 
 - Community bonding period / Before May 30 :
-  - Understand the differences in the data format of the different sources (PageFreezer, Versionista).
-  - Understand and contribute to the development of the ETL pipeline, as steps 0 and 1 are closely related to ETL pipeline design steps.
+    - Understand the differences in the data format of the different sources (PageFreezer, Versionista).
+    - Understand and contribute to the development of the ETL pipeline, as steps 0 and 1 are closely related to ETL pipeline design steps.
 - May 30 - June 20 :
-  - Depending on the development status of the ETL pipeline, work on the creation of an initial training dataset.
-  - Check in with analysts and get the dataset reviewed by them.
-  - Simultaneous start exploring different algorithms and models that can be used for this problem.
+    - Depending on the development status of the ETL pipeline, work on the creation of an initial training dataset.
+    - Check in with analysts and get the dataset reviewed by them.
+    - Simultaneous start exploring different algorithms and models that can be used for this problem.
 - June 21 - June 26 :
-  - Start working on the scripts of different Machine Learning models.
-  - Create a common script for loading data.
+    - Start working on the scripts of different Machine Learning models.
+    - Create a common script for loading data.
 - June 27 - June 30 :
-  - Summarize work, document it, add pull requests, and prepare for Phase 1 evaluations.
+    - Summarize work, document it, add pull requests, and prepare for Phase 1 evaluations.
 - July 1 - July 17 :
-  - Complete the basic structure for different models and an initial training of the dataset as well.
-  - Analyse the results and determine if training dataset can be modified to get better results by extracting more information from raw data. Also, experiment with ensemble models.
-  - Check in with analysts and get the results reviewed by them.
+    - Complete the basic structure for different models and an initial training of the dataset as well.
+    - Analyse the results and determine if training dataset can be modified to get better results by extracting more information from raw data. Also, experiment with ensemble models.
+    - Check in with analysts and get the results reviewed by them.
 
 - July 18 - July 24
-  - Start with the creation of visualizations and other reports based on the results of the trained models.
-  - Work on serialization methods to store trained models for future use.
+    - Start with the creation of visualizations and other reports based on the results of the trained models.
+    - Work on serialization methods to store trained models for future use.
 - July 25 - July 28
-  - Summarize work, document it, add pull requests, and prepare for Phase 2 evaluations.
+    - Summarize work, document it, add pull requests, and prepare for Phase 2 evaluations.
 - July 29 - Aug 6 :
-  - Retrieve the stored models using deserialization and test on new data.
-  - If required, simulate some test cases&#39; data and check the performance of models.
-  - Send a list of important changes to analysts for review.
+    - Retrieve the stored models using deserialization and test on new data.
+    - If required, simulate some test cases&#39; data and check the performance of models.
+    - Send a list of important changes to analysts for review.
 - Aug 7 - Aug 10 :
-  - Create a mechanism to automatically add correctly prioritized changes to the training dataset once a minimum number of correct results is collected.
+    - Create a mechanism to automatically add correctly prioritized changes to the training dataset once a minimum number of correct results is collected.
 
 My semester will begin in the last week of July. I may have some time constraints in August. Thus, my focus will be on the first two tasks during the first two months (June - July).
 
 - Aug 11 - Aug 21 :
-  - The first two tasks may require more time than currently planned. This time will act as a backup period to push back        stretch goals.
-  - Any issues raised on work completed before this will be tackled and if time permits, solved within this period.
+    - The first two tasks may require more time than currently planned. This time will act as a backup period to push back        stretch goals.
+    - Any issues raised on work completed before this will be tackled and if time permits, solved within this period.
 - Aug 22 - Aug 29 :
-  - Summarize work, add pull requests for any remaining work, finish the documentation and get ready for final evaluations.
+    - Summarize work, add pull requests for any remaining work, finish the documentation and get ready for final evaluations.
 
 I would like to continue working with EDGI after GSoC and be a part of the #DataRescue movement.
 
@@ -130,11 +130,11 @@ I support the clean energy movement and believe that we need to tackle environme
 Undergraduate Researcher, Visvesvaraya National Institute of Technology
 
 - Relation Extraction from Scientific Text using Recurrent Neural Networks :
-  - Currently working with a team to make a relation extractor for scientific text using deep recurrent neural networks.
-  - Working with Tensorflow and exploring its features.
+    - Currently working with a team to make a relation extractor for scientific text using deep recurrent neural networks.
+    - Working with Tensorflow and exploring its features.
 - Transient Instability Prediction using Decision Trees :
-  - Currently working on a decision tree classifier which will determine the stability of a system based on its electrical and mechanical properties.
-  - Plan to use this model on the data from a certain region of the Indian National Grid.
+    - Currently working on a decision tree classifier which will determine the stability of a system based on its electrical and mechanical properties.
+    - Plan to use this model on the data from a certain region of the Indian National Grid.
 
 Data Science Intern, [Numerify Software India Ltd.](http://www.numerify.com/) (May - July 2016)
 
