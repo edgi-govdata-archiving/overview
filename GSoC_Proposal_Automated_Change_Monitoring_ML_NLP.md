@@ -24,7 +24,7 @@
 
 **Project Title:**  
 
-ML+NLP based Automated Change Monitoring
+ML+NLP based Automated Change Ranking
 
 **Project Abstract/Summary:**  
 
@@ -42,11 +42,6 @@ The project will fulfill the following needs -
 
 **Describe how your project meets this need:**  
 
-Major setbacks
-1. Trump Budget announced - Savings of 31% EPA (reduction in fund allocation)
-2. Not a single corpus / dataset on environment can be found online
-3. Absence of an algorithm to track and prioritize changes
-
 Following needs will be met in my project :-
 1. Dataset - 
 
@@ -63,9 +58,46 @@ Output of Classifier will be cross-checked with the outcomes from NLP techniques
 As currently, there is no standard way of prioritizing which change is to be given precendence over the others, which change is critical and more important than others - an algorithm would be needed for the same. Such an algorithm would be on the basis of "Confidence / Trust factor" and "Rating". Taking these 2 parameters into consideration, every change will be evaluated according to the algorithm and then prioritized.
 It would be a self-learning, ever-evolving process of curation.
 
-**Milestones/Timeline:**  
+As discussed in edgi-govdata-archiving/web-monitoring-processing#28 :
 
-## Phase 0 - Groundzero
+### Gist
+Priority will be given on the basis of Ratings and Confidence/Trust 
+
+### Rating 
+> **Value given to the word (and progressively to the sentence and the page) on the basis of Domain knowledge**
+
+### Confidence
+**The notion of confidence is the factor that is updated over time, that represents trust and accuracy of a particular rated word.**
+
+- By that I mean, over the course of time, every Website, every change would be documented and carefully curated.
+- This would enable us to gauge confidence for that particular change from a specific website.
+E.g. If it is found, website X always produces changes of rating 0.2 - 0.6 can be given lower confidence (say 40%)
+On the contrary, another website Y consistently provides changes of rating 1 - can be given higher confidence (say 75%)
+
+### Priority Calculation
+
+By basic logic,
+```
+updation_value = (rating) * (confidence)
+```
+**(Positive sentiment)**
+```
+Priority_new = Priority_old + updation_value
+```
+**(Negative sentiment)**
+```
+Priority_new = Priority_old - updation_value
+```
+After assigning priorities to every change, sort them in descending order (with highest  value first, so on and so forth)
+
+### Deduction
+Higher the priority value, more the priority assigned (important change)
+Inverse, Lower the priority value, less the priority assigned (negligible change)
+
+
+# **Milestones/Timeline:**  
+
+## Phase 0 - Square One
 
 1. Understanding the problem at hand - Gathering domain specific knowledge (Environment)
 2. Defining, Reading about meaningful change 
@@ -82,7 +114,9 @@ It would be a self-learning, ever-evolving process of curation.
 1. Study PageFreezer API (Webmonitoring processing)
 2. Create corpus of environment data - 
   + Groundwork - [edgi-govdata-archiving/web-monitoring#28]()
-3. Extracting the content of diff (i.e. Remove html part NLTK - clean_html())
+3. Extracting the content of diff (i.e.  Seperate HTML tags from Actual content)
+  + Seperately store the HTML tags lest they are needed for information
+  + To clean html part, use functions from NLTK - e.g. clean_html()
 4. Further cleaning of data if need be
 5. Research similar projects 
   + Groundwork - [edgi-govdata-archiving/web-monitoring#18]()
@@ -93,16 +127,7 @@ It would be a self-learning, ever-evolving process of curation.
 
 1. Understanding the ML requirements
   + Groundwork - [edgi-govdata-archiving/web-monitoring-processing#21]()
-2. Identifying the categories of change
-3. Classification of a change - irrelevant, relevant, important, etc.
-4. Create Primary dataset of changes for ML training
-5. Understanding and Implementing Latent Dirichlet Allocation LDA for identifying Relevant keywords from text
-6. Performing sentiment analysis +ve / -ve on Diffs
-7. Using summarizer to identify key sentences
-8. Cross-checking outputs of Summarizer, LDA with Classifier
-9. Fine-tuning the classifier
-10. Designing Classification algorithm to identify the Change type
-11. Studying the existing solutions - 
+2. Studying the existing solutions - 
   + Amazon 
     - [AI Amazon Lex ](https://aws.amazon.com/amazon-ai/)
     - [Amazon ML](https://aws.amazon.com/machine-learning/)
@@ -113,6 +138,15 @@ It would be a self-learning, ever-evolving process of curation.
   + Google
     - [Cloud NL API](https://cloud.google.com/natural-language/)
     - [Cloud ML Engine](https://cloud.google.com/ml-engine/)
+3. Identifying the categories of change
+4. Classification of a change - irrelevant, relevant, important, etc.
+5. Create Primary dataset of changes for ML training
+6. Understanding and Implementing Machine Learning algorithms (for e.g. Latent Dirichlet Allocation LDA) for identifying Relevant keywords from text
+7. Performing sentiment analysis +ve / -ve on Diffs
+8. Using summarizer to identify key sentences
+9. Cross-checking outputs of Summarizer, LDA with Classifier
+10. Fine-tuning the classifier
+11. Designing Classification algorithm to identify the Change type
 
 ## Phase 3 - Prioritization
 1. Identifying the needs of prioritization
@@ -124,9 +158,9 @@ It would be a self-learning, ever-evolving process of curation.
 Monthly
 Month  | Phase | Status
 --- | --- | --- 
-March | <ul><li>Phase 0 Groundzero</li></ul> | <ul><li>start</li></ul>
-April | <ul><li>Phase 0 Groundzero </li><li>Phase 1 Pre-processing</li></ul> | <ul><li>ongoing</li><li>start</li></ul>
-May | <ul><li>Phase 0 Groundzero </li><li>Phase 1 Pre-processing</li></ul> | <ul><li>finish </li><li>ongoing </li></ul>
+March | <ul><li>Phase 0 Square One</li></ul> | <ul><li>start</li></ul>
+April | <ul><li>Phase 0 Square One </li><li>Phase 1 Pre-processing</li></ul> | <ul><li>ongoing</li><li>start</li></ul>
+May | <ul><li>Phase 0 Square One </li><li>Phase 1 Pre-processing</li></ul> | <ul><li>finish </li><li>ongoing </li></ul>
 June | <ul><li>Phase 1 Pre-processing </li><li>Phase 2 Classification </li></ul> | <ul><li>finish</li><li>start</li></ul>
 July | <ul><li>Phase 2 Classification </li><li>Phase 3 Prioritization </li></ul> | <ul><li>finish</li><li>start</li></ul>
 August | <ul><li>Phase 3 Prioritization</li></ul> | <ul><li>complete</li></ul>
