@@ -30,45 +30,44 @@ The Environmental Data and Governance Initiative (EDGI) challenges an administra
 This data, while vital for the community as a whole, is useless in the hands of the average individual. To put it in simple terms, the average laymen just doesn’t have the time or the enormous effort required to sit through each changing variable and try to decipher which of it is relatively “meaningful.” Most individuals looking to do research/reports in these areas, although happy to discover the archived data, will be dissuaded due to the enormous task at hand of sifting through each minor change. 
 
 **Describe how your project meets this need:**  
-This is where my project comes in. Using data visualization libraries (such as https://d3js.org/), my project’s goal will be to develop a set of models/graphs accurately displaying any “meaningful” data you have archived. I would ideally be using the DataRefuge API for this project as a means to gather data for my in-browser model, but could eventually directly integrate with your toolkit to make API calls. These visualizations could be added directly on top of your React.js app view layer (https://www.archivers.space/). Working with my assigned mentors to identify how this data is “relevant” and then constructing an appropriate model to display it would allow individuals visiting your app to gain a better understanding of the data being collected. This would be a preferential solution, as opposed to sifting through tons of lists.
+This is where my project comes in. Using data visualization libraries (such as https://d3js.org/), my project’s goal will be to develop a set of models/graphs accurately displaying any “meaningful” data you have archived. I would ideally be using the DataRefuge API for this project as a means to gather data for my in-browser model, but could eventually directly integrate with your toolkit to make API calls. These visualizations, once fully completed and optimized, could be directly integrated on top of your React.js app view layer (https://www.archivers.space/). Working with my assigned mentors, I would identify how the archived data is “relevant” and then construct an appropriate model to display it. This would help individuals gain a better understanding of the data being collected when visiting the integrated model on your app. This would be a preferential solution, as opposed to sifting through tons of lists.
 
 **Milestones/Timeline:**  
-This project is essentially composed of **3 major milestones**: working with my mentors to identify which data is meaningful and worth developing a model for, developing the model while simultaneously receiving feedback on improvements, and then eventually committing it to production for use. Below you will find a rough timeline:
+This project is essentially composed of 3 major milestones: working with my mentors to identify which data is meaningful and worth developing a model for, developing/committing the model while simultaneously receiving feedback on improvements, and then eventually documenting my process as well as what I learned for the greater community. While not explicitly stated, the general development process for this project would involve fully completing one model before moving on to the next one. Below you will find a rough timeline:
 
 * **Before May 30th**
 Familiarize myself with the current codebase of the app, any relevant API’s that DataRefuge provides, as well as, set up my environment to run local versions of your tools/apps. I will also work with my mentor to make sure that I have full understanding of the codebase as well as overall goals.
 
 * **May 30th - June 13th**
-I will spend this time working on communicating with my mentor in order to understand the current toolkit in how it captures data as well as trying to identify which of the data is relevant from both EDGI and DataRefuge. 
+I will spend this time working on communicating with my mentor in order to understand the current toolkit in how it captures data as well as trying to identify which of the data is relevant from both EDGI and DataRefuge.
 
 * **Jun 13th - Jun 27th**
-Once I have identified relevant data, I will start working on potential design mockups for how this information could be displayed as well as integrated with the React.JS app . I will also be continuously communicating with any relevant teams to gain feedback on my designs and improve them.
+Once I have identified relevant data, I will start working on potential design mockups for how this information could be displayed. I will also be continuously communicating with any relevant teams to gain feedback on my designs and improve them.
 
 * **Jun 27th - Jul 11th**
-Once I have finalized a set of designs for graphs that both the developers and I agree on as being the most “impactful” to individuals, I will start working on prototypes for these designs. I will also communicate directly with the team responsible for developing tools that archive this data so that they can potentially develop a set of API calls that I might be able to make directly to the tool instead of pulling it from a 3rd party.
+Once I have finalized a set of designs for models that both the developers and I agree on as being the most “impactful” to individuals, I will start working on prototypes for these designs and be continuously committing to production. I will also communicate, at the same time, directly with the team responsible for developing tools that archive this data so that they can potentially develop a set of API calls that I might be able to make directly to the tool instead of pulling it from a 3rd party.
 
 * **Jul 11th -  Jul 25th**
-I will have mostly completed any models at this time and will submit it to my mentors for review. If any changes and/or any new models need to be made, I will work on them as well! Most of my time this period will be spent communicating with the team and listening to any feedback they have.
+I will have mostly completed any models at this time and will submit it to my mentors for review. If any changes need to be made, I will work on them as well! I will then starting working with my mentors to properly integrate D3 and any other visualization libraries into React while still keeping my original code intact. Most of my time this period will be spent communicating with the team and listening to any feedback they have.
 
 * **Jul 25th - Aug 8th**
-Finalize any ideas I had and hopefully commit my developed models to the “live” website 
+Finalize any ideas I had and submit my set of models. I will also start working on a write up about my overall experience, design process, and what I learned throughout this entire experience.
 
 * **Aug 8th - Aug 22nd**
-Reach out to individuals using the website as well as my mentors to see if I can identify any other changes to further optimize the experience and make it more interactive and meaningful on the end-user. As with any product being shipped, testing usage and interaction with the product is important to gauge its overall perception. 
+Reach out to individuals using the website as well as my mentors to see if I can identify any other changes to further optimize the experience and make it more interactive and meaningful on the end-user. As with any product being shipped, testing usage and interaction with the product is important to gauge its overall perception.
 
 * **Aug 22nd - End Of Program**
 Final communication with mentors and hopefully continue to work and further develop/refine models in the future with EDGI.
 
 
 **Deliverables:**  
-A set of models/graphs for visualization archived data (I say a set instead of a specific number, because I am not too sure going in what data we would want to display. Realistically I would like to work on from anywhere between 3 to 5 models). 
-
+A set of models/graphs for visualization archived data (I say a set instead of a specific number, because I am not too sure going in what data we would want to display. Realistically I would like to work on from anywhere between 3 to 5 models). I would also take some time at the end completing a write-up of what I learned from my experience working on this project as well as how other people have benefited from it. 
 
 **Resources:**  
 Other than the occasional google search for help or turning to my mentors for advice, I won’t need much else.
 
 **Setup:**  
-I will be using the NodeJS (https://nodejs.org/en/) environment setup locally on my Window’s machine so that I can fork a copy of the React.JS app and run it live.
+I will be using the NodeJS (https://nodejs.org/en/) environment setup locally on my Windows machine so that I can fork a copy of the React.JS app and run it live.
 
 **Ongoing involvement:**  
 Other than continued support for the models I have developed as well as adapting them to changing data, I will work with EDGI to identify any future needs they might have with development.
