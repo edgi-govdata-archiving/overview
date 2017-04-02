@@ -45,23 +45,40 @@ The project will fulfill the following needs -
 Following needs will be met in my project :-
 1. Dataset - 
 
+
 After intense deliberation with analysts, subject matter experts (domain experts), we would stitch together a corpus of highly influential and important keywords in the domain of environment.
 
+
+
 2. Classifier - 
+
 
 Using ML techniques (classification algorithms), the diff (from PageFreezer,Versionista) will be categorized as to important, relevant or irrelevant ones by making use of the curated dataset.
 
 Output of Classifier will be cross-checked with the outcomes from NLP techniques (LDA and Summarizer)
 
+
 3. Priority Algorithm - 
 
-As currently, there is no standard way of prioritizing which change is to be given precendence over the others, which change is critical and more important than others - an algorithm would be needed for the same. Such an algorithm would be on the basis of "Confidence / Trust factor" and "Rating". Taking these 2 parameters into consideration, every change will be evaluated according to the algorithm and then prioritized.
-It would be a self-learning, ever-evolving process of curation.
++ At this point in time, there is no standard way of prioritizing the changes. 
++ Few unanswered questions - 
+  + Which change is to be given precedence over the others?
+  + Which change is critical and more important than others?
+  + What parameters will decide the priority of changes?
+  + Priority should be an integral number (0,1,...100) or a value derived from a formula? 
+  
+#### Answer to above questions - Priority Algorithm
+- An algorithm would be needed to decide the precedence, the order. Such an algorithm will help distinguish critical and important changes from the irrelevant ones.
+- Such an algorithm would be on the basis of parameters like - "Confidence / Trust factor" and "Rating". 
+- Taking these 2 parameters into consideration, every change will be evaluated according to the algorithm and then prioritized.
+- It would be a self-learning, ever-evolving process of curation.
+
+##### Proposed Algorithm
 
 As discussed in edgi-govdata-archiving/web-monitoring-processing#28 :
 
 ### Gist
-Priority will be given on the basis of Ratings and Confidence/Trust 
+Priority will be given on the basis of Ratings and Confidence/Trust. 
 
 ### Rating 
 > **Value given to the word (and progressively to the sentence and the page) on the basis of Domain knowledge**
@@ -88,12 +105,34 @@ Priority_new = Priority_old + updation_value
 ```
 Priority_new = Priority_old - updation_value
 ```
-After assigning priorities to every change, sort them in descending order (with highest  value first, so on and so forth)
+#### Sentiment
+**Sentiment**, by dictionary, refers to an idea / opinion / a belief.
+
+However, **sentiment**, in this context, means - how _useful/relevant/meaningful_ the change was.
+
+If the confidence value as well as rating is high, it results in a larger updation value.
+
+Now, if that change belongs to the category of relevant change, it is a positive sentiment.
+
+Hence, it will automatically get higher priority.
+
+On the other hand, if the change is irrelevant or less meaningful, we can safely reduce the priority (termed as a negative sentiment).
+
+
+After assigning priorities to every change, sort them in descending order (i.e. change with highest priority value first)
 
 ### Deduction
-Higher the priority value, more the priority assigned (important change)
-Inverse, Lower the priority value, less the priority assigned (negligible change)
+**Higher the value obtained from the equation, more the priority assigned to that particular change. (important change)**
+**Inversely, the lower the value obtained by the equation, the lower the priority assigned to the change. (negligible change)**
 
+Deliverable  | Input | Output
+--- | --- | --- 
+Curated Dataset | <ul>Knowledge from Subject Matter Experts (SMEs),Analysts, Domain Specialists (in Environment Data Archival)<li></li></ul> | <ul><li>Corpus of keywords</li></ul>
+Classifier | <ul><li>Diffs (changes)</li><li>Format - id, old state, new state</li></ul> | <ul><li>Diffs classified into different categories</li><li>Format - id, old state, new state, category</li></ul>
+Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li>Format - id, old state, new state, category</li></ul> | <ul><li>Descending order Priority list</li><li>Format - id, old state, new state, category, priority</li></ul>
+
+
+<ul><li></li></ul>
 
 # **Milestones/Timeline:**  
 
