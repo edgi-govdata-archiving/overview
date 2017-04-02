@@ -82,7 +82,7 @@ These priority vectors can help us give a relative severity index to a change de
 
 These tasks will be conducted by a framework under which all the components would work. The framework will:
 
-![image alt text](image_0.jpg)
+![image alt text](https://github.com/daas-ankur-shukla/overview/blob/master/gsoc/classifier%20flowchart.jpg)
 
 *Figure 1: Flowchart showing Framework Functions*
 
