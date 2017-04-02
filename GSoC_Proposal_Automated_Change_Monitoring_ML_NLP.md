@@ -190,7 +190,8 @@ Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li
   + Groundwork - [edgi-govdata-archiving/web-monitoring-processing#28]()
 
 ## Timeline - 
-Monthly
+### Monthly
+
 Month  | Phase | Status
 --- | --- | --- 
 March | <ul><li>Phase 0 Square One</li></ul> | <ul><li>start</li></ul>
@@ -201,7 +202,8 @@ July | <ul><li>Phase 2 Classification </li><li>Phase 3 Prioritization </li></ul>
 August | <ul><li>Phase 3 Prioritization</li></ul> | <ul><li>complete</li></ul>
 
 
-Daily - https://realtimeboard.com/app/board/o9J_k05a66g=/
+### Daily - 
+https://realtimeboard.com/app/board/o9J_k05a66g=/
 
 # **Deliverables:**  
 + Comprehensive, robust environment corpus.
