@@ -49,9 +49,9 @@ After intense deliberation with analysts, subject matter experts (domain experts
 
 2. Classifier - 
 
-Using ML techniques (classification algorithms), the diff (from PageFreezer,Versionista) will be categorized as to important, relevant or irrelevant ones by making use of the curated dataset.
+Using ML techniques (classification algorithms), the diff (from PageFreezer,Versionista) will be categorized as an important, relevant change or an irrelevant change by making use of the curated dataset.
 
-Output of Classifier will be cross-checked with the outcomes from NLP techniques (LDA and Summarizer)
+Output of the classifier will be cross-checked with the outcomes from NLP techniques (LDA and Summarizer)
 
 
 3. Priority Algorithm - 
@@ -134,10 +134,10 @@ Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li
 
 ## Phase 0 - Square One
 
-1. Understanding the problem at hand - Gathering domain specific knowledge (Environment)
-2. Defining, Reading about meaningful change 
-3. Identify characteristics of changes
-4. Reviewing the existing system Architecture - 
+1. Understand the problem at hand by gathering domain specific knowledge (i.e. environmental information)
+2. Define and read about a meaningful change.
+3. Identify the characteristics of a change.
+4. Review the existing system architecture - 
 - Groundwork 
   -  [edgi-govdata-archiving/web-monitoring#22](https://github.com/edgi-govdata-archiving/web-monitoring/issues/22)
   -  [edgi-govdata-archiving/overview#102](https://github.com/edgi-govdata-archiving/overview/pull/102)
@@ -146,23 +146,23 @@ Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li
 
 ## Phase 1 - Pre-processing
 
-1. Study PageFreezer API (Webmonitoring processing)
-2. Create corpus of environment data - 
+1. Study the PageFreezer API (Webmonitoring processing)
+2. Create a corpus of environment data - 
   + Groundwork - [edgi-govdata-archiving/web-monitoring#28]()
-3. Extracting the content of diff (i.e.  Seperate HTML tags from Actual content)
-  + Seperately store the HTML tags lest they are needed for information
+3. Extract the content of diff (i.e.  Seperate the HTML tags from the actual content)
+  + Seperately store the HTML tags lest they are needed for any specific information
   + To clean html part, use functions from NLTK - e.g. clean_html()
-4. Further cleaning of data if need be
-5. Research similar projects 
+4. Further clean the data if needed.
+5. Research on similar projects.
   + Groundwork - [edgi-govdata-archiving/web-monitoring#18]()
-6. Studying Content Moderation
+6. Study 'Content Moderation'
   + Groundwork - [edgi-govdata-archiving/overview#106]()
 
 ## Phase 2 - Classification
 
-1. Understanding the ML requirements
+1. Understand the ML requirements.
   + Groundwork - [edgi-govdata-archiving/web-monitoring-processing#21]()
-2. Studying the existing solutions - 
+2. Study the existing solutions - 
   + Amazon 
     - [AI Amazon Lex ](https://aws.amazon.com/amazon-ai/)
     - [Amazon ML](https://aws.amazon.com/machine-learning/)
@@ -173,20 +173,20 @@ Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li
   + Google
     - [Cloud NL API](https://cloud.google.com/natural-language/)
     - [Cloud ML Engine](https://cloud.google.com/ml-engine/)
-3. Identifying the categories of change
-4. Classification of a change - irrelevant, relevant, important, etc.
-5. Create Primary dataset of changes for ML training
-6. Understanding and Implementing Machine Learning algorithms (for e.g. Latent Dirichlet Allocation LDA) for identifying Relevant keywords from text
-7. Performing sentiment analysis +ve / -ve on Diffs
-8. Using summarizer to identify key sentences
-9. Cross-checking outputs of Summarizer, LDA with Classifier
-10. Fine-tuning the classifier
-11. Designing Classification algorithm to identify the Change type
+3. Identify and validate the categories of change.
+4. Formalize the process of classifying a change - irrelevant, relevant, important, etc.
+5. Create a primary dataset of changes for ML training module.
+6. Understand and Implement the Machine Learning algorithms (for e.g. Latent Dirichlet Allocation LDA) for identifying Relevant keywords from text.
+7. Perform a sentiment analysis +ve / -ve on Diffs.
+8. Use a summarizer to identify key sentences.
+9. Cross-check the outputs of the Summarizer, various ML algorithms like LDA with the Classifier.
+10. Design test cases for the classifier
+11. Fine-tune the classifier.
 
 ## Phase 3 - Prioritization
-1. Identifying the needs of prioritization
-2. Finding the various parameters on the basis of which to carry out prioritization 
-3. Designing the algorithm 
+1. Identify the needs of prioritization.
+2. Find the various parameters on the basis of which prioritization can be carried out.
+3. Design the algorithm 
   + Groundwork - [edgi-govdata-archiving/web-monitoring-processing#28]()
 
 ## Timeline - 
@@ -217,16 +217,16 @@ https://realtimeboard.com/app/board/o9J_k05a66g=/
 **Setup:**  
 
 I have setup the following on my machine to meet the needs of the project - 
-+ PageFreezer setup ready
-+ Linting  setup ready
-+ Python ML libraries - Scikit-learn, Numpy, Scipy, Pandas
-+ Python NLP libraries with Anaconda - NLTK, Stanford CoreNLP, SpaCY, Gensim, TextBlob
-+ Python Extraction libraries (for generating Corpus of Environment words) - Scrapy, BeautifulSoup
++ [X] PageFreezer setup
++ [X] Linting  setup
++ [X] Python ML libraries - Scikit-learn, Numpy, Scipy, Pandas
++ [X] Python NLP libraries with Anaconda - NLTK, Stanford CoreNLP, SpaCY, Gensim, TextBlob
++ [X] Python Extraction libraries (for generating Corpus of Environment words) - Scrapy, BeautifulSoup
 
 Moreover, from knowledge / experience point of view - 
-+ Handy knowledge of Machine Learning algorithms including Classifiers and Clustering.
-+ Aware of open-source contributions, licensing
-+ Worked on Agile methodology
++ [X] Handy knowledge of Machine Learning algorithms including Classifiers and Clustering.
++ [X] Aware of open-source contributions, licensing
++ [X] Worked on Agile methodology
 
 
 **Ongoing involvement:**  
