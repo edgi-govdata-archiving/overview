@@ -45,13 +45,9 @@ The project will fulfill the following needs -
 Following needs will be met in my project :-
 1. Dataset - 
 
-
 After intense deliberation with analysts, subject matter experts (domain experts), we would stitch together a corpus of highly influential and important keywords in the domain of environment.
 
-
-
 2. Classifier - 
-
 
 Using ML techniques (classification algorithms), the diff (from PageFreezer,Versionista) will be categorized as to important, relevant or irrelevant ones by making use of the curated dataset.
 
@@ -122,17 +118,17 @@ On the other hand, if the change is irrelevant or less meaningful, we can safely
 After assigning priorities to every change, sort them in descending order (i.e. change with highest priority value first)
 
 ### Deduction
-**Higher the value obtained from the equation, more the priority assigned to that particular change. (important change)**
-**Inversely, the lower the value obtained by the equation, the lower the priority assigned to the change. (negligible change)**
++ **Higher the value obtained from the equation, more the priority assigned to that particular change. (important change)**
++ **Inversely, the lower the value obtained by the equation, the lower the priority assigned to the change. (negligible change)**
 
 Deliverable  | Input | Output
 --- | --- | --- 
-Curated Dataset | <ul>Knowledge from Subject Matter Experts (SMEs),Analysts, Domain Specialists (in Environment Data Archival)<li></li></ul> | <ul><li>Corpus of keywords</li></ul>
-Classifier | <ul><li>Diffs (changes)</li><li>Format - id, old state, new state</li></ul> | <ul><li>Diffs classified into different categories</li><li>Format - id, old state, new state, category</li></ul>
-Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li>Format - id, old state, new state, category</li></ul> | <ul><li>Descending order Priority list</li><li>Format - id, old state, new state, category, priority</li></ul>
+Curated Dataset | <ul>Knowledge about Environment Data Archival from <li>Subject Matter Experts (SMEs)</li><li>Analysts</li><li>Domain Specialists</li></ul> | <ul><li>Corpus of keywords</li></ul>
+Classifier | <ul><li>Diffs (changes)</li><li>Format - `id, old state, new state`</li></ul> | <ul><li>Diffs classified into different categories</li><li>Format - `id, old state, new state, category`</li></ul>
+Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li>Format - `id, old state, new state, category`</li></ul> | <ul><li>Descending order Priority list</li><li>Format - `id, old state, new state, category, priority`</li></ul>`
 
 
-<ul><li></li></ul>
+
 
 # **Milestones/Timeline:**  
 
