@@ -57,10 +57,10 @@ There shall be intermediate vectors for each class of change. For example for HT
 <table>
   <tr>
     <td>Tag</td>
-    <td><h1></td>
-    <td><h2></td>
-    <td><b></td>
-    <td><p></td>
+    <td>h1</td>
+    <td>h2</td>
+    <td>b</td>
+    <td>p</td>
   </tr>
   <tr>
     <td>Priority</td>
