@@ -1,4 +1,4 @@
-## Google Summer of Code - Application Template
+## Google Summer of Code - Application
 
 ### Student
 
