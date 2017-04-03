@@ -31,14 +31,18 @@ To reach the goal above, the project overview has already shown a very clear pic
 1>. What is the optimal format of the input?
 2>. What is the purpose when the analysts analyze the diffs?
 
-For the first problem (1>), one possible way to monitor the website changes is Versionista. It seems the input data will have the JSON format. It can give a specific description of the changes but it is not easy to be used for analysis. Besides, I checked the diff function of the Unix or Linux (e.g., http://www.computerhope.com/unix/udiff.htm), it can give you a similar result but we can see this kind of result still need to be refined. 
+For the first problem (1>), one possible way to monitor the website changes is Versionista. It seems the input data will have the JSON format. It can give a specific description of the changes but it is not easy to be used for analysis. Besides, I checked the diff function of the Unix or Linux (e.g., http://www.computerhope.com/unix/udiff.htm). It can give you a similar result but we can see this kind of result still need to be refined. 
 
 For the second problem (2>), it closely related to how does the “significant change” define. The target of monitoring depends on the analysts, but I think the significant change means there is at least one index exceeds the expectation of this analyst a lot. So it should have a multi-perspective significant change definition and a overall significant change.
 
-Currently I have a a n-component definition idea of the input data to solve the problem. For example, it includes how many changes happens during a specific period of time, how may JSON blobs are changed, what is the time interval when the changes happen, what is the frequency of each change during the monitoring time period etc. All observed data can be reformulated to be the same structure input data. And each component corresponds a weight. Different analyst may have different opinions of the weights distribution. But this kind of input data structure can build a quantized framework of the input data to reflect the changes. The analysts can have a better way to think about which part is the required significant change.
+Currently I have a a N-component definition idea of the input data to solve the problem. For example, it includes how many changes happens during a specific period of time, how may JSON blobs are changed, what is the time interval when the changes happen, what is the frequency of each change during the monitoring time period etc. All observed data can be reformulated to be the same structure input data. And each component corresponds a weight. Different analyst may have different opinions of the weights distribution. But this kind of input data structure can build a quantized framework of the input data to reflect the changes. The analysts can have their own ways to think about which part is the required significant change. And the good thing is that this kind of data structure can help a unifed way to compare different websites significant changes by using the same weights. 
 
 **Milestones/Timeline:**  
-[Sketch out preliminary milestones and a timeline for the summer]
+Week1: Processing and observing data, give a statistical analysis of the samples and formulate the input data’s structure.
+Week2-3: Based on different targets of monitoring websites, optimize the input data’s structure for specific observing targets, mimic the possible the weights of each component and prepare for adjustment.
+Week4-5: Adjust and improve the current machine learning model using small samples and data sets, try to give a recommending system strategy to show the significant changes from different perspectives.
+Week6-7: Keep revising and optimizing the machine learning model and the input data structure using bigger dataset and more different websites, improve its robustness, accuracy and the efficiency.
+Week8-10: Implement this processing module in the real monitoring system, keep optimizing and improving.
 
 **Deliverables:**  
 [Identify what EDGI will have at the end of your project]
