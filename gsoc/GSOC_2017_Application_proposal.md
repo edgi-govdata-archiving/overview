@@ -20,7 +20,8 @@
 
 **Project Title:**  Apply Machine Learning to Monitoring Website Changes
 
-**Project Abstract/Summary (<20 words):**  Improve the website monitoring system by using machine learning to identify the significant changes of the websites.
+**Project Abstract/Summary (<20 words):** 
+Improve the website monitoring system by using machine learning to identify the significant changes of the websites.
 
 **Describe the need your project fills:**  
 The broader goal of the project is to build an assistant system to reduce the work of analysts. This kind of reduction means: 1) Deal with the data computation with preprocessing and reduce all unnecessary extra work so that the system can provide the useful information as much as possible to the analysts. 2) Detect the changes of the target websites and identify the significance of these website changes accurately and efficiently.
@@ -48,7 +49,6 @@ Week8-10: Implement this processing module in the real monitoring system, keep o
 The final result is a comprehensive input data structure and the processing module with the corresponding machine learning model. If possible, it can have a theoretical framework to deal with such kind of analogous problem.
 
 **Resources:**  
-[List any people, documentation, literature, sample data, or hardware you will need, if applicable]
 I have related knowledge of machine learning theory and algorithms. And I will pay attention to the current issue, record logs and reports, data sampled by Versionista, servers with big storage so that I can have a more intuitive undterstanding of the problem. Besides, all other potential implementations and theories. My advisor Dr. Lijun Chen and other professors, classmates are all my power to solve the problem.
 
 **Setup:**  
@@ -59,12 +59,17 @@ Because I just joined the archivers.slack.com, I think the first thing is discus
 
 ### Student Experience
 
-**Previous Experience:** I have a machine learning project experience: Expedia hotel recommendation. This project is the one from kaggle.com. We need to use the labeled and unlabeled data to make a prediction of the customer’s potential hotel choices. It includes to build a hotel ranking system with a prediction algorithm. I was responsible for the data processing and the construction of the ranking score. It is a very good project to implement the machine learning algorithms (e.g. KNN or linear regression) into the practical problem. 
+**Previous Experience:** 
+I have a machine learning project experience: Expedia hotel recommendation. This project is the one from kaggle.com. We need to use the labeled and unlabeled data to make a prediction of the customer’s potential hotel choices. It includes to build a hotel ranking system with a prediction algorithm. I was responsible for the data processing and the construction of the ranking score. It is a very good project to implement the machine learning algorithms (e.g. KNN or linear regression) into the practical problem. 
 
-**Open Source Project(s) you are working on or would like to:** I do not have too much such kind of experiences, and this is the first open source project I would like to work on. 
+**Open Source Project(s) you are working on or would like to:** 
+I do not have too much such kind of experiences, and this is the first open source project I would like to work on. 
 
-**Teamwork:** Most of my previous projects needed team work and collaboration. And I have played a lot of different roles in these teams. But the key point for me is following interest-oriented under the problem driven strategy. It is enjoyable to play a role in a team and figure out the answer of the problem.
+**Teamwork:** 
+Most of my previous projects needed team work and collaboration. And I have played a lot of different roles in these teams. But the key point for me is following interest-oriented under the problem driven strategy. It is enjoyable to play a role in a team and figure out the answer of the problem.
 
-**Interests:** I like coding and reading. And learning by doing is the way for me to consider any problem. Besides, I like climbing and geometry.
+**Interests:** 
+I like coding and reading. And learning by doing is the way for me to consider any problem. Besides, I like climbing and geometry.
 
-**Commitment:** I will be able to work as the required time when I am working for GSOC. The earliest emtry time is May 8th. I will fully get invovled this project.
+**Commitment:** 
+I will be able to work as the required time when I am working for GSOC. The earliest emtry time is May 8th. I will fully get invovled this project.
