@@ -34,7 +34,7 @@ A big issue with working towards the prioritization Algorithm in the website mon
 
 **Describe how your project meets this need:**  
   
-  My proposal will help create an environment where once the training and testing data becomes available, any contributer can easily try to see how changes to a category class will affect the overall algorithm. By creating a format that is easy to write and test, more contributors from different areas of expertise can help in building the web monitoring project. 
+  My proposal will help create an environment where once the training and testing data becomes available, any contributor can easily try to see how changes to a category class will affect the overall algorithm. By creating a format that is easy to write and test, more contributors from different areas of expertise can help in building the web monitoring project. 
 
 **Milestones/Timeline:**  
 
@@ -52,15 +52,15 @@ July 28th: Deliver phase 2.
 
 **Deliverables:**  
 
-The primary deliverable for this project will be a command line tool in the Web Monitoring project. This tool will take a form with 1 or more categories and starting weights for them, and returns a list of weights based on how much each category affected the likelyhood of predicting the page had changed. Based on mentor recommendations, this form could be either input as a CSV file or an XML file. For phase one, this will be a category of words which will be assigned a positive or negative 1 to denote whether they are significant at all based on how frequently they appear in the diff of the page. For the second deliverable the tool will assign a weight to each category to grade how much it affected the decision. Alongside these code deliverables, the mentor will also get weekly progress reports detailing how the code is doing along with research reports focusing on how to assign priorities to the inputs of a ML algorithm.
+The primary deliverable for this project will be a command line tool in the Web Monitoring project. This tool will take a form with 1 or more categories and starting weights for them, and returns a list of weights based on how much each category affected the likelihood of predicting the page had changed. Based on mentor recommendations, this form could be either input as a CSV file or an XML file. For phase one, this will be a category of words which will be assigned a positive or negative 1 to denote whether they are significant at all based on how frequently they appear in the diff of the page. For the second deliverable the tool will assign a weight to each category to grade how much it affected the decision. Alongside these code deliverables, the mentor will also get weekly progress reports detailing how the code is doing along with research reports focusing on how to assign priorities to the inputs of a ML algorithm.
 
 **Resources:**  
 
-Alongside my mentor, I will probably ask my machine learning professor some questions if the need arrives. Since I intend to mostly use free software such as Sci-kit learn, I do not forsee me needing any other tools. 
+Alongside my mentor, I will probably ask my machine learning professor some questions if the need arrives. Since I intend to mostly use free software such as Sci-kit learn, I do not foresee me needing any other tools. 
 
 **Setup:**  
 
-I have set up the inital web-processing environment and tested it on a few of the example pages. In the future I intend to make sure I have scripts for a number of machine learning algorithms that will intake frequency inputs and return the weights of each inputs along with the accuracy after training. 
+I have set up the initial web-processing environment and tested it on a few of the example pages. In the future I intend to make sure I have scripts for a number of machine learning algorithms that will intake frequency inputs and return the weights of each inputs along with the accuracy after training. 
 
 **Ongoing involvement:**  
 
@@ -70,7 +70,7 @@ Once the initial tool is set up, setting up a way to try all kinds of different 
 
 **Previous Experience:**
 
-I have just aced a Graduate Level Machine Learning Course, where I implented a number of algorithms including Neural Networks, K-Mean Clusters, and Naive-Bayes Predictors. I have also taken a previous course on Open Source Development where I mostly worked on my own project.
+I have just aced a Graduate Level Machine Learning Course, where I implemented a number of algorithms including Neural Networks, K-Mean Clusters, and Naive-Bayes Predictors. I have also taken a previous course on Open Source Development where I mostly worked on my own project.
 
 **Open Source Project(s) you are working on or would like to:**
 
@@ -79,7 +79,7 @@ On this project I would like to eventually see this web monitor turn into a pred
 
 **Teamwork:**
 
-I have led a small technical team in the Portland Start-up weekend 2017. Our small Alternate Reality Web application won some awards. I have also worked with larger groups developing research software in the classroom, as well as with a partner and professor mentor at an REU at NYIT working on predicting falls. The REU included weekly presentations and lead to me presenting our work at a conference. 
+I have led a small technical team in the Portland Start-up weekend 2017. Our small Alternate Reality Web application won some awards. I have also worked with larger groups developing research software in the classroom, as well as with a partner and professor mentor at an REU at NYIT working on predicting falls. The REU included weekly presentations and lead me to presenting our work at a conference. 
 
 **Interests:**
 
