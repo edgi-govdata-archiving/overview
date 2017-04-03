@@ -38,7 +38,7 @@ For the second problem (2>), it closely related to how does the “significant c
 
 Currently, I have an N-component definition idea of the input data to solve the problem. The basic structure should have:
 1). The input data could be reformulated to be a class which includes the possible indexes of the website. For example, it includes how many changes happens during a specific period of time, how may JSON blobs are changed, what is the time interval when the changes happen, what is the frequency of each change during the monitoring time period etc. E.g.,
-
+'''
 Class inputdata {
     string website; // the url of the website
     int ID; // the record ID of the website
@@ -47,9 +47,9 @@ Class inputdata {
 	string end_time; // the time we stop monitoring
 	...
 };
-
+'''
 Of course, we can add or modify components to this class so that it can satisfy our requirements (e.g., using vector or queue to express the possible indexes)
-
+'''
 2). Distributed weights to each component. E.g.,
 Class weight{
 	int start_time; // the weight of inputdata.start_time
@@ -57,7 +57,7 @@ Class weight{
 	int num_changes; // the weight of num_changes
 	...
 };
-
+'''
 You can normalize the weights or not. It can help different analyst consider their own distribution of the weights based on their interests. It is a quantized framework of the input data to reflect the comprehensive changes of a website.
 
 The good thing is that we can have a unified way to compare different websites significant changes by using the same weights distribution. For the one website itself, we can use this data structure to give a total quantized "significant change" (e.g., weighted average of all N components of the input, each component can have a corresponding score function to change a string or a time variable to be an int). So we can develop more from this perspective. 
