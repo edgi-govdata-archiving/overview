@@ -39,10 +39,15 @@ A big issue with working towards the prioritization Algorithm in the website mon
 **Milestones/Timeline:**  
 
 May 15th: Make sure environment is up to date, get to know mentors, general community bonding
+
 May 30th: Begin work on Phase 1: Positive/Negative Category Testing
+
 June 20th: Finish work on phase 1, check with mentor for optimization/testing
+
 June 26th: Deliver phase 1, Begin work on graduated Category Classes
+
 July 20th: Finish working on Phase 1, check with mentor for optimization/testing
+
 July 28th: Deliver phase 2.
 
 **Deliverables:**  
