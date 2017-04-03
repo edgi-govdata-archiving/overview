@@ -1,5 +1,7 @@
 ## Google Summer of Code - Application
 
+# Environmental Data & Governance Initiative
+
 ### Student
 
 **Name:** Chaitanya Prakash Bapat, Chaitanya
@@ -261,4 +263,4 @@ Company Name(Tenure) | Designation | Work Description
 
 **Commitment:**
 
-I would commit to 4 hours of work every day on Weekdays(4*5) and 10 hours on week-ends towards the project. Moreover, being a goal-driven individual, I would obviously strive to complete the goals set for the project. Hence, I understand that at times I would have to push the no. of hours / day so as to meet the needs and the timeline. 
+I would commit to 7 hours of work every day on Weekdays(4*7) and 10 hours on week-ends(10*2) towards the project. Since I am currently not pre-occupied by any other commitment, I am certain of my commitment of 40 hours per week towards the project. Moreover, being a goal-driven individual, I would obviously strive to complete the goals set for the project. Hence, I understand that at times I would have to push the no. of hours / day so as to meet the needs and the timeline. 
