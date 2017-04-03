@@ -65,6 +65,6 @@ Because I just joined the archivers.slack.com, I think the first thing is discus
 
 **Teamwork:** Most of my previous projects needed team work and collaboration. And I have played a lot of different roles in these teams. But the key point for me is following interest-oriented under the problem driven strategy. It is enjoyable to play a role in a team and figure out the answer of the problem.
 
-**Interests:** 
+**Interests:** I like coding and reading. And learning by doing is the way for me to consider any problem. Besides, I like climbing and geometry.
 
-**Commitment:** I will be able to work as the required time when I am working for GSOC. The earliest emtry time is May 8th. I will 
+**Commitment:** I will be able to work as the required time when I am working for GSOC. The earliest emtry time is May 8th. I will fully get invovled this project.
