@@ -40,8 +40,8 @@ Currently, I have an N-component definition idea of the input data to solve the 
 1). The input data could be reformulated to be a class which includes the possible indexes of the website. For example, it includes how many changes happens during a specific period of time, how may JSON blobs are changed, what is the time interval when the changes happen, what is the frequency of each change during the monitoring time period etc. E.g.,
 
 Class inputdata {
-	string website; // the url of the website
-	int ID; // the record ID of the website
+    string website; // the url of the website
+    int ID; // the record ID of the website
 	int num_changes; // the number of changes happen in the 
 	string start_time; // the time we start monitoring
 	string end_time; // the time we stop monitoring
