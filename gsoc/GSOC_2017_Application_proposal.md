@@ -52,9 +52,9 @@ Class inputdata {
     ...
 };
 ```
-    Of course, we can add or modify components to this class so that it can satisfy our requirements (e.g., using vector or queue to express the possible indexes)
+Of course, we can add or modify components to this class so that it can satisfy our requirements (e.g., using vector or queue to express the possible indexes)
 
-2. Distributed weights to each component. E.g.,
+2. Distributed weights to each component. It can help different analyst consider their own distribution of the weights based on their interests. It is a quantized framework of the input data to reflect the comprehensive changes of a website (usually, we will normalize the weights). E.g.,
 
 ```
 Class weight{
@@ -64,8 +64,6 @@ Class weight{
     ...
 };
 ```
-
-    You can normalize the weights or not. It can help different analyst consider their own distribution of the weights based on their interests. It is a quantized framework of the input data to reflect the comprehensive changes of a website.
 
 The good thing is that we can have a unified way to compare different websites significant changes by using the same weights distribution. For the one website itself, we can use this data structure to give a total quantized "significant change" (e.g., weighted average of all N components of the input, each component can have a corresponding score function to change a string or a time variable to be an int). So we can develop more from this perspective. 
 
