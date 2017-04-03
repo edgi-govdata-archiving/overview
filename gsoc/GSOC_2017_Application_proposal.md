@@ -52,10 +52,10 @@ The final result is a comprehensive input data structure and the processing modu
 I have related knowledge of machine learning theory and algorithms. And I will pay attention to the current issue, record logs and reports, data sampled by Versionista, servers with big storage so that I can have a more intuitive undterstanding of the problem. Besides, all other potential implementations and theories. My advisor Dr. Lijun Chen and other professors, classmates are all my power to solve the problem.
 
 **Setup:**  
-[What have you done, or will you do, to get set up for this project]
+I have already taken the machine learning course and the optimization course. And one project I did was the Expedia hotel recommendation which is very closed to our web monitoring project. Further more, the research I did used optimization a lot. They bring me a good sense about the machine learning algorithm and the optimization strategy. 
 
 **Ongoing involvement:**  
-[How do you see your involvment in the project continuing]
+Because I just joined the archivers.slack.com, I think the first thing is discussing with all members of the team and understanding their concerns or issues before. By refining the problem as clearly as possible, I will explore the monitoring data of the target website to get more intuitive understanding. Meanwhile, build the work on our current achievements. Of course, I will learn NLP and deep learning knowledge. 
 
 ### Student Experience
 
