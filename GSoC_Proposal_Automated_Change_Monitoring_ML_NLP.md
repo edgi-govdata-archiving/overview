@@ -218,16 +218,16 @@ https://realtimeboard.com/app/board/o9J_k05a66g=/
 **Setup:**  
 
 I have setup the following on my machine to meet the needs of the project : 
-[X] PageFreezer setup
-[X] Linting  setup
-[X] Python ML libraries - Scikit-learn, Numpy, Scipy, Pandas
-[X] Python NLP libraries with Anaconda - NLTK, Stanford CoreNLP, SpaCY, Gensim, TextBlob
-[X] Python Extraction libraries (for generating Corpus of Environment words) - Scrapy, BeautifulSoup
+- [X] PageFreezer setup
+- [X] Linting  setup
+- [X] Python ML libraries - Scikit-learn, Numpy, Scipy, Pandas
+- [X] Python NLP libraries with Anaconda - NLTK, Stanford CoreNLP, SpaCY, Gensim, TextBlob
+- [X] Python Extraction libraries (for generating Corpus of Environment words) - Scrapy, BeautifulSoup
 
 Prior experience of value to this project includes : 
-[X] Handy knowledge of Machine Learning algorithms including Classifiers and Clustering.
-[X] Aware of open-source contributions, licensing
-[X] Worked on Agile methodology
+- [X] Handy knowledge of Machine Learning algorithms including Classifiers and Clustering.
+- [X] Aware of open-source contributions, licensing
+- [X] Worked on Agile methodology
 
 
 **Ongoing involvement:**  
