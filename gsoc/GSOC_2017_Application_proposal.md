@@ -45,7 +45,7 @@ Class inputdata {
 	int num_changes; // the number of changes happen in the 
 	string start_time; // the time we start monitoring
 	string end_time; // the time we stop monitoring
-  ...
+	...
 };
 
 Of course, we can add or modify components to this class so that it can satisfy our requirements (e.g., using vector or queue to express the possible indexes)
