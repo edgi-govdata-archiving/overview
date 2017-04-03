@@ -91,7 +91,9 @@ Because I just joined the archivers.slack.com, I think the first thing is discus
 ### Student Experience
 
 **Previous Experience:** 
-I have a machine learning project experience: [Expedia hotel recommendation](https://www.kaggle.com/c/expedia-hotel-recommendations). This project is the one from kaggle.com. We need to use the labeled and unlabeled data to make a prediction of the customer’s potential hotel choices. It includes to build a hotel ranking system with a prediction algorithm. I was responsible for the data processing and the construction of the ranking score. It is a very good project to implement the machine learning algorithms (e.g. KNN or linear regression) into the practical problem. 
+I have a machine learning project experience: [Expedia hotel recommendation](https://www.kaggle.com/c/expedia-hotel-recommendations). This project is the one from kaggle.com. Customers will have different behaviors when they are using Expedia to book hotels. And it will have their preferences and the history of consumption. Expedia wants to provide personalized recommendation and customization services for each customer, so how to build a recommending system is the problem we need to solve. 
+
+In this project, we need to use the labeled and unlabeled data to make a prediction of the customer’s potential hotel choice. It includes to build a hotel ranking system with a prediction algorithm. The general idea of our work was using a score function to compute the preference score of the hotels based on the data of this customer. Then built a ranking system to recommend hotels to this customer. I was responsible for the data processing and the construction of the preference score. It is a very good project to implement the machine learning algorithms (e.g. KNN or linear regression) into the practical problem. 
 
 **Open Source Project(s) you are working on or would like to:** 
 I do not have too much such kind of experiences, and this is the first open source project I would like to work on. 
