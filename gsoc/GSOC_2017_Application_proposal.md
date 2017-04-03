@@ -2,19 +2,19 @@
 
 ### Student
 
-**Name:** [Given Name and Family Name, indicate preferred name]
+**Name:** Guohui Ding
 
-**Affiliation:** [School, Program and Degree]
+**Affiliation:** University of Colorado Boulder, Computer Science, PhD
 
-**Location:** [City, Country and Timezone]
+**Location:** Boulder CO, USA, MST
 
-**GitHub handle:** [@usename]
+**GitHub handle:** @ikol1729
 
-**Slack handle:** [@usename]
+**Slack handle:** @guohui
 
-**Email:** [We require an email, however you can provide this via direct message on Slack, please indicate if doing so]
+**Email:** guohui.ding@colorado.edu
 
-**Other Contact:**  
+**Other Contact:**  https://www.linkedin.com/in/guohuiding
 [Website, Twitter, etc.. whatever you want to share!]
 
 ### Project Details
