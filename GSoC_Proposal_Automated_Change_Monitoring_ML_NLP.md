@@ -174,10 +174,10 @@ Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li
 4. Formalize the process of classifying a change - irrelevant, relevant, important, etc.
 5. Create a primary dataset of changes for ML training module.
 6. Understand and Implement the Machine Learning algorithms (for e.g. Latent Dirichlet Allocation LDA) for identifying Relevant keywords from text.
-7. Perform a sentiment analysis +ve / -ve on Diffs.
-8. Use a summarizer to identify key sentences.
+7. Perform a sentiment analysis on the Diffs.
+8. Use a summarizer to identify the key sentences.
 9. Cross-check the outputs of the Summarizer, various ML algorithms like LDA with the Classifier.
-10. Design test cases for the classifier
+10. Design test cases for the classifier.
 11. Fine-tune the classifier.
 
 ## Phase 3 - Prioritization
