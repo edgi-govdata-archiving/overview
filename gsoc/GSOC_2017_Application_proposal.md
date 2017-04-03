@@ -27,7 +27,7 @@ Improve the website monitoring system by using machine learning to identify the 
 The broader goal of the project is to build an assistant system to reduce the work of analysts. This kind of reduction means that: 1) Deal with the data computation with preprocessing and reduce all unnecessary extra work so that the system can provide the useful information as much as possible to the analysts. 2) Detect the changes of the target websites and identify the significance of these website changes accurately and efficiently.
 
 **Describe how your project meets this need:**  
-To reach the goal above, the project overview has already shown a very clear picture of the use case and the corresponding definitions, architecture etc. But there are still some places that need to be considered in depth. Here are two aspects which Dr. Hucka talked to me. I think it is really worth digging:
+To reach the goal above, the project overview has already shown a very clear picture of the use case and the corresponding definitions, architecture etc. But there are still some places that need to be considered in depth. Based on the discussion with the project organizers, I think there are two things which are really worth digging:
 
 1>. What is the optimal format of the input?
 2>. What is the purpose when the analysts analyze the diffs?
@@ -49,7 +49,7 @@ Week8-10: Implement this processing module in the real monitoring system, keep o
 The final result is a comprehensive input data structure and the processing module with the corresponding machine learning model. If possible, it can have a theoretical framework to deal with such kind of analogous problem.
 
 **Resources:**  
-I have related knowledge of machine learning theory and algorithms. And I will pay attention to the current issue, record logs, and reports, data sampled by Versionista, servers with big storage so that I can have a more intuitive understanding of the problem. Besides, all other potential implementations and theories. My advisor Dr. Lijun Chen and other professors, classmates are all my power to solve the problem.
+I have related knowledge of machine learning theory and algorithms. And I will pay attention to the current issue, record logs, and reports, data sampled by Versionista, servers with big storage so that I can have a more intuitive understanding of the problem. Besides, all other potential implementations and theories. My advisor, other professors, and classmates are all my power to solve the problem.
 
 **Setup:**  
 I have already taken the machine learning course and the optimization course. And one project I did was the Expedia hotel recommendation which is very close to our web monitoring project. Furthermore, the research what I did used optimization a lot. They bring me a good sense of the machine learning algorithm and the optimization strategy. 
