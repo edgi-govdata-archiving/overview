@@ -35,7 +35,7 @@ To reach the goal above, the project overview has already shown a very clear pic
 
 * What is the purpose when the analysts analyze the diffs?
 
-...For the second problem (2>), it closely related to how does the “significant change” define. The target of monitoring depends on the analysts, but I think the significant change means there is at least one index exceeds the expectation of this analyst a lot. So, it should have a multi-perspective significant change definition and an overall significant change. But we need to think about what is the "index" we need, how many and what are this kind of indexes are the optimal choices etc. 
+⋅⋅⋅For the second problem (2>), it closely related to how does the “significant change” define. The target of monitoring depends on the analysts, but I think the significant change means there is at least one index exceeds the expectation of this analyst a lot. So, it should have a multi-perspective significant change definition and an overall significant change. But we need to think about what is the "index" we need, how many and what are this kind of indexes are the optimal choices etc. 
 
 Currently, I have an N-component definition idea of the input data to solve the problem. The basic structure should have:
 1). The input data could be reformulated to be a class which includes the possible indexes of the website. For example, it includes how many changes happens during a specific period of time, how may JSON blobs are changed, what is the time interval when the changes happen, what is the frequency of each change during the monitoring time period etc. E.g.,
