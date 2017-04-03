@@ -51,7 +51,6 @@ Class inputdata {
 Of course, we can add or modify components to this class so that it can satisfy our requirements (e.g., using vector or queue to express the possible indexes)
 
 2). Distributed weights to each component. E.g.,
-
 Class weight{
 	int start_time; // the weight of inputdata.start_time
 	int end_time; // the weight of input data.end_time
