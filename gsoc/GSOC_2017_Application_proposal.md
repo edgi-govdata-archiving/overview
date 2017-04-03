@@ -49,6 +49,7 @@ The final result is a comprehensive input data structure and the processing modu
 
 **Resources:**  
 [List any people, documentation, literature, sample data, or hardware you will need, if applicable]
+I have related knowledge of machine learning theory and algorithms. And I will pay attention to the current issue, record logs and reports, data sampled by Versionista, servers with big storage so that I can have a more intuitive undterstanding of the problem. Besides, all other potential implementations and theories. My advisor Dr. Lijun Chen and other professors, classmates are all my power to solve the problem.
 
 **Setup:**  
 [What have you done, or will you do, to get set up for this project]
