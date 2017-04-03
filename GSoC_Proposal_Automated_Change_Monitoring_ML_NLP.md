@@ -43,18 +43,18 @@ The project will fulfill the following needs -
 **Describe how your project meets this need:**  
 
 Following needs will be met in my project :-
-1. Dataset - 
+##### 1. Dataset - 
 
 After intense deliberation with analysts, subject matter experts (domain experts), we would stitch together a corpus of highly influential and important keywords in the domain of environmental data and its archival.
 
-2. Classifier - 
+##### 2. Classifier - 
 
 Using ML techniques (classification algorithms), the diff (from PageFreezer,Versionista) will be categorized as an important, relevant change or an irrelevant change by making use of the curated dataset. It will primarily be a Supervised approach towards classification of change. The algorithms that can be tried include (but not restricted to) - Support Vector machines, K-nearest neighbour, Random Forest.
 
 Output of such a classifier will be cross-checked with the outcomes from NLP techniques (LDA and Summarizer). This will enable us to ensure the legitimacy of our findings. Various test conditions need to be finalized so that classification is done with as high accuracy as possible.
 
 
-3. Priority Algorithm - 
+##### 3. Priority Algorithm - 
 
 + At this point in time, there is no standard way of prioritizing the changes. 
 + Few unanswered questions - 
@@ -63,7 +63,7 @@ Output of such a classifier will be cross-checked with the outcomes from NLP tec
   + What parameters will decide the priority of changes?
   + Priority should be an integral number (0,1,...100) or a value derived from a formula? 
   
-#### Answer to above questions - Priority Algorithm
+###### Answer to above questions - Priority Algorithm
 - An algorithm would be needed to decide the precedence, the order. Such an algorithm will help distinguish critical and important changes from the irrelevant ones.
 - This algorithm would be on the basis of parameters like - "Confidence / Trust factor" and "Rating". 
 - Taking these 2 parameters into consideration, every change will be evaluated according to the algorithm and then prioritized.
@@ -73,20 +73,22 @@ Output of such a classifier will be cross-checked with the outcomes from NLP tec
 
 As discussed in edgi-govdata-archiving/web-monitoring-processing#28 :
 
-### Gist
+##### Gist
 Priority will be given on the basis of Ratings and Confidence/Trust. 
 
-### Rating 
-> **Value given to the word (and progressively to the sentence and the page) on the basis of Domain knowledge**
+##### Rating 
 
-### Confidence
-**The notion of confidence is the factor that is updated over time, that represents trust and accuracy of a particular rated word.**
+**Rating is the value given to the word (and progressively to the sentence and the page) on the basis of domain knowledge.**
+
+##### Confidence
+**The notion of confidence is the factor that gets updated over time, which represents trust and accuracy of a particular rated word.**
 
 - Over the course of time, every website, every change would be documented and carefully curated. Thus, the archival of such information will build up to provide historic data in the future. Currently, historic data includes information of various versions of websites. However, with our initiative, the new "historic data" will have - versions, changes, rating, priority and confidence values.
 - This would enable us to provide an automated ranking system with a considerably high accuracy.
+
 E.g. If it is found, website X always produces changes of rating 0.2 - 0.6 can be given lower confidence (say 40%). On the contrary, another website Y consistently provides changes of rating 1 - can be given higher confidence (say 75%). Such a confidence parameter facilitates easier prioritization and quicker decision-making.
 
-### Priority Calculation
+#### Priority Calculation
 
 By basic logic,
 ```
@@ -128,7 +130,8 @@ Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li
 
 1. Understand the problem at hand by gathering domain specific knowledge (i.e. environmental information)
 2. Define and read about a meaningful change.
-3. Identify the characteristics of a change. (+ Document the findings)
+3. Identify the characteristics of a change.
+  + Document the findings
 4. Review the existing system architecture - 
 - Groundwork 
   -  [edgi-govdata-archiving/web-monitoring#22](https://github.com/edgi-govdata-archiving/web-monitoring/issues/22)
@@ -145,9 +148,11 @@ Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li
   + Seperately store the HTML tags lest they are needed for any specific information
   + To clean html part, use functions from NLTK - e.g. clean_html()
 4. Further clean the data if needed.
-5. Research on similar projects.(+ Document the observations and research findings)
+5. Research on similar projects.
+  + Document the observations and research findings
   + Groundwork - [edgi-govdata-archiving/web-monitoring#18]()
-6. Study 'Content Moderation' ( + Note down the study for future reference and the benefit of community)
+6. Study 'Content Moderation' 
+  + Note down the study for future reference and the benefit of community
   + Groundwork - [edgi-govdata-archiving/overview#106]()
 
 ## Phase 2 - Classification
@@ -213,16 +218,16 @@ https://realtimeboard.com/app/board/o9J_k05a66g=/
 **Setup:**  
 
 I have setup the following on my machine to meet the needs of the project : 
-+ [X] PageFreezer setup
-+ [X] Linting  setup
-+ [X] Python ML libraries - Scikit-learn, Numpy, Scipy, Pandas
-+ [X] Python NLP libraries with Anaconda - NLTK, Stanford CoreNLP, SpaCY, Gensim, TextBlob
-+ [X] Python Extraction libraries (for generating Corpus of Environment words) - Scrapy, BeautifulSoup
+[X] PageFreezer setup
+[X] Linting  setup
+[X] Python ML libraries - Scikit-learn, Numpy, Scipy, Pandas
+[X] Python NLP libraries with Anaconda - NLTK, Stanford CoreNLP, SpaCY, Gensim, TextBlob
+[X] Python Extraction libraries (for generating Corpus of Environment words) - Scrapy, BeautifulSoup
 
 Prior experience of value to this project includes : 
-+ [X] Handy knowledge of Machine Learning algorithms including Classifiers and Clustering.
-+ [X] Aware of open-source contributions, licensing
-+ [X] Worked on Agile methodology
+[X] Handy knowledge of Machine Learning algorithms including Classifiers and Clustering.
+[X] Aware of open-source contributions, licensing
+[X] Worked on Agile methodology
 
 
 **Ongoing involvement:**  
@@ -240,20 +245,20 @@ Company Name(Tenure) | Designation | Work Description
 **_Quickwork Technologies Private Limited_** | Software Developer Intern | <ul><li>Developed a Mobile application software using Java programming language and MongoDB (NoSQL database)</li><li>Designed Messaging Bots</li><li>Integrated the application on iOS using Swift</li><li>Worked on Teamchat.com Client SDK</li></ul>
 
 **Open Source Project(s) you are working on or would like to:**
-+ Web monitoring processing project of EDGI is close to my domain experience and interests and would love to contribute to the same.
++ Web monitoring processing project of EDGI is close to my domain experience and interests and hence would love to contribute to the same.
 + Apache Spark architecture is another suite of technology that I have worked with and would like to develop in the future.
 
 **Teamwork:**
 - Having worked in 3 companies (all startups) I am aware of how Agile methodology works and contributed towards the project in the same vein.
 - Spending 24 hours on 1 subject as a part of hackathon has led me to hone my team-management skills apart from fast-paced development. ( Won 2 hackathons - Microsoft and Germinate, Participated in 5)
-- Besides software development, I have attended 2 conferences (Computer Society of India IT 2020 and ICCASP) where I had to present my team project and research idea, respectively.
-- I am regular participant of Hadoop, Apache Spark, Docker and Kubernetes Meetups in Mumbai and enjoy discussing with other Data Science enthusiasts.
+- Besides software development, I have attended 2 conferences (Computer Society of India IT 2020 and ICCASP) where I had to present my team project and our research idea, respectively.
+- I am a regular participant of Hadoop, Apache Spark, Docker and Kubernetes Meetups in Mumbai and enjoy discussing on cutting-edge big-data topics with other Data Science enthusiasts.
 
 **Interests:**
-- I am interested in Data Science aspect of any project - may it be Data Extraction, Visualization (UI), ML or AI.
+- I am interested in the Data Science aspect of any project - may it be Data Extraction, Visualization (UI), ML or AI.
 - Apart from that, Software Development and Testing / Debugging also interest me.
-- Besides computer and technology, I love playing and watching sports - especially football, cricket and swimming. I play violin and enjoy singing.
+- Besides being a computer and technology enthusiast, I love playing and watching sports - especially football, cricket and swimming. I play violin and enjoy singing.
 
 **Commitment:**
 
-I would commit to 4 hours of work every day on Weekdays(4*5) and 10 hours on week-ends towards the project. Moreover, being a goal-driven individual, I would obviously strive to complete the goals set for the project. Hence, I understand that at times I would have to push the no. of hours / day so as to meet the needs and timeline. 
+I would commit to 4 hours of work every day on Weekdays(4*5) and 10 hours on week-ends towards the project. Moreover, being a goal-driven individual, I would obviously strive to complete the goals set for the project. Hence, I understand that at times I would have to push the no. of hours / day so as to meet the needs and the timeline. 
