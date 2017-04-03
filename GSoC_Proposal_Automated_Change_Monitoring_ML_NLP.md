@@ -28,7 +28,7 @@ ML+NLP based Automated Change Ranking
 
 **Project Abstract/Summary:**  
 
-Generating an Environmental corpora, classifying the change as relevant or not using ML algorithms and then prioritizing the relevant ones using NLP-backed priority algorithm.
+Generating an environmental corpus, classifying the website changes using ML algorithms and then prioritizing the relevant ones using NLP-backed priority algorithm.
 
 **Describe the need your project fills:**  
 
