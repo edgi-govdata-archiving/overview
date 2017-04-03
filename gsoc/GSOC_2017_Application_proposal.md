@@ -24,7 +24,7 @@
 Improve the website monitoring system by using machine learning to identify the significant changes of the websites.
 
 **Describe the need your project fills:**  
-The broader goal of the project is to build an assistant system to reduce the work of analysts. This kind of reduction means: 1) Deal with the data computation with preprocessing and reduce all unnecessary extra work so that the system can provide the useful information as much as possible to the analysts. 2) Detect the changes of the target websites and identify the significance of these website changes accurately and efficiently.
+The broader goal of the project is to build an assistant system to reduce the work of analysts. This kind of reduction means that: 1) Deal with the data computation with preprocessing and reduce all unnecessary extra work so that the system can provide the useful information as much as possible to the analysts. 2) Detect the changes of the target websites and identify the significance of these website changes accurately and efficiently.
 
 **Describe how your project meets this need:**  
 To reach the goal above, the project overview has already shown a very clear picture of the use case and the corresponding definitions, architecture etc. But there are still some places that need to be considered in depth. Here are two aspects which Dr. Hucka talked to me. I think it is really worth digging:
@@ -52,7 +52,7 @@ The final result is a comprehensive input data structure and the processing modu
 I have related knowledge of machine learning theory and algorithms. And I will pay attention to the current issue, record logs, and reports, data sampled by Versionista, servers with big storage so that I can have a more intuitive understanding of the problem. Besides, all other potential implementations and theories. My advisor Dr. Lijun Chen and other professors, classmates are all my power to solve the problem.
 
 **Setup:**  
-I have already taken the machine learning course and the optimization course. And one project I did was the Expedia hotel recommendation which is very closed to our web monitoring project. Further more, the research I did used optimization a lot. They bring me a good sense about the machine learning algorithm and the optimization strategy. 
+I have already taken the machine learning course and the optimization course. And one project I did was the Expedia hotel recommendation which is very close to our web monitoring project. Furthermore, the research what I did used optimization a lot. They bring me a good sense of the machine learning algorithm and the optimization strategy. 
 
 **Ongoing involvement:**  
 Because I just joined the archivers.slack.com, I think the first thing is discussing with all members of the team and understanding their concerns or issues before. By refining the problem as clearly as possible, I will explore the monitoring data of the target website to get more intuitive understanding. Meanwhile, build the work on our current achievements. Of course, I will learn NLP and deep learning knowledge. 
@@ -66,7 +66,7 @@ I have a machine learning project experience: Expedia hotel recommendation. This
 I do not have too much such kind of experiences, and this is the first open source project I would like to work on. 
 
 **Teamwork:** 
-Most of my previous projects needed team work and collaboration. And I have played a lot of different roles in these teams. But the key point for me is following interest-oriented under the problem driven strategy. It is enjoyable to play a role in a team and figure out the answer of the problem.
+Most of my previous projects needed teamwork and collaboration. And I have played a lot of different roles in these teams. But the key point for me is following interest-oriented under the problem driven strategy. It is enjoyable to play a role in a team and figure out the answer to the problem.
 
 **Interests:** 
 I like coding and reading. And learning by doing is the way for me to consider any problem. Besides, I like climbing and geometry.
