@@ -67,11 +67,11 @@ You can normalize the weights or not. It can help different analyst consider the
 The good thing is that we can have a unified way to compare different websites significant changes by using the same weights distribution. For the one website itself, we can use this data structure to give a total quantized "significant change" (e.g., weighted average of all N components of the input, each component can have a corresponding score function to change a string or a time variable to be an int). So we can develop more from this perspective. 
 
 **Milestones/Timeline:**  
-Week1: Processing and observing data, give a statistical analysis of the samples and formulate the input data’s structure.
-Week2-3: Based on different targets of monitoring websites, optimize the input data’s structure for specific observing targets, mimic the possible the weights of each component and prepare for adjustment.
-Week4-5: Adjust and improve the current machine learning model using small samples and data sets, try to give a recommending system strategy to show the significant changes from different perspectives.
-Week6-7: Keep revising and optimizing the machine learning model and the input data structure using bigger dataset and more different websites, improve its robustness, accuracy and the efficiency.
-Week8-10: Implement this processing module in the real monitoring system, keep optimizing and improving.
+* Week1: Processing and observing data, give a statistical analysis of the samples and formulate the input data’s structure.
+* Week2-3: Based on different targets of monitoring websites, optimize the input data’s structure for specific observing targets, mimic the possible the weights of each component and prepare for adjustment.
+* Week4-5: Adjust and improve the current machine learning model using small samples and data sets, try to give a recommending system strategy to show the significant changes from different perspectives.
+* Week6-7: Keep revising and optimizing the machine learning model and the input data structure using bigger dataset and more different websites, improve its robustness, accuracy and the efficiency.
+* Week8-10: Implement this processing module in the real monitoring system, keep optimizing and improving.
 
 **Deliverables:**  
 The final result is a comprehensive input data structure and the processing module with the corresponding machine learning model. If possible, it can have a theoretical framework to deal with such kind of analogous problem.
