@@ -42,10 +42,10 @@ Currently, I have an N-component definition idea of the input data to solve the 
 Class inputdata {
     string website; // the url of the website
     int ID; // the record ID of the website
-	int num_changes; // the number of changes happen in the 
-	string start_time; // the time we start monitoring
-	string end_time; // the time we stop monitoring
-	...
+    int num_changes; // the number of changes happen in the 
+    string start_time; // the time we start monitoring
+    string end_time; // the time we stop monitoring
+    ...
 };
 ```
 Of course, we can add or modify components to this class so that it can satisfy our requirements (e.g., using vector or queue to express the possible indexes)
@@ -54,10 +54,10 @@ Of course, we can add or modify components to this class so that it can satisfy 
 
 ```
 Class weight{
-	int start_time; // the weight of inputdata.start_time
-	int end_time; // the weight of input data.end_time
-	int num_changes; // the weight of num_changes
-	...
+    int start_time; // the weight of inputdata.start_time
+    int end_time; // the weight of input data.end_time
+    int num_changes; // the weight of num_changes
+    ...
 };
 ```
 
