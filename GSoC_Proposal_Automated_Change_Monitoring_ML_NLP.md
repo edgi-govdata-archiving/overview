@@ -145,22 +145,22 @@ Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li
 
 1. Study the PageFreezer API (Webmonitoring processing)
 2. Create a corpus of environment data - 
-  + Groundwork - [edgi-govdata-archiving/web-monitoring#28]()
+  + Groundwork - [edgi-govdata-archiving/web-monitoring#28](https://github.com/edgi-govdata-archiving/web-monitoring/pull/28)
 3. Extract the content of diff (i.e.  Seperate the HTML tags from the actual content)
   + Seperately store the HTML tags lest they are needed for any specific information
   + To clean html part, use functions from NLTK - e.g. clean_html()
 4. Further clean the data if needed.
 5. Research on similar projects.
   + Document the observations and research findings
-  + Groundwork - [edgi-govdata-archiving/web-monitoring#18]()
+  + Groundwork - [edgi-govdata-archiving/web-monitoring#18](https://github.com/edgi-govdata-archiving/web-monitoring/issues/18)
 6. Study 'Content Moderation' 
   + Note down the study for future reference and the benefit of community
-  + Groundwork - [edgi-govdata-archiving/overview#106]()
+  + Groundwork - [edgi-govdata-archiving/web-monitoring#29](https://github.com/edgi-govdata-archiving/web-monitoring/issues/29)
 
 ## Phase 2 - Classification
 
 1. Understand the ML requirements.
-  + Groundwork - [edgi-govdata-archiving/web-monitoring-processing#21]()
+  + Groundwork - [edgi-govdata-archiving/web-monitoring-processing#21](https://github.com/edgi-govdata-archiving/web-monitoring-processing/issues/21)
 2. Study the existing solutions - 
   + Amazon 
     - [AI Amazon Lex ](https://aws.amazon.com/amazon-ai/)
@@ -186,7 +186,7 @@ Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li
 1. Identify the needs of prioritization.
 2. Find the various parameters on the basis of which prioritization can be carried out.
 3. Design the algorithm 
-  + Groundwork - [edgi-govdata-archiving/web-monitoring-processing#28]()
+  + Groundwork - [edgi-govdata-archiving/web-monitoring-processing#28](https://github.com/edgi-govdata-archiving/web-monitoring-processing/issues/28)
 4. Review the design.
 5. Gather the feedback and refine the algorithm.
 
