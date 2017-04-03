@@ -28,11 +28,11 @@ ML+NLP based Automated Change Ranking
 
 **Project Abstract/Summary:**  
 
-Generating Environmental corpora, classifying change as relevant or not and prioritizing relevant ones using NLP.
+Generating an Environmental corpora, classifying the change as relevant or not using ML algorithms and then prioritizing the relevant ones using NLP-backed priority algorithm.
 
 **Describe the need your project fills:**  
 
-_Broader Goal_ :- Categorizing and Prioritizing Changes / Diffs
+_Broader Goal_ :- Categorizing and Prioritizing the Changes / Diffs
 
 The project will fulfill the following needs - 
 
@@ -45,13 +45,13 @@ The project will fulfill the following needs -
 Following needs will be met in my project :-
 1. Dataset - 
 
-After intense deliberation with analysts, subject matter experts (domain experts), we would stitch together a corpus of highly influential and important keywords in the domain of environment.
+After intense deliberation with analysts, subject matter experts (domain experts), we would stitch together a corpus of highly influential and important keywords in the domain of environmental data and its archival.
 
 2. Classifier - 
 
-Using ML techniques (classification algorithms), the diff (from PageFreezer,Versionista) will be categorized as an important, relevant change or an irrelevant change by making use of the curated dataset.
+Using ML techniques (classification algorithms), the diff (from PageFreezer,Versionista) will be categorized as an important, relevant change or an irrelevant change by making use of the curated dataset. It will primarily be a Supervised approach towards classification of change. The algorithms that can be tried include (but not restricted to) - Support Vector machines, K-nearest neighbour, Random Forest.
 
-Output of the classifier will be cross-checked with the outcomes from NLP techniques (LDA and Summarizer)
+Output of such a classifier will be cross-checked with the outcomes from NLP techniques (LDA and Summarizer). This will enable us to ensure the legitimacy of our findings. Various test conditions need to be finalized so that classification is done with as high accuracy as possible.
 
 
 3. Priority Algorithm - 
@@ -65,7 +65,7 @@ Output of the classifier will be cross-checked with the outcomes from NLP techni
   
 #### Answer to above questions - Priority Algorithm
 - An algorithm would be needed to decide the precedence, the order. Such an algorithm will help distinguish critical and important changes from the irrelevant ones.
-- Such an algorithm would be on the basis of parameters like - "Confidence / Trust factor" and "Rating". 
+- This algorithm would be on the basis of parameters like - "Confidence / Trust factor" and "Rating". 
 - Taking these 2 parameters into consideration, every change will be evaluated according to the algorithm and then prioritized.
 - It would be a self-learning, ever-evolving process of curation.
 
@@ -82,10 +82,9 @@ Priority will be given on the basis of Ratings and Confidence/Trust.
 ### Confidence
 **The notion of confidence is the factor that is updated over time, that represents trust and accuracy of a particular rated word.**
 
-- By that I mean, over the course of time, every Website, every change would be documented and carefully curated.
-- This would enable us to gauge confidence for that particular change from a specific website.
-E.g. If it is found, website X always produces changes of rating 0.2 - 0.6 can be given lower confidence (say 40%)
-On the contrary, another website Y consistently provides changes of rating 1 - can be given higher confidence (say 75%)
+- Over the course of time, every website, every change would be documented and carefully curated. Thus, the archival of such information will build up to provide historic data in the future. Currently, historic data includes information of various versions of websites. However, with our initiative, the new "historic data" will have - versions, changes, rating, priority and confidence values.
+- This would enable us to provide an automated ranking system with a considerably high accuracy.
+E.g. If it is found, website X always produces changes of rating 0.2 - 0.6 can be given lower confidence (say 40%). On the contrary, another website Y consistently provides changes of rating 1 - can be given higher confidence (say 75%). Such a confidence parameter facilitates easier prioritization and quicker decision-making.
 
 ### Priority Calculation
 
@@ -102,20 +101,13 @@ Priority_new = Priority_old + updation_value
 Priority_new = Priority_old - updation_value
 ```
 #### Sentiment
-**Sentiment**, by dictionary, refers to an idea / opinion / a belief.
+**Sentiment**, by dictionary, refers to an idea / opinion / a belief. However, **sentiment**, in this context, means - how _useful/relevant/meaningful_ the change was.
 
-However, **sentiment**, in this context, means - how _useful/relevant/meaningful_ the change was.
-
-If the confidence value as well as rating is high, it results in a larger updation value.
-
-Now, if that change belongs to the category of relevant change, it is a positive sentiment.
-
-Hence, it will automatically get higher priority.
+If the confidence value as well as rating is high, it results in a larger updation value. Now, if that change belongs to the category of relevant change, it is a positive sentiment. Hence, it will automatically get higher priority.
 
 On the other hand, if the change is irrelevant or less meaningful, we can safely reduce the priority (termed as a negative sentiment).
 
-
-After assigning priorities to every change, sort them in descending order (i.e. change with highest priority value first)
+After assigning the priorities to every change, we can sort them in a descending order (i.e. change with highest priority value first).
 
 ### Deduction
 + **Higher the value obtained from the equation, more the priority assigned to that particular change. (important change)**
@@ -136,7 +128,7 @@ Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li
 
 1. Understand the problem at hand by gathering domain specific knowledge (i.e. environmental information)
 2. Define and read about a meaningful change.
-3. Identify the characteristics of a change.
+3. Identify the characteristics of a change. (+ Document the findings)
 4. Review the existing system architecture - 
 - Groundwork 
   -  [edgi-govdata-archiving/web-monitoring#22](https://github.com/edgi-govdata-archiving/web-monitoring/issues/22)
@@ -153,9 +145,9 @@ Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li
   + Seperately store the HTML tags lest they are needed for any specific information
   + To clean html part, use functions from NLTK - e.g. clean_html()
 4. Further clean the data if needed.
-5. Research on similar projects.
+5. Research on similar projects.(+ Document the observations and research findings)
   + Groundwork - [edgi-govdata-archiving/web-monitoring#18]()
-6. Study 'Content Moderation'
+6. Study 'Content Moderation' ( + Note down the study for future reference and the benefit of community)
   + Groundwork - [edgi-govdata-archiving/overview#106]()
 
 ## Phase 2 - Classification
@@ -188,6 +180,10 @@ Priority Algorithm | <ul><li>Classified Diffs to be ordered/prioritized </li><li
 2. Find the various parameters on the basis of which prioritization can be carried out.
 3. Design the algorithm 
   + Groundwork - [edgi-govdata-archiving/web-monitoring-processing#28]()
+4. Review the design.
+5. Gather the feedback and refine the algorithm.
+
++ Document the entire process of classification and prioritization from time-to-time.
 
 ## Timeline - 
 ### Monthly
@@ -216,14 +212,14 @@ https://realtimeboard.com/app/board/o9J_k05a66g=/
 
 **Setup:**  
 
-I have setup the following on my machine to meet the needs of the project - 
+I have setup the following on my machine to meet the needs of the project : 
 + [X] PageFreezer setup
 + [X] Linting  setup
 + [X] Python ML libraries - Scikit-learn, Numpy, Scipy, Pandas
 + [X] Python NLP libraries with Anaconda - NLTK, Stanford CoreNLP, SpaCY, Gensim, TextBlob
 + [X] Python Extraction libraries (for generating Corpus of Environment words) - Scrapy, BeautifulSoup
 
-Moreover, from knowledge / experience point of view - 
+Prior experience of value to this project includes : 
 + [X] Handy knowledge of Machine Learning algorithms including Classifiers and Clustering.
 + [X] Aware of open-source contributions, licensing
 + [X] Worked on Agile methodology
