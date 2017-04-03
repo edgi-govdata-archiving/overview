@@ -36,7 +36,32 @@ For the first problem (1>), one possible way to monitor the website changes is V
 
 For the second problem (2>), it closely related to how does the “significant change” define. The target of monitoring depends on the analysts, but I think the significant change means there is at least one index exceeds the expectation of this analyst a lot. So, it should have a multi-perspective significant change definition and an overall significant change. But we need to think about what is the "index" we need, how many and what are this kind of indexes are the optimal choices etc. 
 
-Currently, I have an N-component definition idea of the input data to solve the problem. For example, it includes how many changes happens during a specific period of time, how may JSON blobs are changed, what is the time interval when the changes happen, what is the frequency of each change during the monitoring time period etc. All observed data can be reformulated to be the same structure input data. And each component corresponds a weight. Different analyst may have different opinions of the weights distribution. But this kind of input data structure can build a quantized framework of the input data to reflect the changes. The analysts can have their own ways to think about which part is the required significant change. And the good thing is that this kind of data structure can help a unified way to compare different websites significant changes by using the same weights. 
+Currently, I have an N-component definition idea of the input data to solve the problem. The basic structure should have:
+1). The input data could be reformulated to be a class which includes the possible indexes of the website. For example, it includes how many changes happens during a specific period of time, how may JSON blobs are changed, what is the time interval when the changes happen, what is the frequency of each change during the monitoring time period etc. E.g.,
+
+Class inputdata {
+	string website; // the url of the website
+	int ID; // the record ID of the website
+	int num_changes; // the number of changes happen in the 
+	string start_time; // the time we start monitoring
+	string end_time; // the time we stop monitoring
+  ...
+};
+
+Of course, we can add or modify components to this class so that it can satisfy our requirements (e.g., using vector or queue to express the possible indexes)
+
+2). Distributed weights to each component. E.g.,
+
+Class weight{
+	int start_time; // the weight of inputdata.start_time
+	int end_time; // the weight of input data.end_time
+	int num_changes; // the weight of num_changes
+	...
+};
+
+You can normalize the weights or not. It can help different analyst consider their own distribution of the weights based on their interests. It is a quantized framework of the input data to reflect the comprehensive changes of a website.
+
+The good thing is that we can have a unified way to compare different websites significant changes by using the same weights distribution. For the one website itself, we can use this data structure to give a total quantized "significant change" (e.g., weighted average of all N components of the input, each component can have a corresponding score function to change a string or a time variable to be an int). So we can develop more from this perspective. 
 
 **Milestones/Timeline:**  
 Week1: Processing and observing data, give a statistical analysis of the samples and formulate the input data’s structure.
