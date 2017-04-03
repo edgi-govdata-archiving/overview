@@ -1,4 +1,4 @@
-## Google Summer of Code - Application Template
+## Google Summer of Code - GSOC_2017_Application_proposal
 
 ### Student
 
@@ -67,4 +67,4 @@ Because I just joined the archivers.slack.com, I think the first thing is discus
 
 **Interests:** 
 
-**Commitment:**
+**Commitment:** I will be able to work as the required time when I am working for GSOC. The earliest emtry time is May 8th. I will 
