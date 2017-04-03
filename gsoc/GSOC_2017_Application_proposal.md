@@ -33,7 +33,7 @@ To reach the goal above, the project overview has already shown a very clear pic
 
 For the first problem (1>), one possible way to monitor the website changes is Versionista. It seems the input data will have the JSON format. It can give a specific description of the changes but it is not easy to be used for analysis. Besides, I checked the diff function of the Unix or Linux (e.g., http://www.computerhope.com/unix/udiff.htm). It can give you a similar result but we can see this kind of result still need to be refined. 
 
-For the second problem (2>), it closely related to how does the “significant change” define. The target of monitoring depends on the analysts, but I think the significant change means there is at least one index exceeds the expectation of this analyst a lot. So it should have a multi-perspective significant change definition and a overall significant change.
+For the second problem (2>), it closely related to how does the “significant change” define. The target of monitoring depends on the analysts, but I think the significant change means there is at least one index exceeds the expectation of this analyst a lot. So it should have a multi-perspective significant change definition and a overall significant change. But we need to think about what is the "index" we need, how many and what are this kind of indexes are the optimal choices etc. 
 
 Currently I have a a N-component definition idea of the input data to solve the problem. For example, it includes how many changes happens during a specific period of time, how may JSON blobs are changed, what is the time interval when the changes happen, what is the frequency of each change during the monitoring time period etc. All observed data can be reformulated to be the same structure input data. And each component corresponds a weight. Different analyst may have different opinions of the weights distribution. But this kind of input data structure can build a quantized framework of the input data to reflect the changes. The analysts can have their own ways to think about which part is the required significant change. And the good thing is that this kind of data structure can help a unifed way to compare different websites significant changes by using the same weights. 
 
@@ -45,7 +45,7 @@ Week6-7: Keep revising and optimizing the machine learning model and the input d
 Week8-10: Implement this processing module in the real monitoring system, keep optimizing and improving.
 
 **Deliverables:**  
-[Identify what EDGI will have at the end of your project]
+The final result is a comprehensive input data structure and the processing module with the corresponding machine learning model. If possible, it can have a theoretical framework to deal with such kind of analogous problem.
 
 **Resources:**  
 [List any people, documentation, literature, sample data, or hardware you will need, if applicable]
