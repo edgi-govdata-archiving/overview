@@ -15,17 +15,15 @@
 **Email:** guohui.ding@colorado.edu
 
 **Other Contact:**  https://www.linkedin.com/in/guohuiding
-[Website, Twitter, etc.. whatever you want to share!]
 
 ### Project Details
 
-**Project Title:**  
-[Title of YOUR proposed project]
+**Project Title:**  Apply Machine Learning to Monitoring Website Changes
 
-**Project Abstract/Summary (<20 words):**  
+**Project Abstract/Summary (<20 words):**  Improve the website monitoring system by using machine learning to identify the significant changes of the websites.
 
 **Describe the need your project fills:**  
-[What broader goal is your project working towards?]
+The broader goal of the project is to build an assistant system to reduce the work of analysts. This kind of reduction means: 1) Deal with the data computation with preprocessing and reduce all unnecessary extra work so that the system can provide the useful information as much as possible to the analysts. 2) Detect the changes of the target websites and identify the significance of these website changes accurately and efficiently.
 
 **Describe how your project meets this need:**  
 [How does your project address that goal? How will you know you have met it?]
