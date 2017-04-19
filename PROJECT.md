@@ -14,6 +14,8 @@ Further, all projects that constitute an application codebase (rather than a set
 
 1. A **Linting Tool** and **Linting Standard** appropriate for the language or framework. See our [proposed linting standard](./protocol/linting.md) for further details.
 
+1. **Security middleware** or follow appropriate **security reccomendations** for the language or framework (e.g., [Meteor's security checklist](https://guide.meteor.com/security.html), and programs like [NSP](https://github.com/nodesecurity/nsp), [Helmet](https://github.com/helmetjs/helmet), and [eslint-plugin-security](https://github.com/nodesecurity/eslint-plugin-security)
+
 ## Templates
 
 ### Minimal Contributing Guidelines
