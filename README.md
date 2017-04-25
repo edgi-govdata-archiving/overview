@@ -12,8 +12,8 @@ If you'd like to help with ongoing development of these tools, great!
 
 1. Review our [Contributor Guidelines](./CONTRIBUTING.md) and [Code of Conduct](./CONDUCT.md)
 1. Jump on our chat [archivers.slack.com](https://archivers.slack.com/), anyone can request an invite from [archivers-slack.herokuapp.com slackin](https://archivers-slack.herokuapp.com/)
-  - Contributor and development conversations happen on `#dev`
-  - Ping one of the EDGI coordinators (@mattprice or @dcwalk) with your GitHub name to be added to the organization
+    - Contributor and development conversations happen on `#dev`
+    - Ping one of the EDGI coordinators (@mattprice or @dcwalk) with your GitHub name to be added to the organization
 1. Take a look at our [Current Projects](#projects) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
 1. Join us at our [**weekly standup**](./protocol/standups.md), Saturdays at 6:30 ET (Eastern Time), call link posted in `#dev` as well as notes and recorded meetings
 
