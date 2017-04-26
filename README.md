@@ -10,10 +10,10 @@ If you'd like to join the community and help improve these tools, great!
 
 1. Review our [Contributor Guidelines](./CONTRIBUTING.md) and [Code of Conduct](./CONDUCT.md)
 1. Jump on the [Archivers chat (archivers.slack.com)](https://archivers.slack.com/), anyone can request an invite from [archivers-slack.herokuapp.com slackin](https://archivers-slack.herokuapp.com/)
-    - Introduce yourself in #Contributor and Development conversations happen on `#dev`
-    - Ping one of the EDGI coordinators (@mattprice or @dcwalk) with your GitHub name to be added to the organization
+    - Introduce yourself in `#introductions`, key starting places for conversations are `#general`, `#dev` and `#community-building`
+    - Ping one of the EDGI coordinators (@dcwalk, @patcon, or @mattprice) with your GitHub name to be added to the organization
 1. Take a look at our [Current Projects](#projects) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
-1. Join us at our [**weekly community standup**](./protocol/standups.md), Thursdays at 6:30 ET (Eastern Time), call link posted on our [events calendar](https://envirodatagov.org/events/). If you've missed a call check out our [notes and recorded meetings](https://github.com/edgi-govdata-archiving/overview/blob/master/notes/_standup-summaries.md).
+1. Join us at our [**weekly community standup call**](./protocol/standups.md), Thursdays at 6:30 ET (Eastern Time), call link posted on our [events calendar](https://envirodatagov.org/events/). If you've missed a call check out our [notes and recorded meetings](https://github.com/edgi-govdata-archiving/overview/blob/master/notes/_standup-summaries.md).
 
 ### Running an Event
 
