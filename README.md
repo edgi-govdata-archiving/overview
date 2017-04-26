@@ -38,6 +38,7 @@ The EDGI technical team is currently supporting development of the following pro
 | [**Harvesting Tools**](https://github.com/edgi-govdata-archiving/harvesting-tools) | A collection of code snippets designed to be dropped into the data harvesting process directly after generating the zip starter kit | **Working** |
 | [**Nomination Tool**](https://github.com/edgi-govdata-archiving/eot-nomination-tool) | Chrome extension to simplify the nomination process at archiv-a-thons | **Working** |
 | [**DataRefuge's Event Workflow**](https://github.com/datarefuge/workflow) | Detailed descriptions of the phases of event workflow | **Working** |
+| [**Technical Guides**](https://github.com/edgi-govdata-archiving/guides) | Technical guides for how to preserve and hold data | **Working** |
 | [**DataRescueTEMPLATE**](https://github.com/edgi-govdata-archiving/DataRescueTEMPLATE) | DataRescue Event Template with `gh-pages` branch for event website | **Working** |
 | [**Zip Starter**](https://github.com/edgi-govdata-archiving/zip-starter) | Automate zip folder creation for Harvesting during pipeline | **Working** |
 | [**s3 Upload Server**](https://github.com/edgi-govdata-archiving/s3-upload-server) | Heroku app for uploading Datasets to S3 from the browser  | **Working** |
@@ -65,11 +66,14 @@ The timing of the change-over depends on some external factors but is roughly pl
 | [**web-monitoring-processing**](https://github.com/edgi-govdata-archiving/web-monitoring-processing) | Queries data sources, performs prioritization/filtering, populates databases for web app| **In Progress** | Python |
 | [**web-monitoring-db**](https://github.com/edgi-govdata-archiving/web-monitoring-db) | The Rails backend of the web app that human volunteers will use to evaluate diffs | **In Progress** | Ruby on Rails |
 | [**web-monitoring-ui**](https://github.com/edgi-govdata-archiving/web-monitoring-ui) | The JS front-end that human volunteers will use to evaluate diffs | **In Progress** | TypeScript |
+| [**web-monitoring-versionista-scraper**](https://github.com/edgi-govdata-archiving/web-monitoring-versionista-scraper) | Node.js scraper for Versionista data | **Working** | Node |
 
 ### Other Projects...
 
-- Improving toolkit/remote contribution process
-- Exploring redundant, distributed storage (IPFS)
+- [EDGI website](https://github.com/edgi-govdata-archiving/edgi-website) coordination
+- [Data analysis](https://github.com/edgi-govdata-archiving/analysis) scripts and tools for understanding our archiving impact
+- Toolkit/remote contribution process improvements
+- Redundant, distributed storage (IPFS)
 
 ## Archived Tools
 
