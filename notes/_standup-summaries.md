@@ -4,12 +4,11 @@ Recent standup summaries are provided below along with a notes template. Older n
 
 ## Recent Standups
 
-- [2017-03-18 Contributor Standup](https://hackmd.io/KwMwJsBMCcCM0FpZVggLLMIEA4xgFMFhgDYAGaANioEM1pyg?view#)
+- [2017-04-27 Community Standup](https://hackmd.io/GwZgnADGAmBmBMBaArAQwIy0QFgMakQA4BTELYYVCVWYgI0PUPiA?view)
+- [2017-04-15 Contributor Standup](https://hackmd.io/EYDgjAbADAZgnBAtAFmAdjisBjAhouZKAJkRBAFMBmAVnmABM0aag===?view)
+- [2017-03-18 Contributor Standup](https://hackmd.io/KwMwJsBMCcCM0FpZVggLLMIEA4xgFMFhgDYAGaANioEM1pyg?view)
 - [2017-03-11 Contributor Standup](https://hackmd.io/KwNgjAHALARgxgTgLQIAwCYDsSoFNMRIyoLZToJgLozoBmEcUQA=?view)
 - [2017-02-28 Contributor Standup](https://hackmd.io/MwNgDArAjAJhBGBaSMBMiAsGbEQTgDMI9ECCBjGSMKADngLyA===?view)
-- [2017-02-21 Contributor Standup](https://hackmd.io/GwUwHCBmBGCssFpYBYCGkHNgBgOwNXjE1VABNhkBmKtARiA=#)
-- [2017-02-14 Contributor Standup](https://hackmd.io/EYDgpg7ArAnDIFoAMUDGBmBAWd7gIEMCBGAEwVJHVQCYIQAzSiMIA===#)
-- [2017-02-07 Contributor Standup](https://hackmd.io/GYFgrAxghmAcsFoCmIDsEEgGzCg2AnKgIwIBGqSUSqUATKqmAUA=#)
 
 ## Notes Template
 
