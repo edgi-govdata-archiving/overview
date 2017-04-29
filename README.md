@@ -13,7 +13,11 @@ If you'd like to join the community and help improve these tools, great!
     - Introduce yourself in `#introductions`, key starting places for conversations are `#general`, `#dev` and `#community-building`
     - Ping one of the EDGI coordinators (@dcwalk, @patcon, or @mattprice) with your GitHub name to be added to the organization
 1. Take a look at our [Current Projects](#projects) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
-1. Join us at our [**weekly community standup call**](./protocol/standups.md), Thursdays at 6:30 ET (Eastern Time), call link posted on our [events calendar](https://envirodatagov.org/events/). If you've missed a call check out our [notes and recorded meetings](https://github.com/edgi-govdata-archiving/overview/blob/master/notes/_standup-summaries.md).
+1. Join us Thursdays at 6:30 ET (Eastern Time) at our [**weekly community standup call**](zoom.us/j/508236833): [zoom.us/j/508236833](https://zoom.us/j/508236833)
+    - We've described [our process](./protocol/standups.md)
+    - Call link also posted in slack and on our [events calendar](https://envirodatagov.org/events/) 
+    - If you've missed a call check out our recent [notes](https://github.com/edgi-govdata-archiving/overview/blob/master/notes/_standup-summaries.md) and [recorded meetings](https://www.youtube.com/watch?v=-A7pep7iXw8&list=PLtsP3g9LafVsaa18lQaPXzxJU7wIcPB1O)
+
 
 ### Running an Event
 
