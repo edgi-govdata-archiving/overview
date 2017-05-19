@@ -15,9 +15,16 @@ If you'd like to join the community and help improve these tools, great!
 1. Take a look at our [Current Projects](#projects) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
 1. Join us Thursdays at 6:30 ET (Eastern Time) at our [**weekly community standup call**](zoom.us/j/508236833): [zoom.us/j/508236833](https://zoom.us/j/508236833)
     - We've described [our process](./protocol/standups.md)
-    - Call link also posted in slack and on our [events calendar](https://envirodatagov.org/events/) 
+    - Call link also posted in slack and on our [events calendar](https://envirodatagov.org/events/)
     - If you've missed a call check out our recent [notes](https://github.com/edgi-govdata-archiving/overview/blob/master/notes/_standup-summaries.md) and [recorded meetings](https://www.youtube.com/watch?v=-A7pep7iXw8&list=PLtsP3g9LafVsaa18lQaPXzxJU7wIcPB1O)
 
+#### Recent Community Calls
+
+- [2017-05-18 Community Call](https://hackmd.io/AwZgnArAbARsMFooDMAcYEBYICYDsCqMUECyOyAhgMYQjJir1A==#)
+- [2017-05-11 Community Call](https://hackmd.io/KYZgHAbAZgnCCGBaCAmCSAsLhkWYEAJogAwwzwCMArISNZIUA===#)
+- [2017-05-04 Community Call](https://hackmd.io/CwYwzADAJlBsYFpZRAMwcMBDArArwqiARmLAJwCmAjCrNcdUA===#)
+- [2017-04-27 Community Call](https://hackmd.io/GwZgnADGAmBmBMBaArAQwIy0QFgMakQA4BTELYYVCVWYgI0PUPiA?view)
+- [2017-04-15 Contributor Standup](https://hackmd.io/EYDgjAbADAZgnBAtAFmAdjisBjAhouZKAJkRBAFMBmAVnmABM0aag===?view)
 
 ### Running an Event
 
