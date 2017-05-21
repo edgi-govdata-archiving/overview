@@ -1,10 +1,10 @@
 # Onboarding Process
 
-EDGI attemps to onboard all new participants interested in working on [our tools](https://github.com/edgi-govdata-archiving/) in a consistent way.
+EDGI attempts to onboard all new participants interested in working on [our tools](https://github.com/edgi-govdata-archiving/) in a consistent way.
 
 ## Aim
 
-To bring people with no background in EDGI up to speed so they are ready to participate in one of our ongoing development projects or attend one of our [weekly standups](./standups.md).
+To bring people with no background in EDGI up to speed so they are ready to participate in one of our ongoing development projects or attend one of our [weekly community calls](./community_calls.md).
 
 ## Channels
 
