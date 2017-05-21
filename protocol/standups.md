@@ -15,7 +15,7 @@ Meetings last **no longer than 30 mins**, with the following agenda
 | **5 mins**  | Overall updates, given on a rotating basis by project leads or EDGI Steering Committee representatives. |
 | **25 mins** | Attendee updates (soft time cap of 2 minutes per speaker) |
 
-We go around to each participant and ask: 
+We go around to each participant and ask:
 
 1. Do you need any help on a task?
 1. Do you have anything else to talk about?
@@ -28,3 +28,19 @@ Meetings scheduled in advance by @mattprice or @dcwalk and a [zoom.us](https://z
 
 - ["How to save the Daily Standup" for Agile](http://www.cio.com/article/2375989/agile-development/how-to-save-the-daily-standup-meeting.html)
 - ["Daily Standup Meetings" for Scrum](https://gpsistakis.wordpress.com/2015/02/21/daily-standup-meetings/)
+
+## Notes Template
+
+```
+# EDGI Contributor Standup YYYY-MM-DD
+
+Video:
+Attendees:
+
+# Project Update
+
+# Contributor Update
+
+## <Contributor Name>
+
+```
