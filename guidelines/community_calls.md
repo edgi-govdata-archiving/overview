@@ -1,4 +1,4 @@
-# Standup Meeting Protocol
+# Community Calls Process
 
 EDGI hosts weekly standup meetings open for all interested in ongoing development of [our tools](https://github.com/edgi-govdata-archiving/).
 
@@ -17,17 +17,12 @@ Meetings last **no longer than 30 mins**, with the following agenda
 
 We go around to each participant and ask:
 
-1. Do you need any help on a task?
-1. Do you have anything else to talk about?
+1. What are you working on, and are you blocked on any task?
+1. Do you have anything else EDGI-related to talk about?
 
 Conversations should stay relatively focused, with longer conversations moving off-stream.
 
-Meetings scheduled in advance by @mattprice or @dcwalk and a [zoom.us](https://zoom.us/) call link is posted in our chat. The standup is recorded and posted to our [Youtube Channel](https://www.youtube.com/channel/UCSfzkT_Zp5N8C_QmE7CNGig), and notes taken and made available in our chat for those who could not attend.
-
-## Additional resources
-
-- ["How to save the Daily Standup" for Agile](http://www.cio.com/article/2375989/agile-development/how-to-save-the-daily-standup-meeting.html)
-- ["Daily Standup Meetings" for Scrum](https://gpsistakis.wordpress.com/2015/02/21/daily-standup-meetings/)
+Meetings scheduled in advance by Archiving Working Group and a [zoom.us](https://zoom.us/) call link is posted in our chat. The standup is recorded and posted to a [playlist](https://www.youtube.com/watch?v=-A7pep7iXw8&list=PLtsP3g9LafVsaa18lQaPXzxJU7wIcPB1O) of our [Youtube Channel](https://www.youtube.com/channel/UCSfzkT_Zp5N8C_QmE7CNGig), and notes taken and made available in our chat for those who could not attend.
 
 ## Notes Template
 
@@ -44,3 +39,7 @@ Attendees:
 ## <Contributor Name>
 
 ```
+
+## Additional Resources
+
+Available on the [overview wiki](https://github.com/edgi-govdata-archiving/overview/wiki/Resources).
