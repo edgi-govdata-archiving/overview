@@ -25,7 +25,7 @@ If you'd like to join the community and help improve these tools, great!
 
 ## Weekly Community Calls
 
-Join us Thursdays at 6:30 ET (Eastern Time) at our [**weekly community standup call**](zoom.us/j/508236833): [zoom.us/j/508236833](https://zoom.us/j/508236833), call link also posted in slack and on our [events calendar](https://envirodatagov.org/events/).
+Join us Thursdays at 6:30 ET (Eastern Time) at our [**weekly community standup call**](https://zoom.us/j/508236833): [zoom.us/j/508236833](https://zoom.us/j/508236833), call link also posted in slack and on our [events calendar](https://envirodatagov.org/events/).
 
 ### Recent Calls
 
