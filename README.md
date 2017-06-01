@@ -8,24 +8,11 @@ Our GitHub organization, chat, and in-person events have a [Code of Conduct](./C
 
 ---
 :information_source: **Welcome Mozilla Global Sprinters!** :wave: :tada: :confetti_ball:  
-Thank you for helping out with our project, please take a moment to read our [Code of Conduct](https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md) and project-specific [Contributing Guidelines](https://github.com/edgi-govdata-archiving/web-monitoring/blob/master/CONTRIBUTING.md).
 
-:globe_with_meridians: We will be sprinting in-person at the [Toronto Mozilla Offices](https://ti.to/Mozilla/global-sprint-toronto), but remote contributors are more than welcome! Most of our team is based in the [Eastern Time Zone (ET)](https://en.wikipedia.org/wiki/Eastern_Time_Zone) or [Pacific Time Zone (PT)](https://en.wikipedia.org/wiki/Pacific_Time_Zone).
+We're excited to work with you! We've moved our Sprint-specific intro material [into a HackPad](https://hackmd.io/AwFgHMoGwGYLQEYBGUBMcTAIYjlhCuAxkWAKaEhlRZJhA===#) -- please check it out in its new location!
 
-We are looking forward to working together! You can get started by:
 
-- :speech_balloon: Joining the [Archivers Slack](https://archivers-slack.herokuapp.com/) and join `#dev` and `#dev-webmonitoring`
-- :clipboard: Reviewing the [**web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring) repo, in particular read about the [project architecture](https://github.com/edgi-govdata-archiving/web-monitoring#architecture)
-- :bookmark_tabs: Looking at our issue tracker, for the global sprint we are targeting `mozsprint` or `first-timer` issues:
-
-   | Repo | Issues |
-   |------|--------|
-   | [**web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring) | [`mozsprint`](https://github.com/edgi-govdata-archiving/web-monitoring/issues?q=is%3Aissue+is%3Aopen+label%3Amozsprint), [`first-timer`](https://github.com/edgi-govdata-archiving/web-monitoring/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-timer) |
-   | [**web-monitoring-processing**](https://github.com/edgi-govdata-archiving/web-monitoring-processing) | [`mozsprint`](https://github.com/edgi-govdata-archiving/web-monitoring-processing/issues?q=is%3Aissue+is%3Aopen+label%3Amozsprint), [`first-timer`](https://github.com/edgi-govdata-archiving/web-monitoring-processing/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-timer) |
-   | [**web-monitoring-ui**](https://github.com/edgi-govdata-archiving/web-monitoring-ui) | [`mozsprint`](https://github.com/edgi-govdata-archiving/web-monitoring-ui/issues?q=is%3Aissue+is%3Aopen+label%3Amozsprint), [`first-timer`](https://github.com/edgi-govdata-archiving/web-monitoring-ui/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-timer) |
-   | [**web-monitoring-db**](https://github.com/edgi-govdata-archiving/web-monitoring-db) | [`mozsprint`](https://github.com/edgi-govdata-archiving/web-monitoring-db/issues?q=is%3Aissue+is%3Aopen+label%3Amozsprint), [`first-timer`](https://github.com/edgi-govdata-archiving/web-monitoring-db/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-timer) |
-
----
+--- 
 
 ## Table of Contents
 
