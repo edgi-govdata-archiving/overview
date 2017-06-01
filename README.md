@@ -23,7 +23,7 @@ We are looking forward to working together! You can get started by:
    | [**web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring) | [`mozsprint`](https://github.com/edgi-govdata-archiving/web-monitoring/issues?q=is%3Aissue+is%3Aopen+label%3Amozsprint), [`first-timer`](https://github.com/edgi-govdata-archiving/web-monitoring/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-timer) |
    | [**web-monitoring-processing**](https://github.com/edgi-govdata-archiving/web-monitoring-processing) | [`mozsprint`](https://github.com/edgi-govdata-archiving/web-monitoring-processing/issues?q=is%3Aissue+is%3Aopen+label%3Amozsprint), [`first-timer`](https://github.com/edgi-govdata-archiving/web-monitoring-processing/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-timer) |
    | [**web-monitoring-ui**](https://github.com/edgi-govdata-archiving/web-monitoring-ui) | [`mozsprint`](https://github.com/edgi-govdata-archiving/web-monitoring-ui/issues?q=is%3Aissue+is%3Aopen+label%3Amozsprint), [`first-timer`](https://github.com/edgi-govdata-archiving/web-monitoring-ui/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-timer) |
-
+   | [**web-monitoring-db**](https://github.com/edgi-govdata-archiving/web-monitoring-db) | [`mozsprint`](https://github.com/edgi-govdata-archiving/web-monitoring-db/issues?q=is%3Aissue+is%3Aopen+label%3Amozsprint), [`first-timer`](https://github.com/edgi-govdata-archiving/web-monitoring-db/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-timer) |
 
 ---
 
