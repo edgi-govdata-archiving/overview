@@ -6,14 +6,6 @@ Welcome to the [Environmental Data and Governance Initiative (EDGI)](https://env
 
 Our GitHub organization, chat, and in-person events have a [Code of Conduct](./CONDUCT.md) and [Contributor Guidelines](./CONTRIBUTING.md).
 
----
-:information_source: **Welcome Mozilla Global Sprinters!** :wave: :tada: :confetti_ball:  
-
-We're excited to work with you! We've moved our Sprint-specific intro material [into a HackPad](https://hackmd.io/AwFgHMoGwGYLQEYBGUBMcTAIYjlhCuAxkWAKaEhlRZJhA===#) -- please check it out in its new location!
-
-
---- 
-
 ## Table of Contents
 
 - [Get Involved](#get-involved)
