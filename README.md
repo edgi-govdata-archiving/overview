@@ -61,8 +61,9 @@ These repositories support the current workflow, based on Google spreadsheets au
 
 | Tool Name | Description | Status |
 |-----------|-------------|--------|
-| [**Versionista Outputter**](https://github.com/edgi-govdata-archiving/versionista-outputter) | A Ruby script that scrapes Versionista's web interface to generate a csv summarizing which websites and pages have had recent changes | **Working** |
+| [**Versionista Outputter**](https://github.com/edgi-govdata-archiving/versionista-outputter) | A Ruby script that scrapes Versionista's web interface to generate a csv summarizing which websites and pages have had recent changes | **Archived** |
 | [**Version Tracking UI**](https://github.com/edgi-govdata-archiving/version-tracking-ui) | Tools to facilitate the tracking website changes | **Archived** |
+| [**web-monitoring-versionista-scraper**](https://github.com/edgi-govdata-archiving/web-monitoring-versionista-scraper) | Node.js scraper for Versionista data (faster and more reliable replacement for *Versionista Outputter* above). Note this is also used in the new web app-based workflow below.  | **Working** |
 
 These repositories will support a future workflow that improves upon the current one by:
 * replacing the Google spreadsheets with a custom web app
