@@ -23,6 +23,8 @@ If you'd like to join the community and help improve these tools, great!
     - Ping one of the EDGI coordinators (@dcwalk, @patcon, or @mattprice) with your GitHub name to be added to the organization
 1. Take a look at our [Current Projects](#projects) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
 
+**Note for IRC users:** (Advanced) If you prefer to use an IRC client, please review these [configuration instructions for Slack's IRC gateway](https://archivers.slack.com/account/gateways).
+
 ## Weekly Community Calls
 
 Join us Thursdays at 6:30 ET (Eastern Time) at our [**weekly community standup call**](https://zoom.us/j/508236833): [zoom.us/j/508236833](https://zoom.us/j/508236833), call link also posted in slack and on our [events calendar](https://envirodatagov.org/events/).
