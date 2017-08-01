@@ -15,7 +15,7 @@ We use a [minimal template](#minimal-contributing-guidelines) that points to our
 A **License**
 [GPLv3](http://gplv3.fsf.org/) is our _preferred_ license for code and [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) for creative works and documentation.
 
- We use a [License and Copyright block](#license--copyright-readme-block) added to our READMEs, add a [LICENSE](LICENSE) to the repo, and occasionally include a [Code Header License block](#code-header-license-block).
+ We use a [License and Copyright block](#license--copyright-readme-block) added to our READMEs, add a [LICENSE](/LICENSE) to the repo, and occasionally include a [Code Header License block](#code-header-license-block).
 
 ---
 
@@ -65,7 +65,7 @@ This program is free software: you can redistribute it and/or modify it under th
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-See the [`LICENSE`](LICENSE) file for details.
+See the [`LICENSE`](/LICENSE) file for details.
 ```
 
 ### Code Header License block
