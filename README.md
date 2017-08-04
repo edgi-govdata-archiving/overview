@@ -31,13 +31,7 @@ Join us Thursdays at 6:30 ET (Eastern Time) at our [**weekly community standup c
 
 ### Recent Calls
 
-If you've missed a call check out our [recorded meetings](https://www.youtube.com/watch?v=-A7pep7iXw8&list=PLtsP3g9LafVsaa18lQaPXzxJU7wIcPB1O)
- or notes:
-- [2017-05-18 Community Call](https://hackmd.io/AwZgnArAbARsMFooDMAcYEBYICYDsCqMUECyOyAhgMYQjJir1A==#)
-- [2017-05-11 Community Call](https://hackmd.io/KYZgHAbAZgnCCGBaCAmCSAsLhkWYEAJogAwwzwCMArISNZIUA===#)
-- [2017-05-04 Community Call](https://hackmd.io/CwYwzADAJlBsYFpZRAMwcMBDArArwqiARmLAJwCmAjCrNcdUA===#)
-- [2017-04-27 Community Call](https://hackmd.io/GwZgnADGAmBmBMBaArAQwIy0QFgMakQA4BTELYYVCVWYgI0PUPiA?view)
-- [2017-04-15 Contributor Standup](https://hackmd.io/EYDgjAbADAZgnBAtAFmAdjisBjAhouZKAJkRBAFMBmAVnmABM0aag===?view)
+If you've missed a call check out our [recorded meetings](https://www.youtube.com/watch?v=-A7pep7iXw8&list=PLtsP3g9LafVsaa18lQaPXzxJU7wIcPB1O!
 
 ## Projects
 
