@@ -31,7 +31,7 @@ Join us Thursdays at 6:30 ET (Eastern Time) at our [**weekly community standup c
 
 ### Recent Calls
 
-If you've missed a call check out our [recorded meetings](https://www.youtube.com/watch?v=-A7pep7iXw8&list=PLtsP3g9LafVsaa18lQaPXzxJU7wIcPB1O!
+If you've missed a call check out our [recorded meetings](https://www.youtube.com/watch?v=-A7pep7iXw8&list=PLtsP3g9LafVsaa18lQaPXzxJU7wIcPB1O)!
 
 ## Projects
 
