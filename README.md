@@ -1,4 +1,4 @@
-<div align="center"><img width=40% src="./images/EDGI-Logo-Horiz.png"></div>
+<div align="center"><img width=40% src="./images/EDGI-Logo-Horiz.png" alt="Environmental Data and Governance Initiative Logo"></div>
 
 # Overview
 
@@ -29,15 +29,17 @@ If you'd like to join the community and help improve these tools, great!
 
 Join us Thursdays at 6:30 ET (Eastern Time) at our [**weekly community standup call**](https://zoom.us/j/508236833): [zoom.us/j/508236833](https://zoom.us/j/508236833), call link also posted in slack and on our [events calendar](https://envirodatagov.org/events/).
 
-### Recent Calls
-
-If you've missed a call check out our [recorded meetings](https://www.youtube.com/watch?v=-A7pep7iXw8&list=PLtsP3g9LafVsaa18lQaPXzxJU7wIcPB1O)!
+**Recent Calls:** If you've missed a call check out our [recorded meetings](https://www.youtube.com/watch?v=-A7pep7iXw8&list=PLtsP3g9LafVsaa18lQaPXzxJU7wIcPB1O)!
 
 ## Projects
 
-The EDGI technical team is currently supporting development of the following projects. Overall progress is tracked via our [Project Tracking Board](https://github.com/edgi-govdata-archiving/overview/projects/2), however specific tasks, issues and milestones are handled in individual repos.
+The EDGI technical team is currently supporting development of the following projects.
 
-### Data Preservation
+<div align="center"><img width=40% src="./images/label-archiving.png" alt="Archiving" />&nbsp;<img width=40% src="./images/label-archiving.png" alt="Archiving" />&nbsp;<img width=40% src="./images/label-archiving.png" alt="Archiving" />&nbsp;<img width=40% src="./images/label-archiving.png" alt="Archiving" />&nbsp;<img width=40% src="./images/label-archiving.png" alt="Archiving" />&nbsp;</div>
+
+Overall progress is tracked via our [Project Tracking Board](https://github.com/edgi-govdata-archiving/overview/projects/2), however specific tasks, issues and milestones are handled in individual repos.
+
+### Archiving
 
 | Tool Name | Description | Status |
 |-----------|-------------|--------|
@@ -51,7 +53,7 @@ The EDGI technical team is currently supporting development of the following pro
 | [**s3 Upload Server**](https://github.com/edgi-govdata-archiving/s3-upload-server) | Heroku app for uploading Datasets to S3 from the browser  | **Working** |
 | [**EIS WARC Archiver**](https://github.com/edgi-govdata-archiving/eis-WARC-archiver) | Docker app that ingests a list of URLs then crawls and generates WARCs | **Working** |
 
-### Monitoring Websites
+### Website Monitoring
 
 These repositories support the current workflow, based on Google spreadsheets automatically generated from scraping the Verionista web interface. They will be deprecated when a web app-based workflow is ready to use:
 
