@@ -11,6 +11,7 @@ Our GitHub organization, chat, and in-person events have a [Code of Conduct](/CO
 - [Get Involved](#get-involved)
 - [Weekly Community Calls](#weekly-community-calls)
 - [Projects](#projects)
+- [Roadmap](#roadmap)
 - [Working Openly](#working-openly)
 
 ## Get Involved
@@ -21,7 +22,7 @@ If you'd like to join the community and help improve these tools, great!
 1. Jump on the [Archivers chat (archivers.slack.com)](https://archivers.slack.com/), anyone can request an invite from [archivers-slack.herokuapp.com slackin](https://archivers-slack.herokuapp.com/)
     - Introduce yourself in `#introductions`, key starting places for conversations are `#general`, `#dev` and `#community-building`
     - Ping one of the EDGI coordinators (@dcwalk, @patcon, or @mattprice) with your GitHub name to be added to the organization
-1. Take a look at our [Current Projects](#projects) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
+1. Take a look at our [Current Projects](#projects), [Roadmap](#roadmap) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
 
 **Note for IRC users:** (Advanced) If you prefer to use an IRC client, please review these [configuration instructions for Slack's IRC gateway](https://archivers.slack.com/account/gateways).
 
@@ -33,50 +34,23 @@ Join us Thursdays at 6:30 ET (Eastern Time) at our [**weekly community standup c
 
 ## Projects
 
-The EDGI technical team is currently supporting the following projects:
+The following projects are actively being developed:
 
 | 100 days | Archiving | Data Together | Web Monitoring | Website |
 |---|---|---|---|---|
 | Website for EDGI 100 Days Report at [100days. envirodatagov.org](https://100days.envirodatagov.org/) [**github.com/100days**](https://github.com/100days) | Set of tools, workflows, and documentation for grassroots, event-driven, archiving | Distributed model for holding copies of archived and preserved data [**github.com/ datatogether**](https://github.com/datatogether) | Interface and backend for reviewing different versions of web pages [**github.com/web-monitoring**](https://github.com/web-monitoring) | Project management and design support for EDGI's website at [envirodatagov.org](https://envirodatagov.org/) [**github.com/edgi-website**](https://github.com/edgi-website) |
 
+There are additional [`community`](https://github.com/edgi-govdata-archiving/overview/labels/community) and [`infrastructure`](https://github.com/edgi-govdata-archiving/overview/labels/infrastructure) projects that support internal EDGI and outreach processes:
+
+| Tool Name | Description |
+|-----------|-------------|
+| [**EDGI Hubot**](https://github.com/edgi-govdata-archiving/edgi-hubot) | Chat bot for EDGI Slack built on the Hubot framework  |
+| [**EDGI Scripts**](https://github.com/edgi-govdata-archiving/edgi-scripts) | Code scripts for running and maintaining our digital infrastructure |
+| [**Video Call Landing Page**](https://github.com/edgi-govdata-archiving/video-call-landing-page) | Landing page app with important info that participants can be sent through prior to joining a video call  <br />[http://edgi-video-call-landing-page.herokuapp.com/](http://edgi-video-call-landing-page.herokuapp.com/) |
+
+## Roadmap
+
 We have a technical [**Roadmap**](/ROADMAP.md) organized in planning cycles and we use a [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2) to work toward those milestones. In addition, each project covers specific tasks, issues, and milestones in individual repositories.
-
-### Archiving
-
-| Tool Name | Description | Status |
-|-----------|-------------|--------|
-| [**Nomination Tool**](https://github.com/edgi-govdata-archiving/eot-nomination-tool) | Chrome extension to simplify the nomination process at archiv-a-thons | **Working** |
-| [**Technical Guides**](https://github.com/edgi-govdata-archiving/guides) | Technical guides for how to preserve and hold data | **Working** |
-
-
-### Website Monitoring
-
-These repositories support the current workflow, based on Google spreadsheets automatically generated from scraping the Verionista web interface. They will be deprecated when a web app-based workflow is ready to use:
-
-| Tool Name | Description | Status |
-|-----------|-------------|--------|
-| [**web-monitoring-versionista-scraper**](https://github.com/edgi-govdata-archiving/web-monitoring-versionista-scraper) | Node.js scraper for Versionista data (faster and more reliable replacement for *Versionista Outputter* above). Note this is also used in the new web app-based workflow below.  | **Working** |
-| [**Versionista Outputter**](https://github.com/edgi-govdata-archiving/versionista-outputter) | A Ruby script that scrapes Versionista's web interface to generate a csv summarizing which websites and pages have had recent changes | **Archived** |
-| [**Version Tracking UI**](https://github.com/edgi-govdata-archiving/version-tracking-ui) | Tools to facilitate the tracking website changes | **Archived** |
-
-These repositories will support a future workflow that improves upon the current one by:
-* replacing the Google spreadsheets with a custom web app
-* drawing on data from multiple sources including Versionista, PageFreezer, and others in the future
-* applying text processing techniques to prioritize and filter diffs before presenting them to human volunteers
-
-| Tool Name | Description | Status | Language |
-|-----------|-------------|--------|----------|
-| [**web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring) | Documentation and project management repo for Website Monitoring project | **Working** | `--` |
-| [**web-monitoring-processing**](https://github.com/edgi-govdata-archiving/web-monitoring-processing) | Queries data sources, performs prioritization/filtering, populates databases for web app| **In Progress** | Python |
-| [**web-monitoring-db**](https://github.com/edgi-govdata-archiving/web-monitoring-db) | The Rails backend of the web app that human volunteers will use to evaluate diffs | **In Progress** | Ruby on Rails |
-| [**web-monitoring-ui**](https://github.com/edgi-govdata-archiving/web-monitoring-ui) | The JS front-end that human volunteers will use to evaluate diffs | **In Progress** | TypeScript |
-
-### Other Projects...
-
-- [EDGI website](https://github.com/edgi-govdata-archiving/edgi-website) coordination
-- [Data analysis](https://github.com/edgi-govdata-archiving/analysis) scripts and tools for understanding our archiving impact
-- Toolkit/remote contribution process improvements
-- Redundant, distributed storage (IPFS)
 
 ## Working Openly
 
