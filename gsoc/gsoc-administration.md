@@ -2,14 +2,6 @@
 
 Planning for administration of Google Summer of Code for EDGI. We have our profile [description](gsoc-description.md), a list of [project ideas](gsoc-ideas.md), and a [template](gsoc-template.md) for submitting proposals.
 
-In terms of critical steps:
-- Identify 3-5 mentors
-- Chip off first-timer issues // smaller issues in web-monitoring, guides, archivers.app
-    - PR and contributing
-    - Getting dev environment set up
-- Expand project descriptions with more concrete details
-- Don't emphasize projects that rely on a single mentor-student relationship
-
 ## Timeline
 
 See [Google's timeline](https://developers.google.com/open-source/gsoc/timeline) for full details, extended details for EDGI deadlines added:
@@ -32,7 +24,15 @@ See [Google's timeline](https://developers.google.com/open-source/gsoc/timeline)
 | Aug 29 | Final evaluations deadline |
 | Sep 06 | Outcomes of GSoC 2017 announced! |
 
-Additional resources: 
+Critical steps in Feb:
+- Identify 3-5 mentors
+- Chip off `first-timer` issues in web-monitoring, guides, archivers.space, particularly around
+    - PR and contributing docs
+    - Getting dev environment set up
+- Expand project descriptions with more concrete details
+- Don't emphasize projects that rely on a single mentor-student relationship
+
+Additional resources:
 
 - [NRNB GSoC resources](http://www.nrnb.org/gsoc.html)
 
@@ -66,7 +66,7 @@ Additional resources on mentoring:
 
 _Adapted from [OSGeo's GSoC 2017 Administrative page](https://wiki.osgeo.org/wiki/Google_Summer_of_Code_2017_Administrative#A_Mentor.27s_Responsibilities) and [Public Lab's Google Summer of Code Mentoring Field Note](https://publiclab.org/wiki/gsoc#Mentoring)._
 
-## Students
+## Student Outreach
 
 During application phase aim to have:
 - 2 GSoC student calls before application deadline
