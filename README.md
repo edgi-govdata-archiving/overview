@@ -10,7 +10,7 @@ Our GitHub organization, chat, and in-person events have a [Code of Conduct](/CO
 
 <table style="border: 0px;">
   <tr>
-    <td align="left">EDGI is excited to be participating in [Google Summer of Code](https://summerofcode.withgoogle.com/organizations/6574993514168320/) for the first time in 2017! We have a mentoring team of six volunteer EDGI members who will be working with two students contributing to our Archiving and Website Monitoring projects, you can read more about their progress on our website: [envirodatagov.org/archiving/gsoc/](https://envirodatagov.org/archiving/gsoc/).</td>
+    <td align="left"><strong>EDGI is excited to be participating in <a href="https://summerofcode.withgoogle.com/organizations/6574993514168320/">Google Summer of Code</a> for the first time in 2017</strong>! <br /> We have a mentoring team of six volunteer EDGI members who will be working with two students contributing to our Archiving and Website Monitoring projects, you can read more <br /> about their progress on our website: <a href="https://envirodatagov.org/archiving/gsoc/">envirodatagov.org/archiving/gsoc/</a></td>
     <td align="right"><img src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png" /></td>
   </tr>
 </table>
