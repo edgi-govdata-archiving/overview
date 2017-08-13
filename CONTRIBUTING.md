@@ -14,7 +14,7 @@ Issues that span multiple projects or are about coordinating how we work overall
 
 ### Submitting Code and Documentation Changes
 
-We have [project guidelines](./PROJECT.md) for all of the projects hosted in our [GitHub Organization](https://github.com/edgi-govdata-archiving), which new repositories should follow during their creation.
+We have [project guidelines](./guidelines/project_guidelines.md) for all of the projects hosted in our [GitHub Organization](https://github.com/edgi-govdata-archiving), which new repositories should follow during their creation.
 
 Our process for accepting changes operates by [Pull Request (PR)](https://help.github.com/articles/about-pull-requests/) and has a few steps:
 
