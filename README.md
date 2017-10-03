@@ -15,7 +15,6 @@ Our GitHub organization, chat, and in-person events have a [Code of Conduct](/CO
   </tr>
 </table>
 
-
 ## Table of Contents
 
 - [Get Involved](#get-involved)
@@ -48,7 +47,7 @@ The following projects are actively being developed:
 
 | 100 days | Archiving | Data Together | Web Monitoring | Website |
 |---|---|---|---|---|
-| Website for EDGI 100 Days Report at [100days. envirodatagov.org](https://100days.envirodatagov.org/) [**github.com/100days**](https://github.com/100days) | Set of tools, workflows, and documentation for grassroots, event-driven, archiving | Distributed model for holding copies of archived and preserved data [**github.com/ datatogether**](https://github.com/datatogether) | Interface and backend for reviewing different versions of web pages [**github.com/web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring) | Project management and design support for EDGI's website at [envirodatagov.org](https://envirodatagov.org/) [**github.com/edgi-website**](https://github.com/edgi-website) |
+| Website for EDGI 100 Days Report at [100days. envirodatagov.org](https://100days.envirodatagov.org/) [**github.com/../100days**](https://github.com/edgi-govdata-archiving/100days) | Set of tools, workflows, and documentation for grassroots, event-driven, archiving | Distributed model for holding copies of archived and preserved data [**github.com/ datatogether**](https://github.com/datatogether) | Interface and backend for reviewing different versions of web pages [**github.com/../web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring) | Project management and design support for EDGI's website at [envirodatagov.org](https://envirodatagov.org/) [**github.com/../edgi-website**](https://github.com/edgi-govdata-archiving/edgi-website) |
 
 There are additional [`community`](https://github.com/edgi-govdata-archiving/overview/labels/community) and [`infrastructure`](https://github.com/edgi-govdata-archiving/overview/labels/infrastructure) projects that support internal EDGI and outreach processes:
 
