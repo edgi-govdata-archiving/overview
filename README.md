@@ -18,7 +18,7 @@ Our GitHub organization, chat, and in-person events have a [Code of Conduct](/CO
 ## Table of Contents
 
 - [Get Involved](#get-involved)
-- [Weekly Community Calls](#weekly-community-calls)
+- [~Weekly Community Calls~](#weekly-community-calls)
 - [Projects](#projects)
 - [Roadmap](#roadmap)
 - [Working Openly](#working-openly)
@@ -37,9 +37,7 @@ If you'd like to join the community and help improve these tools, great!
 
 ## Weekly Community Calls
 
-Join us Thursdays at 6:30 ET (Eastern Time) at our [**weekly community call**](https://edgi-video-call-landing-page.herokuapp.com/https://zoom.us/j/508236833): [zoom.us/j/508236833](https://edgi-video-call-landing-page.herokuapp.com/https://zoom.us/j/508236833), call link also posted in slack and on our [events calendar](https://envirodatagov.org/events/).
-
-**Recent Calls:** If you've missed a call check out our [recorded meetings](https://www.youtube.com/playlist?list=PLtsP3g9LafVsaa18lQaPXzxJU7wIcPB1O)!
+Our [**weekly community call**] happened Thursdays at 6:30 ET (Eastern Time) and were posted on our [events calendar](https://envirodatagov.org/events/). We are currently on pause as we rethink our community welcoming strategies. If you want to see what they were like, check out our [recorded meetings playlist](https://www.youtube.com/playlist?list=PLtsP3g9LafVsaa18lQaPXzxJU7wIcPB1O)!
 
 ## Projects
 
