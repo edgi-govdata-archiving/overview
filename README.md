@@ -29,7 +29,7 @@ If you'd like to join the community and help improve these tools, great!
 
 1. Review our [Contributor Guidelines](/CONTRIBUTING.md) and [Code of Conduct](/CONDUCT.md)
 1. Jump on the [Archivers chat (archivers.slack.com)](https://archivers.slack.com/), anyone can request an invite from [archivers-slack.herokuapp.com slackin](https://archivers-slack.herokuapp.com/)
-    - Introduce yourself in `#introductions`, key starting places for conversations are `#general`, `#dev` and `#community-building`
+    - Introduce yourself in `#introductions`, key starting places for conversations are `#general`, `#datatogether` and `#community-building`
     - Ping one of the EDGI coordinators (@lightandluck or @kelsey) with your GitHub name to be added to the organization
 1. You can also ping our coordinators on Github at @lightandluck or @Frijol. Please let us know a bit about yourself and what you're interested in.
 1. Take a look at our [Current Projects](#projects), [Roadmap](#roadmap) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
