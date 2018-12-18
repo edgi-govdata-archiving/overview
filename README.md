@@ -11,7 +11,6 @@ Our GitHub organization, chat, and in-person events have a [Code of Conduct](/CO
 ## Table of Contents
 
 - [Get Involved](#get-involved)
-- [~Weekly Community Calls~](#weekly-community-calls)
 - [Projects](#projects)
 - [Roadmap](#roadmap)
 - [Working Openly](#working-openly)
@@ -28,10 +27,6 @@ If you'd like to join the community and help improve these tools, great!
 1. Take a look at our [Current Projects](#projects), [Roadmap](#roadmap) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
 
 **Note for IRC users:** (Advanced) If you prefer to use an IRC client, please review these [configuration instructions for Slack's IRC gateway](https://archivers.slack.com/account/gateways).
-
-## Weekly Community Calls
-
-Our **weekly community call** happened Thursdays at 6:30 ET (Eastern Time) and were posted on our [events calendar](https://envirodatagov.org/events/). We are currently on pause as we rethink our community welcoming strategies. If you want to see what they were like, check out our [recorded meetings playlist](https://www.youtube.com/playlist?list=PLtsP3g9LafVsaa18lQaPXzxJU7wIcPB1O)!
 
 ## Projects
 
