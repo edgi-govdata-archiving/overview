@@ -8,13 +8,6 @@ Our GitHub organization, chat, and in-person events have a [Code of Conduct](/CO
 
 ---
 
-<table style="border: 0px;">
-  <tr>
-    <td align="left"><strong>EDGI participated in <a href="https://summerofcode.withgoogle.com/organizations/6574993514168320/">Google Summer of Code</a> for the first time in 2017</strong>! <br /> Our mentoring team of six volunteer EDGI members worked with two students who contributed to our Archiving and Website Monitoring projects, you can read more <br /> about their experience on our website: <a href="https://envirodatagov.org/summer-of-code/">envirodatagov.org/summer-of-code/</a></td>
-    <td align="right"><img src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png" /></td>
-  </tr>
-</table>
-
 ## Table of Contents
 
 - [Get Involved](#get-involved)
