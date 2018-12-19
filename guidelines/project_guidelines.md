@@ -82,3 +82,8 @@ See the [`LICENSE`](/LICENSE) file for details.
  * FITNESS FOR A PARTICULAR PURPOSE. See LICENSE file for details.
  */
 ```
+
+## Stale Issues Policy
+In order to keep issues up to date, we use [a bot](https://probot.github.io/apps/stale/) to mark issues stale after a period of time with no activity, comment, and then close the issue if there is still no new activity.
+
+To see the configuration (number of days until stale, number of days until the issue is closed), see this repo's `.github/stale.yml`.
