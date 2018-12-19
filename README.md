@@ -37,11 +37,23 @@ Welcome to our community! We welcome contributors from many skillsets. Here's ho
 
 ## Projects
 
-The following projects are actively being developed:
+Here are some projects we're building right now:
 
-| 100 days | Archiving | Data Together | Web Monitoring | Website |
+| Project | Description | Core Tech | Contribution type most needed ([emoji key from All Contributors](https://github.com/kentcdodds/all-contributors#emoji-key))|
+| --- | --- | --- | --- |
+| [Web Monitoring](https://github.com/edgi-govdata-archiving/web-monitoring) | Tools around monitoring changes to government websites | Many! [Listed here](https://github.com/edgi-govdata-archiving/web-monitoring#hammer-technologies-used) | 📖  🐛 💻
+| [Walk](https://github.com/qri-io/walk) (Web Monitoring and Archiving) | A system for scraping a BIG list of URLs and processing the results for monitoring and archiving | Go, mostly | ✅ ⚠️ 📖 💻 🐛
+| [EIS Search Tool](https://github.com/edgi-govdata-archiving/eis-search)  | Making federal environmental impact statements easier to search | Go, JS | 🤔 🐛 💻 ⚠️ 📖
+
+Projects in active maintenance:
+
+| Project | Description |
+| --- | --- |
+| [100 Days](https://github.com/edgi-govdata-archiving/100days) | Website for EDGI 100 Days Report at [100days. envirodatagov.org](https://100days.envirodatagov.org/)
+
+| Archiving | Data Together | Web Monitoring | Website |
 |---|---|---|---|---|
-| Website for EDGI 100 Days Report at [100days. envirodatagov.org](https://100days.envirodatagov.org/) [**github.com/../100days**](https://github.com/edgi-govdata-archiving/100days) | Set of tools, workflows, and documentation for grassroots, event-driven, archiving | Distributed model for holding copies of archived and preserved data [**github.com/ datatogether**](https://github.com/datatogether) | Interface and backend for reviewing different versions of web pages [**github.com/../web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring) | Project management and design support for EDGI's website at [envirodatagov.org](https://envirodatagov.org/) [**github.com/../edgi-website**](https://github.com/edgi-govdata-archiving/edgi-website) |
+|  | Set of tools, workflows, and documentation for grassroots, event-driven, archiving | Distributed model for holding copies of archived and preserved data [**github.com/ datatogether**](https://github.com/datatogether) | Interface and backend for reviewing different versions of web pages [**github.com/../web-monitoring**](https://github.com/edgi-govdata-archiving/web-monitoring) | Project management and design support for EDGI's website at [envirodatagov.org](https://envirodatagov.org/) [**github.com/../edgi-website**](https://github.com/edgi-govdata-archiving/edgi-website) |
 
 There are additional [`community`](https://github.com/edgi-govdata-archiving/overview/labels/community) and [`infrastructure`](https://github.com/edgi-govdata-archiving/overview/labels/infrastructure) projects that support internal EDGI and outreach processes:
 
