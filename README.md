@@ -51,10 +51,6 @@ There are additional [`community`](https://github.com/edgi-govdata-archiving/ove
 | [**EDGI Scripts**](https://github.com/edgi-govdata-archiving/edgi-scripts) | Code scripts for running and maintaining our digital infrastructure |
 | [**Video Call Landing Page**](https://github.com/edgi-govdata-archiving/video-call-landing-page) | Landing page app with important info that participants can be sent through prior to joining a video call  <br />[http://edgi-video-call-landing-page.herokuapp.com/](http://edgi-video-call-landing-page.herokuapp.com/) |
 
-## Roadmap
-
-We have a technical [**Roadmap**](/ROADMAP.md) organized in planning cycles and we use a [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2) to work toward those milestones. In addition, each project covers specific tasks, issues, and milestones in individual repositories.
-
 ## Working Openly
 
 EDGI operates under horizontal-organizing principles. We have developed guidelines for open project development in line with these principles, which you can find in this repo:
