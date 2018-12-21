@@ -46,12 +46,12 @@ Here are some projects we're building and maintaining right now.
 | [Web Monitoring](https://github.com/edgi-govdata-archiving/web-monitoring) | Tools around monitoring changes to government websites | 📖  🐛 💻
 | [Walk](https://github.com/qri-io/walk) (Web Monitoring and Archiving) | A system for scraping a BIG list of URLs and processing the results for monitoring and archiving | ✅ ⚠️ 📖 💻 🐛 👀
 | [EIS Search Tool](https://github.com/edgi-govdata-archiving/eis-search)  | Making federal environmental impact statements easier to search | 🤔 🐛 💻 ⚠️ 📖 🎨 📓
-| [Data Together](https://github.com/datatogether/datatogether) | Developing a distributed model for holding copies of archived and preserved data by reading, talking, and prototyping together | 📝 🎨 💡 📋 🤔 📢
-|[100 Days](https://github.com/edgi-govdata-archiving/100days) | Website for EDGI 100 Days Report at [100days. envirodatagov.org](https://100days.envirodatagov.org/)
-| [Website](https://github.com/edgi-govdata-archiving/edgi-website) | Project management and design support for EDGI's website at [envirodatagov.org](https://envirodatagov.org/)
-| [EDGI Hubot](https://github.com/edgi-govdata-archiving/edgi-hubot) | Chat bot for EDGI Slack built on the Hubot framework  |
-| [EDGI Scripts](https://github.com/edgi-govdata-archiving/edgi-scripts) | Code scripts for running and maintaining our digital infrastructure |
-| [Video Call Landing Page](https://github.com/edgi-govdata-archiving/video-call-landing-page) | Landing page app with important info that participants can be sent through prior to joining a video call  <br />[http://edgi-video-call-landing-page.herokuapp.com/](http://edgi-video-call-landing-page.herokuapp.com/) |
+| [Data Together](https://github.com/datatogether/datatogether) | Developing a distributed model for holding copies of archived and preserved data by reading, talking, and prototyping together | 📝 🎨 💡 📋 🤔 📢 🚇
+|[100 Days](https://github.com/edgi-govdata-archiving/100days) | Website for EDGI 100 Days Report at [100days. envirodatagov.org](https://100days.envirodatagov.org/) | 🐛 🚇 📖 📢
+| [Website](https://github.com/edgi-govdata-archiving/edgi-website) | Project management and design support for EDGI's website at [envirodatagov.org](https://envirodatagov.org/) | 🐛 💻 🎨 🤔 🖋
+| [EDGI Hubot](https://github.com/edgi-govdata-archiving/edgi-hubot) | Chat bot for EDGI Slack built on the Hubot framework  | 📖 💻
+| [EDGI Scripts](https://github.com/edgi-govdata-archiving/edgi-scripts) | Code scripts for running and maintaining our digital infrastructure | 💻 ✅ 📖
+| [Video Call Landing Page](https://github.com/edgi-govdata-archiving/video-call-landing-page) | Landing page app with important info that participants can be sent through prior to joining a video call  <br />[http://edgi-video-call-landing-page.herokuapp.com/](http://edgi-video-call-landing-page.herokuapp.com/) | 🐛 💻
 
 ## Roadmap
 
