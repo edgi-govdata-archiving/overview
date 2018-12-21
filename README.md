@@ -31,7 +31,7 @@ Welcome to our community! We welcome contributors from many skillsets. Here's ho
     - **Introduce yourself** in `#introductions`, key starting places for conversations are `#general`, `#datatogether` and `#community-building`
     - Ping one of the EDGI coordinators (@lightandluck or @kelsey) with your GitHub name to be added to the organization
 1. You can also **ping our coordinators** on Github at @lightandluck or @Frijol. Please let us know a bit about yourself and what you're interested in.
-1. **Take a look at our [Current Projects](#projects)**, [Roadmap](#roadmap) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
+1. **Take a look at our [Current Projects](#projects)**
 
 *Note for IRC users:* (Advanced) If you prefer to use an IRC client, please review these [configuration instructions for Slack's IRC gateway](https://archivers.slack.com/account/gateways).
 
