@@ -1,44 +1,39 @@
-<div align="center"><img width=40% src="./images/EDGI-Logo-Horiz.png" alt="Environmental Data and Governance Initiative Logo"></div>
+[<div align="center"><img width=40% src="./images/EDGI-Logo-Horiz.png" alt="Environmental Data and Governance Initiative Logo"></div>](https://envirodatagov.org/)
 
 # Overview
 
-Welcome to the [Environmental Data and Governance Initiative (EDGI)](https://envirodatagov.org/) Government Data Archiving technical team. We are building online tools, helping events, and creating research networks to proactively preserve, archive and track public environmental data and ensure its continued availability. We are indexing millions of government web pages on a weekly basis, tracking changes to them, and producing regular reports. Our focus has turned to using machine learning to sift through millions of government web pages to find the most important changes as well as working with the protocols for resilient, sustainable, distributed data storage networks. This repository is an overview for people who are getting involved in the project.
+Welcome to the [Environmental Data and Governance Initiative (EDGI)](https://envirodatagov.org/) Government Data Archiving team.
+
+We are:
+* Building online tools, helping events, and creating research networks to proactively preserve, archive and track public environmental data and ensure its continued availability
+* Indexing millions of government web pages on a weekly basis, tracking changes to them, and producing regular reports
+* Working with protocols for resilient, sustainable, distributed data storage networks
+
+This repository is an overview for people who are getting involved in the project.
 
 Our GitHub organization, chat, and in-person events have a [Code of Conduct](/CONDUCT.md) and [Contributor Guidelines](/CONTRIBUTING.md).
 
 ---
 
-<table style="border: 0px;">
-  <tr>
-    <td align="left"><strong>EDGI participated in <a href="https://summerofcode.withgoogle.com/organizations/6574993514168320/">Google Summer of Code</a> for the first time in 2017</strong>! <br /> Our mentoring team of six volunteer EDGI members worked with two students who contributed to our Archiving and Website Monitoring projects, you can read more <br /> about their experience on our website: <a href="https://envirodatagov.org/summer-of-code/">envirodatagov.org/summer-of-code/</a></td>
-    <td align="right"><img src="https://developers.google.com/open-source/gsoc/resources/downloads/GSoC-icon-192.png" /></td>
-  </tr>
-</table>
-
 ## Table of Contents
 
 - [Get Involved](#get-involved)
-- [~Weekly Community Calls~](#weekly-community-calls)
 - [Projects](#projects)
 - [Roadmap](#roadmap)
 - [Working Openly](#working-openly)
 
 ## Get Involved
 
-If you'd like to join the community and help improve these tools, great!
+Welcome to our community! We welcome contributors from many skillsets. Here's how to get started:
 
-1. Review our [Contributor Guidelines](/CONTRIBUTING.md) and [Code of Conduct](/CONDUCT.md)
-1. Jump on the [Archivers chat (archivers.slack.com)](https://archivers.slack.com/), anyone can request an invite from [archivers-slack.herokuapp.com slackin](https://archivers-slack.herokuapp.com/)
-    - Introduce yourself in `#introductions`, key starting places for conversations are `#general`, `#datatogether` and `#community-building`
+1. **Review our [Contributor Guidelines](/CONTRIBUTING.md) and [Code of Conduct](/CONDUCT.md)**
+1. **Jump on the [Archivers chat (archivers.slack.com)](https://archivers.slack.com/)**. Sign up for an account [here](https://archivers-slack.herokuapp.com/) (open to all).
+    - **Introduce yourself** in `#introductions`, key starting places for conversations are `#general`, `#datatogether` and `#community-building`
     - Ping one of the EDGI coordinators (@lightandluck or @kelsey) with your GitHub name to be added to the organization
-1. You can also ping our coordinators on Github at @lightandluck or @Frijol. Please let us know a bit about yourself and what you're interested in.
-1. Take a look at our [Current Projects](#projects), [Roadmap](#roadmap) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
+1. You can also **ping our coordinators** on Github at @lightandluck or @Frijol. Please let us know a bit about yourself and what you're interested in.
+1. **Take a look at our [Current Projects](#projects)**
 
-**Note for IRC users:** (Advanced) If you prefer to use an IRC client, please review these [configuration instructions for Slack's IRC gateway](https://archivers.slack.com/account/gateways).
-
-## Weekly Community Calls
-
-Our **weekly community call** happened Thursdays at 6:30 ET (Eastern Time) and were posted on our [events calendar](https://envirodatagov.org/events/). We are currently on pause as we rethink our community welcoming strategies. If you want to see what they were like, check out our [recorded meetings playlist](https://www.youtube.com/playlist?list=PLtsP3g9LafVsaa18lQaPXzxJU7wIcPB1O)!
+*Note for IRC users:* (Advanced) If you prefer to use an IRC client, please review these [configuration instructions for Slack's IRC gateway](https://archivers.slack.com/account/gateways).
 
 ## Projects
 
@@ -56,13 +51,9 @@ There are additional [`community`](https://github.com/edgi-govdata-archiving/ove
 | [**EDGI Scripts**](https://github.com/edgi-govdata-archiving/edgi-scripts) | Code scripts for running and maintaining our digital infrastructure |
 | [**Video Call Landing Page**](https://github.com/edgi-govdata-archiving/video-call-landing-page) | Landing page app with important info that participants can be sent through prior to joining a video call  <br />[http://edgi-video-call-landing-page.herokuapp.com/](http://edgi-video-call-landing-page.herokuapp.com/) |
 
-## Roadmap
-
-We have a technical [**Roadmap**](/ROADMAP.md) organized in planning cycles and we use a [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2) to work toward those milestones. In addition, each project covers specific tasks, issues, and milestones in individual repositories.
-
 ## Working Openly
 
-We have developed guidelines for open project development in line with the horizontal-organizing principles EDGI operates under, these are all contained in this repo:
+EDGI operates under horizontal-organizing principles. We have developed guidelines for open project development in line with these principles, which you can find in this repo:
 
 - [Volunteer Code of Conduct](/CONDUCT.md)
 - [Contributing Guidelines](/CONTRIBUTING.md)
