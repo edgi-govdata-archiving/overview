@@ -31,7 +31,7 @@ Welcome to our community! We welcome contributors from many skillsets. Here's ho
     - **Introduce yourself** in `#introductions`, key starting places for conversations are `#general`, `#datatogether` and `#community-building`
     - Ping one of the EDGI coordinators (@lightandluck or @kelsey) with your GitHub name to be added to the organization
 1. You can also **ping our coordinators** on Github at @lightandluck or @Frijol. Please let us know a bit about yourself and what you're interested in.
-1. **Take a look at our [Current Projects](#projects)**, [Roadmap](#roadmap) and [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2)
+1. **Take a look at our [Current Projects](#projects)**
 
 *Note for IRC users:* (Advanced) If you prefer to use an IRC client, please review these [configuration instructions for Slack's IRC gateway](https://archivers.slack.com/account/gateways).
 
@@ -52,10 +52,6 @@ Here are some projects we're building and maintaining right now.
 | [EDGI Hubot](https://github.com/edgi-govdata-archiving/edgi-hubot) | Chat bot for EDGI Slack built on the Hubot framework  | [📖](# "Documentation") [💻](# "Code")
 | [EDGI Scripts](https://github.com/edgi-govdata-archiving/edgi-scripts) | Code scripts for running and maintaining our digital infrastructure | [💻](# "Code") [✅](# "Tutorials") [📖](# "Documentation")
 | [Video Call Landing Page](https://github.com/edgi-govdata-archiving/video-call-landing-page) | Landing page app with important info that participants can be sent through prior to joining a video call  <br />[http://edgi-video-call-landing-page.herokuapp.com/](http://edgi-video-call-landing-page.herokuapp.com/) | [🐛](# "Bug reports") [💻](# "Code")
-
-## Roadmap
-
-We have a technical [**Roadmap**](/ROADMAP.md) organized in planning cycles and we use a [Kanban Board](https://github.com/edgi-govdata-archiving/overview/projects/2) to work toward those milestones. In addition, each project covers specific tasks, issues, and milestones in individual repositories.
 
 ## Working Openly
 
