@@ -15,13 +15,6 @@ Our GitHub organization, chat, and in-person events have a [Code of Conduct](/CO
 
 ---
 
-## Table of Contents
-
-- [Get Involved](#get-involved)
-- [Projects](#projects)
-- [Roadmap](#roadmap)
-- [Working Openly](#working-openly)
-
 ## Get Involved
 
 Welcome to our community! We welcome contributors from many skillsets. Here's how to get started:
