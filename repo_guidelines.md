@@ -1,9 +1,10 @@
-# Project Guidelines
+# Project Repo Guidelines & Template
 
 Each project repository **requires**, at a minimum:
 
-1. Contributing Guidelines
-1. License
+1. [Contributing Guidelines](#contributing-guidelines)
+1. [License](#license)
+1. [Readme](#readme) including several elements listed below
 
 ## Contributing Guidelines
 
@@ -15,7 +16,10 @@ We use a [minimal template](#minimal-contributing-guidelines) that points to our
 A **License**
 [GPLv3](http://gplv3.fsf.org/) is our _preferred_ license for code and [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) for creative works and documentation.
 
- We use a [License and Copyright block](#license--copyright-readme-block) added to our READMEs, add a [LICENSE](/LICENSE) to the repo, and occasionally include a [Code Header License block](#code-header-license-block).
+We use a [License and Copyright block](#license--copyright-readme-block) added to our READMEs, add a [LICENSE](/LICENSE) to the repo, and occasionally include a [Code Header License block](#code-header-license-block).
+
+## Readme
+All readmes should include the elements outlined in the [Readme template](#readme-template), but can include other information as well.
 
 ---
 
@@ -23,6 +27,8 @@ Further, all projects that constitute an application codebase (rather than a set
 
 1. Code Quality (Linting)
 2. Security
+
+These practices should be outlined in the Contributing Guidelines of the repo.
 
 ## Code Quality
 
@@ -49,13 +55,27 @@ See our [proposed linting standard](./protocol/linting.md) for further details.
 
 ### Minimal Contributing Guidelines
 
-```
+```md
 # Contributing Guidelines
 
-We love improvements to our tools! EDGI has general [guidelines for contributing](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md) and a [code of conduct](https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md) for all of our organizational repos.
+We love improvements to our tools! EDGI has general [guidelines for contributing][edgi-contributing] and a [code of conduct][edgi-conduct] for all of our organizational repos.
+
+## Here are some notes specific to this project:
+Use this section for any contributing guidelines specific to the repo. For example:
+* [Web monitoring's processing repo guidelines](https://github.com/edgi-govdata-archiving/web-monitoring-processing/blob/master/CONTRIBUTING.md) mentions which issues should be made on that repo versus on the main web monitoring repo
+* In the [Web Monitoring umbrella repo's contribution guidelines](https://github.com/edgi-govdata-archiving/web-monitoring/blob/master/CONTRIBUTING.md), a style guide, testing best practices, and notes on how work is distributed (process) are laid out
+* The guidelines on [the EDGI Scripts repo](https://github.com/edgi-govdata-archiving/edgi-scripts/blob/master/CONTRIBUTING.md), [video call landing page](https://github.com/edgi-govdata-archiving/video-call-landing-page/blob/master/CONTRIBUTING.md) and [100 Days](https://github.com/edgi-govdata-archiving/100days/blob/master/CONTRIBUTING.md) discuss important notes on how the continuous integration is configured
+* [The website's contributing guidelines](https://github.com/edgi-govdata-archiving/edgi-website/blob/master/CONTRIBUTING.md) tell you where to find the appropriate Slack channel
+
+<!-- Links -->
+   [edgi-conduct]: https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md
+   [edgi-contributing]: https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md
 ```
 
-### License & Copyright README block
+### Readme Template
+
+
+#### License & Copyright README block
 
 ```md
 ## License & Copyright
