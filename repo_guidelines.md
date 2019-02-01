@@ -74,6 +74,18 @@ Use this section for any contributing guidelines specific to the repo. For examp
 
 ### Readme Template
 
+Each Readme must include:
+* [License & Copyright block](#license--copyright-readme-block) templated below
+* Code of Conduct [![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md) badge
+* A basic description of what the repo is or does
+* A "How to start contributing to this repo" section including developer setup (if relevant), Slack channel, contact person, etc.
+
+Suggestions for additional components of Readmes:
+* A "How to use" section if the repo's project is a tool or website
+* Highlight "ready" label on issues to mean "this is an issue that is ready to work on and needs an owner"
+* Additional badges at the top including [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/) linking to "good first issue" label, code quality indicators
+* "[All contributors](https://github.com/kentcdodds/all-contributors#emoji-key)" listing
+
 
 #### License & Copyright README block
 
