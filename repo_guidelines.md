@@ -61,16 +61,20 @@ See our [proposed linting standard](./protocol/linting.md) for further details.
 We love improvements to our tools! EDGI has general [guidelines for contributing][edgi-contributing] and a [code of conduct][edgi-conduct] for all of our organizational repos.
 
 ## Here are some notes specific to this project:
-Use this section for any contributing guidelines specific to the repo. For example:
+[See "Contributing guidelines: project-specific notes" below in repo-guidelines.md to see what goes in this section]
+
+<!-- Links -->
+[edgi-conduct]: https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md
+[edgi-contributing]: https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md
+```
+
+#### Contributing guidelines: project-specific notes
+Use the "Here are some notes specific to this project" section for any contributing guidelines specific to the repo. For example:
 * [Web monitoring's processing repo guidelines](https://github.com/edgi-govdata-archiving/web-monitoring-processing/blob/master/CONTRIBUTING.md) mentions which issues should be made on that repo versus on the main web monitoring repo
 * In the [Web Monitoring umbrella repo's contribution guidelines](https://github.com/edgi-govdata-archiving/web-monitoring/blob/master/CONTRIBUTING.md), a style guide, testing best practices, and notes on how work is distributed (process) are laid out
 * The guidelines on [the EDGI Scripts repo](https://github.com/edgi-govdata-archiving/edgi-scripts/blob/master/CONTRIBUTING.md), [video call landing page](https://github.com/edgi-govdata-archiving/video-call-landing-page/blob/master/CONTRIBUTING.md) and [100 Days](https://github.com/edgi-govdata-archiving/100days/blob/master/CONTRIBUTING.md) discuss important notes on how the continuous integration is configured
 * [The website's contributing guidelines](https://github.com/edgi-govdata-archiving/edgi-website/blob/master/CONTRIBUTING.md) tell you where to find the appropriate Slack channel
 
-<!-- Links -->
-   [edgi-conduct]: https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md
-   [edgi-contributing]: https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md
-```
 
 ### Readme Template
 
@@ -82,9 +86,14 @@ Each Readme must include:
 
 Suggestions for additional components of Readmes:
 * A "How to use" section if the repo's project is a tool or website
+* A link to the [good-first-issue](https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue+user%3Aedgi-govdata-archiving) label (this link across EDGI, or a specific link for the repo)
 * Highlight "ready" label on issues to mean "this is an issue that is ready to work on and needs an owner"
-* Additional badges at the top including [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/) linking to "good first issue" label, code quality indicators
-* "[All contributors](https://github.com/kentcdodds/all-contributors#emoji-key)" listing
+* Additional badges at the top, such as code quality indicators
+* "[All contributors](https://github.com/kentcdodds/all-contributors#emoji-key)" listing, following these additional guidelines:
+  - Compact representation without avatars (less visual noise; easier to focus on contributions)
+  - Icons are links with title attributes (accessibility)
+  - Alphabetical order by surname/name/username (to eliminate implied ranking)
+  - Presence in the list (and the name used) is optional and up to the contributor (not everyone wants to be listed — we offer, but do not add unless someone explicitly says yes)
 
 
 #### License & Copyright README block
