@@ -1,21 +1,24 @@
-# Project Guidelines
+# Project Repo Guidelines & Template
 
 Each project repository **requires**, at a minimum:
 
-1. Contributing Guidelines
-1. License
+1. [Contributing Guidelines](#about-the-contributing-guidelines)
+1. [License](#about-the-license)
+1. [Readme](#about-the-readme) including several elements listed below
 
-## Contributing Guidelines
+## About the Contributing Guidelines
 
-**Contributing Guidelines**  
-We use a [minimal template](#minimal-contributing-guidelines) that points to our main Contributing Guidelines and can be extended as needed to cover project-specific requirements.
+We use a [minimal template](#minimal-contributing-guidelines) that points to our main **Contributing Guidelines** and can be extended as needed to cover project-specific requirements.
 
-## License
+## About the License
 
 A **License**
 [GPLv3](http://gplv3.fsf.org/) is our _preferred_ license for code and [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) for creative works and documentation.
 
- We use a [License and Copyright block](#license--copyright-readme-block) added to our READMEs, add a [LICENSE](/LICENSE) to the repo, and occasionally include a [Code Header License block](#code-header-license-block).
+We use a [License and Copyright block](#license--copyright-readme-block) added to our READMEs, add a [LICENSE](/LICENSE) to the repo, and occasionally include a [Code Header License block](#code-header-license-block).
+
+## About the Readme
+All **Readme**s should include the elements outlined in the [Readme template](#readme-template), but can include other information as well.
 
 ---
 
@@ -23,6 +26,8 @@ Further, all projects that constitute an application codebase (rather than a set
 
 1. Code Quality (Linting)
 2. Security
+
+These practices should be outlined in the Contributing Guidelines of the repo.
 
 ## Code Quality
 
@@ -49,13 +54,50 @@ See our [proposed linting standard](./protocol/linting.md) for further details.
 
 ### Minimal Contributing Guidelines
 
-```
+```md
 # Contributing Guidelines
 
-We love improvements to our tools! EDGI has general [guidelines for contributing](https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md) and a [code of conduct](https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md) for all of our organizational repos.
+We love improvements to our tools! EDGI has general [guidelines for contributing][edgi-contributing] and a [code of conduct][edgi-conduct] for all of our organizational repos.
+
+## Here are some notes specific to this project:
+
+**[REPLACE WITH REPO-SPECIFIC GUIDELINES. The list below is an example.]**
+
+* [Web monitoring's processing repo guidelines](https://github.com/edgi-govdata-archiving/web-monitoring-processing/blob/master/CONTRIBUTING.md) mentions which issues should be made on that repo versus on the main web monitoring repo
+* In the [Web Monitoring umbrella repo's contribution guidelines](https://github.com/edgi-govdata-archiving/web-monitoring/blob/master/CONTRIBUTING.md), a style guide, testing best practices, and notes on how work is distributed (process) are laid out
+* The guidelines on [the EDGI Scripts repo](https://github.com/edgi-govdata-archiving/edgi-scripts/blob/master/CONTRIBUTING.md), [video call landing page](https://github.com/edgi-govdata-archiving/video-call-landing-page/blob/master/CONTRIBUTING.md) and [100 Days](https://github.com/edgi-govdata-archiving/100days/blob/master/CONTRIBUTING.md) discuss important notes on how the continuous integration is configured
+* [The website's contributing guidelines](https://github.com/edgi-govdata-archiving/edgi-website/blob/master/CONTRIBUTING.md) tell you where to find the appropriate Slack channel
+
+
+<!-- Links -->
+[edgi-conduct]: https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md
+[edgi-contributing]: https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md
 ```
 
-### License & Copyright README block
+### Readme Template
+
+Each Readme must include:
+* [License & Copyright block](#license--copyright-readme-block) templated below
+* Code of Conduct [![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md) badge. Source code:
+```md
+  [![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md)
+  ```
+* A basic description of what the repo is or does
+* A "How to start contributing to this repo" section including developer setup (if relevant), Slack channel, contact person, etc.
+
+Suggestions for additional components of Readmes:
+* A "How to use" section if the repo's project is a tool or website
+* A link to the [good-first-issue](https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue+user%3Aedgi-govdata-archiving) label (this link across EDGI, or a specific link for the repo)
+* Highlight "ready" label on issues to mean "this is an issue that is ready to work on and needs an owner"
+* Additional badges at the top, such as code quality indicators
+* "[All contributors](https://github.com/kentcdodds/all-contributors#emoji-key)" listing, following these additional guidelines (example: [web-monitoring-db contributors list](https://github.com/edgi-govdata-archiving/web-monitoring-db#contributors)):
+  - Compact representation without avatars (less visual noise; easier to focus on contributions)
+  - Icons are links with title attributes (accessibility)
+  - Alphabetical order by surname/name/username (to eliminate implied ranking)
+  - Presence in the list (and the name used) is optional and up to the contributor (not everyone wants to be listed — we offer, but do not add unless someone explicitly says yes)
+
+
+#### License & Copyright README block
 
 ```md
 ## License & Copyright
