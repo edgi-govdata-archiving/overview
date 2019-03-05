@@ -5,13 +5,12 @@ Each project repository **requires**, at a minimum:
 1. [Contributing Guidelines](#about-the-contributing-guidelines)
 1. [License](#about-the-license)
 1. [Readme](#about-the-readme) including several elements listed below
+1. [Stale issue configuration](#stale-issue-configuration)
 
 ## About the Contributing Guidelines
-
 We use a [minimal template](#minimal-contributing-guidelines) that points to our main **Contributing Guidelines** and can be extended as needed to cover project-specific requirements.
 
 ## About the License
-
 A **License**
 [GPLv3](http://gplv3.fsf.org/) is our _preferred_ license for code and [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) for creative works and documentation.
 
@@ -19,6 +18,14 @@ We use a [License and Copyright block](#license--copyright-readme-block) added t
 
 ## About the Readme
 All **Readme**s should include the elements outlined in the [Readme template](#readme-template), but can include other information as well.
+
+## About stale issue configuration
+In order to keep issues up to date, we use [a bot](https://probot.github.io/apps/stale/) to mark issues stale after a period of time with no activity, comment, and then close the issue if there is still no new activity.
+
+Our standard stale issue configuration can be copied from the [Stale Issues Configuration Template](#stale-issues-configuration-template).
+
+To see the configuration on a repo (number of days until stale, number of days until the issue is closed), check the repo's `.github/stale.yml`.
+
 
 ---
 
@@ -125,7 +132,26 @@ See the [`LICENSE`](/LICENSE) file for details.
  */
 ```
 
-## Stale Issues Policy
-In order to keep issues up to date, we use [a bot](https://probot.github.io/apps/stale/) to mark issues stale after a period of time with no activity, comment, and then close the issue if there is still no new activity.
+### Stale Issues Configuration Template
 
-To see the configuration (number of days until stale, number of days until the issue is closed), see this repo's `.github/stale.yml`.
+The following code block should be saved at a repo's `.github/stale.yml`. The presence of the file in the `master` branch will automatically enable the bot.
+
+```yml
+# Number of days of inactivity before an issue becomes stale
+daysUntilStale: 180
+# Number of days of inactivity before a stale issue is closed
+daysUntilClose: 7
+# Issues with these labels will never be considered stale
+exemptLabels:
+  - pinned
+  - security
+# Label to use when marking an issue as stale
+staleLabel: stale
+# Comment to post when marking an issue as stale. Set to `false` to disable
+markComment: >
+  This issue has been automatically marked as stale because it has not had
+  recent activity. It will be closed in seven days if no further activity occurs. If it should not be closed, please comment! Thank you
+  for your contributions.
+# Comment to post when closing a stale issue. Set to `false` to disable
+closeComment: false
+```
