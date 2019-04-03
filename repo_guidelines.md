@@ -5,7 +5,11 @@ Each project repository **requires**, at a minimum:
 1. [Contributing Guidelines](#about-the-contributing-guidelines)
 1. [License](#about-the-license)
 1. [Readme](#about-the-readme) including several elements listed below
-1. [Stale issue configuration](#stale-issue-configuration)
+
+We also use the following standard repo configurations:
+
+1. [Core issue labels](#core-issue-label-configuration)
+1. [Stale issues configuration](#stale-issues-configuration-template)
 
 ## About the Contributing Guidelines
 We use a [minimal template](#minimal-contributing-guidelines) that points to our main **Contributing Guidelines** and can be extended as needed to cover project-specific requirements.
@@ -130,6 +134,60 @@ See the [`LICENSE`](/LICENSE) file for details.
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
  * FITNESS FOR A PARTICULAR PURPOSE. See LICENSE file for details.
  */
+```
+
+### Core Issue Label Configuration
+EDGI repos use a minimum/core set of standard issue labels.
+
+Labels are applied using the NPM package [github-labels](https://www.npmjs.com/package/github-labels) using the following `configuration.json`:
+
+```json
+[
+  {
+    "name": "blocked",
+    "color": "F73E34"
+  },
+  {
+    "name": "coordination",
+    "color": "2B70C4"
+  },
+  {
+    "name": "documentation",
+    "color": "6FEB73"
+  },
+  {
+    "name": "good-first-issue",
+    "color": "1A610B"
+  },
+  {
+    "name": "idea",
+    "color": "71C8FA"
+  },
+  {
+    "name": "infrastructure",
+    "color": "F7F01B"
+  },
+  {
+    "name": "[priority-★★★]",
+    "color": "ff7f00"
+  },
+  {
+    "name": "[priority-★★☆]",
+    "color": "ffaa00"
+  },
+  {
+    "name": "[priority-★☆☆]",
+    "color": "ffd400"
+  },
+  {
+    "name": "question",
+    "color": "ED9AA9"
+  },
+  {
+    "name": "stale",
+    "color": "E6E3E3"
+  }
+]
 ```
 
 ### Stale Issues Configuration Template
