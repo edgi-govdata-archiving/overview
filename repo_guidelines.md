@@ -168,6 +168,10 @@ Labels are applied using the NPM package [github-labels](https://www.npmjs.com/p
     "color": "F7F01B"
   },
   {
+    "name": "never-stale",
+    "color": "999393"
+  },
+  {
     "name": "[priority-★★★]",
     "color": "ff7f00"
   },
@@ -201,7 +205,7 @@ daysUntilStale: 180
 daysUntilClose: 7
 # Issues with these labels will never be considered stale
 exemptLabels:
-  - pinned
+  - never-stale
   - security
 # Label to use when marking an issue as stale
 staleLabel: stale
