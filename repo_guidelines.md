@@ -139,8 +139,20 @@ See the [`LICENSE`](/LICENSE) file for details.
 ### Core Issue Label Configuration
 EDGI repos use a minimum/core set of standard issue labels.
 
-Labels are applied using the NPM package [github-labels](https://www.npmjs.com/package/github-labels) using the following `configuration.json`:
+Labels are applied using the NPM package [github-labels](https://www.npmjs.com/package/github-labels) using `labels-config.json`, shown below.
 
+To apply the labels, you will need:
+* Write access over the repo (or org)
+* A [Github personal access token](https://github.com/settings/tokens) with write access over the repo (or org), which you should [set as an environment variable](https://gist.github.com/iest/58692bf1001b0424c257) called `EDGI_LABELS_TOKEN`
+* [Node.JS](https://nodejs.org/en/)
+* The [github-labels](https://www.npmjs.com/package/github-labels) node package, installed globally
+* The `labels-config.json` file saved locally
+
+Once all that is set up, run:
+
+`labels -c <path/to/labels-config.json> -t EDGI_LABELS_TOKEN edgi-govdata-archiving/<repo>`
+
+#### labels-config.json
 ```json
 [
   {
