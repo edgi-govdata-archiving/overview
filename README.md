@@ -55,3 +55,11 @@ EDGI operates under horizontal-organizing principles. We have developed guidelin
 - [Volunteer Code of Conduct](/CONDUCT.md)
 - [Contributing Guidelines](/CONTRIBUTING.md)
 - [Community Call, Onboarding, and Project Guidelines](/guidelines)
+
+## Funding
+
+*Our work is made possible through volunteer labor, grants, and direct tax-deductible donations from the public.*
+
+**[Donate to EDGI](https://secure.lglforms.com/form_engine/s/pSsqtc9u4WVkEonQbBbU8Q)** 
+
+*([More about how EDGI is funded](https://envirodatagov.org/about/how-were-funded/))*
