@@ -40,7 +40,13 @@ Our process for accepting changes operates by [Pull Request (PR)](https://help.g
 
     In general, we do our best to provide some feedback or review within about 3 days. (And hopefully much quicker most of the time!)
     
-    If you have commit rights on a repo, you are generally expected to merge your own PR, but you should allow up to 3 days for someone to review it first. If nobody’s had time to review it by then, you can go ahead and merge it. If you have a *hotfix* that needs to get merged ASAP ([see below](#hotfixes)), please bug someone on Slack to try and review it quickly, but you may merge without review if nobody can. On the other hand, you might have a deeply drastic change that would break everyone’s development environment and needs extra time above and beyond 3 days for others to review. There aren’t hard rules here—being given commit rights is a sign of trust that you’ll make reasonable decisions. When in doubt, opt for more time & feedback rather than less.
+    If you have commit rights on the repo, you should merge your own PR, but have someone else review it first:
+    
+    - Allow up to 3 days for review. If you don’t get any feedback by then, you can merge it without review.
+    
+    - If you have a urgent *hotfix* ([see below](#hotfixes)), please bug someone on Slack for rapid review, but you may merge without if nobody can.
+    
+    - If you have a drastic change (e.g., one that might break everyone’s development environment), consider allowing extra time beyond 3 days for others to review. There aren’t hard rules here—being given commit rights is a sign of trust that you’ll make reasonable decisions. When in doubt, opt for more time & feedback rather than less.
     
     Anyone with commit rights can review, but you are expected to be reasonable about whether you *should.* For example, you should probably ask someone else to review if you don’t know much about the part of the codebase being worked on. If you are reviewing a PR, think about whether others need to review it in addition to you and request them through GitHub or poke them on Slack.
 
