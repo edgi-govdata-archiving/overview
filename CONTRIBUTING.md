@@ -52,7 +52,7 @@ Our process for accepting changes operates by [Pull Request (PR)](https://help.g
 
 1.  Once you have integrated comments, or waited for feedback, a Lieutenant should merge your changes in! If you have commit rights on a repo, you are generally expected to merge your own change, but please do not do so without someone else reviewing first (see above).
 
-    When merging PRs, we generally use the “squash and merge” feature on GitHub so that each PR has a single, clear commit, and so that the commit title links back to the PR by its number (e.g. [``Document `ALLOWED_ARCHIVE_HOSTS` and S3 Buckets (#595)``](https://github.com/edgi-govdata-archiving/web-monitoring-db/commit/c79bde1556dd7e16de3b29e0849149ed01b30a9c)). Sometimes it makes sense to do an actual merge or a rebase, though. Choose what’s correct for the situation.
+    When merging PRs, we generally use the “squash and merge” feature on GitHub so that each PR has a single, clear commit, and so that the commit title links back to the PR by its number (e.g. [``Document `ALLOWED_ARCHIVE_HOSTS` and S3 Buckets (#595)``](https://github.com/edgi-govdata-archiving/web-monitoring-db/commit/c79bde1556dd7e16de3b29e0849149ed01b30a9c)). (This isn’t a *hard* rule. If you have a specific reason to do an actual merge or a rebase, then do so.)
 
 _These guidelines are based on [Toronto Mesh](https://github.com/tomeshnet)'s._
 
