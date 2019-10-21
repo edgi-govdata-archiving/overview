@@ -30,11 +30,13 @@ Our process for accepting changes operates by [Pull Request (PR)](https://help.g
 
         $ git checkout -b <branch-name>
 
-1.  **Create or modify the files** with your changes. If you want to show other people work that isn't ready to merge in, commit your changes then create a pull request (PR) with _WIP_ or _Work In Progress_ in the title.
+1.  **Create or modify the files** with your changes and commit them in Git. If you are fixing a known issue, include [“fixes #123” (where “123” is the issue number) in one of your commit messages](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) to help automatically link everything together.
 
-        https://github.com/edgi-govdata-archiving/<repository-name>/pull/new/master
+1. Once your changes are ready for review, push your commits to GitHub and **[create a pull request (PR)](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).** Assign as a reviewer or ping (using "`@<username>`") a Lieutenant (someone able to merge in PRs) active on the project (all Lieutenants can be pinged via `@edgi-govdata-archiving/lieutenants`).
 
-1.  Once your changes are ready for final review, commit your changes then modify or **create your pull request (PR)**, assign as a reviewer or ping (using "`@<username>`") a Lieutenant (someone able to merge in PRs) active on the project (all Lieutenants can be pinged via `@edgi-govdata-archiving/lieutenants`)
+    If you aren’t ready for final review and just need some preliminary feedback, create the PR as a *draft:*
+
+    ![Screenshot of PR button with “draft” option](https://help.github.com/assets/images/help/pull_requests/pullrequest-send.png)
 
 1.  Allow others sufficient **time for review and comments** before merging. We make use of GitHub's review feature to comment in-line on PRs when possible. There may be some fixes or adjustments you'll have to make based on feedback.
 
