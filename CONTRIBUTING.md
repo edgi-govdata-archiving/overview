@@ -32,9 +32,7 @@ Our process for accepting changes operates by [Pull Request (PR)](https://help.g
 
 1.  **Create or modify the files** with your changes and commit them in Git. If you are fixing a known issue, include [“fixes #123” (where “123” is the issue number) in one of your commit messages](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) to help automatically link everything together.
 
-1. Once your changes are ready for review, push your commits to GitHub and **[create a pull request (PR)](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).** Assign as a reviewer or ping (using "`@<username>`") a Lieutenant (someone able to merge in PRs) active on the project (all Lieutenants can be pinged via `@edgi-govdata-archiving/lieutenants`).
-
-    If you aren’t ready for final review and just need some preliminary feedback, create the PR as a *draft:*
+1. Once your changes are ready for review, push your commits to GitHub and **[create a pull request (PR)](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).** If you aren’t ready for final review and just need some preliminary feedback, create the PR as a *draft:*
 
     ![Screenshot of PR button with “draft” option](https://help.github.com/assets/images/help/pull_requests/pullrequest-send.png)
 
