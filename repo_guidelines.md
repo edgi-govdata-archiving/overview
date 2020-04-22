@@ -1,6 +1,6 @@
 # Project Repo Guidelines & Template
 
-A template repo is available at https://github.com/edgi-govdata-archiving/Template. When creating a new repo, you can use it as a template to automatically apply the below settings (you will need to customize template text to fit your purpose).
+A template repo is available at [https://github.com/edgi-govdata-archiving/Template](https://github.com/edgi-govdata-archiving/Template). When creating a new repo, you can use it as a template to automatically apply the below settings (you will need to customize template text to fit your purpose).
 
 Each project repository **requires**, at a minimum:
 
