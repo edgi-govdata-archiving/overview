@@ -12,6 +12,7 @@ We also use the following standard repo configurations:
 
 1. [Core issue labels](#core-issue-label-configuration)
 1. [Stale issues configuration](#stale-issues-configuration-template)
+1. The default branch name should be `main`, not `master`.
 
 ## About the Contributing Guidelines
 We use a [minimal template](#minimal-contributing-guidelines) that points to our main **Contributing Guidelines** and can be extended as needed to cover project-specific requirements.
