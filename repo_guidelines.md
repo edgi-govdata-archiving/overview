@@ -12,7 +12,7 @@ We also use the following standard repo configurations:
 
 1. [Core issue labels](#core-issue-label-configuration)
 1. [Stale issues configuration](#stale-issues-configuration-template)
-1. The default branch name should be `main`, not `master`.
+1. The default branch name should be `main`, not `master`. (See [GitHub’s docs on default branches](https://help.github.com/en/github/administering-a-repository/setting-the-default-branch) for instructions.)
 
 ## About the Contributing Guidelines
 We use a [minimal template](#minimal-contributing-guidelines) that points to our main **Contributing Guidelines** and can be extended as needed to cover project-specific requirements.
