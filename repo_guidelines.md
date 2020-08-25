@@ -77,24 +77,24 @@ We love improvements to our tools! EDGI has general [guidelines for contributing
 
 **[REPLACE WITH REPO-SPECIFIC GUIDELINES. The list below is an example.]**
 
-* [Web monitoring's processing repo guidelines](https://github.com/edgi-govdata-archiving/web-monitoring-processing/blob/master/CONTRIBUTING.md) mentions which issues should be made on that repo versus on the main web monitoring repo
-* In the [Web Monitoring umbrella repo's contribution guidelines](https://github.com/edgi-govdata-archiving/web-monitoring/blob/master/CONTRIBUTING.md), a style guide, testing best practices, and notes on how work is distributed (process) are laid out
-* The guidelines on [the EDGI Scripts repo](https://github.com/edgi-govdata-archiving/edgi-scripts/blob/master/CONTRIBUTING.md), [video call landing page](https://github.com/edgi-govdata-archiving/video-call-landing-page/blob/master/CONTRIBUTING.md) and [100 Days](https://github.com/edgi-govdata-archiving/100days/blob/master/CONTRIBUTING.md) discuss important notes on how the continuous integration is configured
-* [The website's contributing guidelines](https://github.com/edgi-govdata-archiving/edgi-website/blob/master/CONTRIBUTING.md) tell you where to find the appropriate Slack channel
+* [Web monitoring's processing repo guidelines](https://github.com/edgi-govdata-archiving/web-monitoring-processing/blob/main/CONTRIBUTING.md) mentions which issues should be made on that repo versus on the main web monitoring repo
+* In the [Web Monitoring umbrella repo's contribution guidelines](https://github.com/edgi-govdata-archiving/web-monitoring/blob/main/CONTRIBUTING.md), a style guide, testing best practices, and notes on how work is distributed (process) are laid out
+* The guidelines on [the EDGI Scripts repo](https://github.com/edgi-govdata-archiving/edgi-scripts/blob/main/CONTRIBUTING.md), [video call landing page](https://github.com/edgi-govdata-archiving/video-call-landing-page/blob/main/CONTRIBUTING.md) and [100 Days](https://github.com/edgi-govdata-archiving/100days/blob/main/CONTRIBUTING.md) discuss important notes on how the continuous integration is configured
+* [The website's contributing guidelines](https://github.com/edgi-govdata-archiving/edgi-website/blob/main/CONTRIBUTING.md) tell you where to find the appropriate Slack channel
 
 
 <!-- Links -->
-[edgi-conduct]: https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md
-[edgi-contributing]: https://github.com/edgi-govdata-archiving/overview/blob/master/CONTRIBUTING.md
+[edgi-conduct]: https://github.com/edgi-govdata-archiving/overview/blob/main/CONDUCT.md
+[edgi-contributing]: https://github.com/edgi-govdata-archiving/overview/blob/main/CONTRIBUTING.md
 ```
 
 ### Readme Template
 
 Each Readme must include:
 * [License & Copyright block](#license--copyright-readme-block) templated below
-* Code of Conduct [![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md) badge. Source code:
+* Code of Conduct [![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/edgi-govdata-archiving/overview/blob/main/CONDUCT.md) badge. Source code:
 ```md
-  [![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/edgi-govdata-archiving/overview/blob/master/CONDUCT.md)
+  [![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/edgi-govdata-archiving/overview/blob/main/CONDUCT.md)
   ```
 * A basic description of what the repo is or does
 * A "How to start contributing to this repo" section including developer setup (if relevant), Slack channel, contact person, etc.
