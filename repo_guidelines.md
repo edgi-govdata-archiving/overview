@@ -142,18 +142,18 @@ See the [`LICENSE`](/LICENSE) file for details.
 ### Core Issue Label Configuration
 EDGI repos use a minimum/core set of standard issue labels.
 
-Labels are applied using the NPM package [github-labels](https://www.npmjs.com/package/github-labels) using `labels-config.json`, shown below.
+Labels are applied using the NPM package [github-label-sync](https://github.com/Financial-Times/github-label-sync) using `labels-config.json`, shown below.
 
 To apply the labels, you will need:
-* Admin access over the 
+* Admin access over the organization or repo
 * A [Github personal access token](https://github.com/settings/tokens) with the scope `public_repo`. [Set the token as an environment variable](https://gist.github.com/iest/58692bf1001b0424c257) called `EDGI_LABELS_TOKEN`
-* [Node.JS](https://nodejs.org/en/)
-* The [github-labels](https://www.npmjs.com/package/github-labels) node package, installed globally
+* [Node.JS](https://nodejs.org/en/) 12+
+* The [github-label-sync](https://github.com/Financial-Times/github-label-sync) node package, installed globally
 * The `labels-config.json` file saved locally
 
 Once all that is set up, run:
 
-`labels -c <path/to/labels-config.json> -t $EDGI_LABELS_TOKEN edgi-govdata-archiving/<repo>`
+`github-label-sync -l <path/to/labels-config.json> -a $EDGI_LABELS_TOKEN edgi-govdata-archiving/<repo>`
 
 #### labels-config.json
 ```json
@@ -211,24 +211,31 @@ Once all that is set up, run:
 
 ### Stale Issues Configuration Template
 
-The following code block should be saved at a repo's `.github/stale.yml`. The presence of the file in the `master` branch will automatically enable the bot.
+The following code block should be saved at a repo's `.github/stale.yml`. It inherits org-wide settings that are saved in `.github` repo. The presence of the file in the `main` branch will automatically enable the bot.
 
+```yml
+_extends: .github
+```
+
+These are the org-wide settings.
 ```yml
 # Number of days of inactivity before an issue becomes stale
 daysUntilStale: 180
 # Number of days of inactivity before a stale issue is closed
-daysUntilClose: 7
+daysUntilClose: 14
 # Issues with these labels will never be considered stale
 exemptLabels:
   - never-stale
   - security
+  - bug
 # Label to use when marking an issue as stale
 staleLabel: stale
 # Comment to post when marking an issue as stale. Set to `false` to disable
 markComment: >
   This issue has been automatically marked as stale because it has not had
-  recent activity. It will be closed in seven days if no further activity occurs. If it should not be closed, please comment! Thank you
-  for your contributions.
+  recent activity. It will be closed in seven days if no further activity
+  occurs. If it should not be closed, please comment! Thank you for your
+  contributions.
 # Comment to post when closing a stale issue. Set to `false` to disable
 closeComment: false
 ```
