@@ -54,7 +54,7 @@ EDGI operates under horizontal-organizing principles. We have developed guidelin
 
 - [Volunteer Code of Conduct](/CONDUCT.md)
 - [Contributing Guidelines](/CONTRIBUTING.md)
-- [Community Call, Onboarding, and Project Guidelines](/guidelines)
+- [Community Call, Onboarding, and Project Guidelines](/repo_guidelines.md)
 
 ## Funding
 
