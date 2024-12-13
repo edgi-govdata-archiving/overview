@@ -1,3 +1,3 @@
 # Code of Conduct
 
-EDGI's Code of Conduct can be found here: https://web.archive.org/web/20220707004149/https://docs.google.com/document/d/1zqFPVjQ__x3tfcSlir-jeO7O-mcCh4oKyNNlJEpJMOU/edit
+EDGI's Code of Conduct can be found at: https://drive.google.com/file/d/1aKPf_PUDccftJ3FnBv5rfRLPb8Ox1Ap_
