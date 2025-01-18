@@ -22,11 +22,8 @@ Our GitHub organization, chat, and in-person events have a [Code of Conduct](/CO
 Welcome to our community! We welcome contributors from many skillsets. Here's how to get started:
 
 1. **Review our [Contributor Guidelines](/CONTRIBUTING.md) and [Code of Conduct](/CONDUCT.md)**
-1. **Jump on the [Archivers chat (archivers.slack.com)](https://archivers.slack.com/)**. Sign up for an account [here](https://archivers-slack.herokuapp.com/) (open to all).
-    - **Introduce yourself** in `#introductions`, key starting places for conversations are `#general`, `#datatogether` and `#community-building`
-    - Ping one of the EDGI coordinators (@lightandluck or @kelsey) with your GitHub name to be added to the organization
-1. You can also **ping our coordinators** on Github at @lightandluck or @Frijol. Please let us know a bit about yourself and what you're interested in.
-1. **Take a look at our [Current Projects](#projects)** or jump straight into one of our "[good-first-issue](https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue+user%3Aedgi-govdata-archiving)" labeled issues!
+1. If You are just interested in contributing to code on GitHub, **take a look at our [Current Projects](#projects)** or jump straight into one of our "[good-first-issue](https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue+user%3Aedgi-govdata-archiving)" labeled issues!
+1. Otherwise, **[fill out our volunteer interest form][volunteer-form]** if you’d like to help with non-programming work or get more involved in the organization.
 
 *Note for IRC users:* (Advanced) If you prefer to use an IRC client, please review these [configuration instructions for Slack's IRC gateway](https://archivers.slack.com/account/gateways).
 
@@ -63,3 +60,6 @@ EDGI operates under horizontal-organizing principles. We have developed guidelin
 **[Donate to EDGI](https://secure.lglforms.com/form_engine/s/pSsqtc9u4WVkEonQbBbU8Q)** 
 
 *([More about how EDGI is funded](https://envirodatagov.org/about/how-were-funded/))*
+
+
+[volunteer-form]: https://docs.google.com/forms/d/e/1FAIpQLSdqvVw5Mq7vZb6tVHqD1k6qKeE_boWW9DuhfU2L4eTVYHvurg/viewform
