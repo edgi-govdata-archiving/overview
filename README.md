@@ -1,4 +1,4 @@
-[![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://github.com/edgi-govdata-archiving/overview/blob/main/CONDUCT.md)
+[![Code of Conduct](https://img.shields.io/badge/%E2%9D%A4-code%20of%20conduct-blue.svg?style=flat)](https://envirodatagov.org/edgis-code-of-conduct/)
 
 [<div align="center"><img width=40% src="./images/EDGI-Logo-Horiz.png" alt="Environmental Data and Governance Initiative Logo"></div>](https://envirodatagov.org/)
 
@@ -13,7 +13,7 @@ We are:
 
 This repository is an overview for people who are getting involved in the project.
 
-Our GitHub organization, chat, and in-person events have a [Code of Conduct](/CONDUCT.md) and [Contributor Guidelines](/CONTRIBUTING.md).
+Our GitHub organization, chat, and in-person events have a [Code of Conduct](https://envirodatagov.org/edgis-code-of-conduct/) and [Contributor Guidelines](/CONTRIBUTING.md).
 
 ---
 
@@ -21,8 +21,8 @@ Our GitHub organization, chat, and in-person events have a [Code of Conduct](/CO
 
 Welcome to our community! We welcome contributors from many skillsets. Here's how to get started:
 
-1. **Review our [Contributor Guidelines](/CONTRIBUTING.md) and [Code of Conduct](/CONDUCT.md)**
-1. If You are just interested in contributing to code on GitHub, **take a look at our [Current Projects](#projects)** or jump straight into one of our "[good-first-issue](https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue+user%3Aedgi-govdata-archiving)" labeled issues!
+1. **Review our [Contributor Guidelines](/CONTRIBUTING.md) and [Code of Conduct](https://envirodatagov.org/edgis-code-of-conduct/)**
+1. If You are just interested in contributing to code on GitHub, **take a look at our [Current Projects](#projects)** or jump straight into one of our "[good-first-issue](https://github.com/search?q=org%3Aedgi-govdata-archiving+label%3Agood-first-issue+state%3Aopen&type=issues)" labeled issues!
 1. Otherwise, **[fill out our volunteer interest form][volunteer-form]** if you’d like to help with non-programming work or get more involved in the organization.
 
 *Note for IRC users:* (Advanced) If you prefer to use an IRC client, please review these [configuration instructions for Slack's IRC gateway](https://archivers.slack.com/account/gateways).
@@ -43,13 +43,13 @@ Here are some projects we're building and maintaining right now.
 | [Website](https://github.com/edgi-govdata-archiving/edgi-website) | Project management and design support for EDGI's website at [envirodatagov.org](https://envirodatagov.org/) | [🐛](# "Bug reports") [💻](# "Code") [🎨](# "Design") [🤔](# "Ideas & Planning") [🖋](# "Content (e.g. website copy)")
 | [EDGI Hubot](https://github.com/edgi-govdata-archiving/edgi-hubot) | Chat bot for EDGI Slack built on the Hubot framework  | [📖](# "Documentation") [💻](# "Code")
 | [EDGI Scripts](https://github.com/edgi-govdata-archiving/edgi-scripts) | Code scripts for running and maintaining our digital infrastructure | [💻](# "Code") [✅](# "Tutorials") [📖](# "Documentation")
-| [Video Call Landing Page](https://github.com/edgi-govdata-archiving/video-call-landing-page) | Landing page app with important info that participants can be sent through prior to joining a video call  <br />[http://edgi-video-call-landing-page.herokuapp.com/](http://edgi-video-call-landing-page.herokuapp.com/) | [🐛](# "Bug reports")
+| [Video Call Landing Page](https://github.com/edgi-govdata-archiving/video-call-landing-page) | Landing page app with important info that participants can be sent through prior to joining a video call | [🐛](# "Bug reports")
 
 ## Working Openly
 
 EDGI operates under horizontal-organizing principles. We have developed guidelines for open project development in line with these principles, which you can find in this repo:
 
-- [Volunteer Code of Conduct](/CONDUCT.md)
+- [Volunteer Code of Conduct](https://envirodatagov.org/edgis-code-of-conduct/)
 - [Contributing Guidelines](/CONTRIBUTING.md)
 - [Community Call, Onboarding, and Project Guidelines](/repo_guidelines.md)
 
