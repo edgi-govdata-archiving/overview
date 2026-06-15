@@ -25,7 +25,6 @@ Welcome to our community! We welcome contributors from many skillsets. Here's ho
 1. If You are just interested in contributing to code on GitHub, **take a look at our [Current Projects](#projects)** or jump straight into one of our "[good-first-issue](https://github.com/issues?q=is%3Aopen+is%3Aissue+label%3Agood-first-issue+user%3Aedgi-govdata-archiving)" labeled issues!
 1. Otherwise, **[fill out our volunteer interest form][volunteer-form]** if you’d like to help with non-programming work or get more involved in the organization.
 
-*Note for IRC users:* (Advanced) If you prefer to use an IRC client, please review these [configuration instructions for Slack's IRC gateway](https://archivers.slack.com/account/gateways).
 
 ## Projects
 
