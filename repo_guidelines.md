@@ -11,7 +11,6 @@ Each project repository **requires**, at a minimum:
 We also use the following standard repo configurations:
 
 1. [Core issue labels](#core-issue-label-configuration)
-1. [Stale issues configuration](#stale-issues-configuration-template)
 1. The default branch name should be `main`, not `master`. (See [GitHub’s docs on default branches](https://help.github.com/en/github/administering-a-repository/setting-the-default-branch) for instructions.)
 
 ## About the Contributing Guidelines
@@ -25,14 +24,6 @@ We use a [License and Copyright block](#license--copyright-readme-block) added t
 
 ## About the Readme
 All **Readme**s should include the elements outlined in the [Readme template](#readme-template), but can include other information as well.
-
-## About stale issue configuration
-In order to keep issues up to date, we use [a bot](https://probot.github.io/apps/stale/) to mark issues stale after a period of time with no activity, comment, and then close the issue if there is still no new activity.
-
-Our standard stale issue configuration can be copied from the [Stale Issues Configuration Template](#stale-issues-configuration-template).
-
-To see the configuration on a repo (number of days until stale, number of days until the issue is closed), check the repo's `.github/stale.yml`.
-
 
 ---
 
@@ -182,10 +173,6 @@ Once all that is set up, run:
     "color": "F7F01B"
   },
   {
-    "name": "never-stale",
-    "color": "999393"
-  },
-  {
     "name": "[priority-★★★]",
     "color": "ff7f00"
   },
@@ -200,43 +187,8 @@ Once all that is set up, run:
   {
     "name": "question",
     "color": "ED9AA9"
-  },
-  {
-    "name": "stale",
-    "color": "E6E3E3"
   }
 ]
-```
-
-### Stale Issues Configuration Template
-
-The following code block should be saved at a repo's `.github/stale.yml`. It inherits org-wide settings that are saved in `.github` repo. The presence of the file in the `main` branch will automatically enable the bot.
-
-```yml
-_extends: .github
-```
-
-These are the org-wide settings.
-```yml
-# Number of days of inactivity before an issue becomes stale
-daysUntilStale: 180
-# Number of days of inactivity before a stale issue is closed
-daysUntilClose: 14
-# Issues with these labels will never be considered stale
-exemptLabels:
-  - never-stale
-  - security
-  - bug
-# Label to use when marking an issue as stale
-staleLabel: stale
-# Comment to post when marking an issue as stale. Set to `false` to disable
-markComment: >
-  This issue has been automatically marked as stale because it has not had
-  recent activity. It will be closed in seven days if no further activity
-  occurs. If it should not be closed, please comment! Thank you for your
-  contributions.
-# Comment to post when closing a stale issue. Set to `false` to disable
-closeComment: false
 ```
 
 
