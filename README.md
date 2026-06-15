@@ -36,7 +36,7 @@ Here are some projects we're building and maintaining right now.
 | --- | --- | --- |
 | [Web Monitoring](https://github.com/edgi-govdata-archiving/web-monitoring) | Tools around monitoring changes to government websites | [📖](# "Documentation")  [🐛](# "Bug reports") [💻](# "Code") |
 |[100 Days](https://github.com/edgi-govdata-archiving/100days) | Website for EDGI 100 Days Report at [100days. envirodatagov.org](https://100days.envirodatagov.org/) (in maintenance) | [🐛](# "Bug reports") |
-| [Website](https://github.com/edgi-govdata-archiving/edgi-website) | Project management and design support for EDGI's website at [envirodatagov.org](https://envirodatagov.org/) | [🐛](# "Bug reports") [💻](# "Code") [🎨](# "Design") [🤔](# "Ideas & Planning") [🖋](# "Content (e.g. website copy)") |
+| [EDGI Website](https://github.com/edgi-govdata-archiving/edgi-website) | Project management and design support for EDGI's website at [envirodatagov.org](https://envirodatagov.org/) | [🐛](# "Bug reports") [💻](# "Code") [🎨](# "Design") [🤔](# "Ideas & Planning") [🖋](# "Content (e.g. website copy)") |
 | [EDGI Scripts](https://github.com/edgi-govdata-archiving/edgi-scripts) | Code scripts for running and maintaining our digital infrastructure | [💻](# "Code") [✅](# "Tutorials") [📖](# "Documentation") |
 
 
@@ -46,7 +46,7 @@ EDGI operates under horizontal-organizing principles. We have developed guidelin
 
 - [Volunteer Code of Conduct](/CONDUCT.md)
 - [Contributing Guidelines](/CONTRIBUTING.md)
-- [Community Call, Onboarding, and Project Guidelines](/repo_guidelines.md)
+- [Project Repo Guidelines](/repo_guidelines.md)
 
 
 ## Funding
