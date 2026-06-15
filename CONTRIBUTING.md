@@ -34,7 +34,7 @@ Our process for accepting changes operates by [Pull Request (PR)](https://help.g
 
 1. Once your changes are ready for review, push your commits to GitHub and **[create a pull request (PR)](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork).** If you aren’t ready for final review and just need some preliminary feedback, create the PR as a *draft:*
 
-    ![Screenshot of PR button with “draft” option](https://help.github.com/assets/images/help/pull_requests/pullrequest-send.png)
+    ![Screenshot of PR button with “draft” option](./images/draft-pr-screenshot.png)
 
 1.  Allow others sufficient **time for review and comments** before merging. We make use of GitHub's review feature to comment in-line on PRs when possible. There may be some fixes or adjustments you'll have to make based on feedback.
 
