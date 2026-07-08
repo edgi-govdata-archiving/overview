@@ -38,7 +38,7 @@ Here are some projects we're building and maintaining right now.
 |[100 Days](https://github.com/edgi-govdata-archiving/100days) | Website for EDGI 100 Days Report at [100days. envirodatagov.org](https://100days.envirodatagov.org/) (in maintenance) | [🐛](# "Bug reports") |
 | [EDGI Website](https://github.com/edgi-govdata-archiving/edgi-website) | Project management and design support for EDGI's website at [envirodatagov.org](https://envirodatagov.org/) | [🐛](# "Bug reports") [💻](# "Code") [🎨](# "Design") [🤔](# "Ideas & Planning") [🖋](# "Content (e.g. website copy)") |
 | [EDGI Scripts](https://github.com/edgi-govdata-archiving/edgi-scripts) | Code scripts for running and maintaining our digital infrastructure | [📖](# "Documentation") [💻](# "Code") [✅](# "Tutorials") |
-| [Environmental Enforcement Watch](https://github.com/edgi-govdata-archiving/Environmental-Enforcement-Watch) | Tools for open Environmental Data Justice analysis | [📖](# "Documentation") [🐛](# "Bug reports")  [💻](# "Code") |
+| [Environmental Enforcement Watch](https://github.com/edgi-govdata-archiving/Environmental-Enforcement-Watch) | Tools for open Environmental Data Justice analysis | [📖](# "Documentation") [🐛](# "Bug reports")  [💻](# "Code") [🎨](# "Design") [🤔](# "Ideas & Planning")|
 
 
 ## Working Openly
