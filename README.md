@@ -22,7 +22,7 @@ Our GitHub organization, chat, and in-person events have a [Code of Conduct](/CO
 Welcome to our community! We welcome contributors from many skillsets. Here's how to get started:
 
 1. **Review our [Contributor Guidelines](/CONTRIBUTING.md) and [Code of Conduct](/CONDUCT.md)**
-1. If You are just interested in contributing to code on GitHub, **take a look at our [Current Projects](#projects)** or jump straight into one of our [issues labeled “good-first-issue” or “help-wanted”][help-wanted]!
+1. If You are just interested in contributing to code on GitHub, **take a look at our [Current Projects](#projects)** or jump straight into one of our [issues labeled “good first issue” or “help wanted”][help-wanted]!
 1. Otherwise, **[fill out our volunteer interest form][volunteer-form]** if you’d like to help with non-programming work or get more involved in the organization.
 
 
@@ -60,5 +60,5 @@ EDGI operates under horizontal-organizing principles. We have developed guidelin
 
 
 [donate]: https://envirodatagov.org/donate/
-[help-wanted]: https://github.com/search?q=org%3Aedgi-govdata-archiving+label%3Agood-first-issue%2C%22good+first+issue%22%2Chelp-wanted%2C%22help+wanted%22+state%3Aopen&type=issues
+[help-wanted]: https://github.com/search?q=org%3Aedgi-govdata-archiving+label%3A%22good+first+issue%22%2C%22help+wanted%22+state%3Aopen&type=issues
 [volunteer-form]: https://envirodatagov.org/volunteer/
