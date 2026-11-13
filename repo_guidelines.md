@@ -128,3 +128,6 @@ See the [`LICENSE`](/LICENSE) file for details.
  * FITNESS FOR A PARTICULAR PURPOSE. See LICENSE file for details.
  */
 ```
+
+
+[help-wanted]: https://github.com/search?q=org%3Aedgi-govdata-archiving+label%3Agood-first-issue%2C%22good+first+issue%22%2Chelp-wanted%2C%22help+wanted%22+state%3Aopen&type=issues
